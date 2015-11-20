@@ -14,7 +14,7 @@ $gray-dark:              #7b8a8b !default;   // #333
 $gray:                   #95a5a6 !default; // #555
 $gray-light:             #b4bcc2 !default;   // #999
 $gray-lighter:           #ecf0f1 !default; // #eee
-
+$white:                  #ffffff !default;
 $brand-primary:         #2C3E50 !default;
 $brand-success:         #18BC9C !default;
 $brand-info:            #3498DB !default;
@@ -490,7 +490,7 @@ $pager-disabled-color:                 #fff !default;
 
 $jumbotron-padding:              30px !default;
 $jumbotron-color:                inherit !default;
-$jumbotron-bg:                   $gray-lighter !default;
+$jumbotron-bg:                   $white !default;
 $jumbotron-heading-color:        inherit !default;
 $jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
 $jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
