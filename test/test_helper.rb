@@ -3,9 +3,9 @@ require File.expand_path('../../config/environment', __FILE__)
 ActiveRecord::Migration.maintain_test_schema! if defined?(ActiveRecord::Migration)
 require 'rails/test_help'
 require "minitest/reporters"
-Minitest::Reporters.use! [   # Minitest::Reporters::DefaultReporter.new(:color => true),
-                             Minitest::Reporters::SpecReporter.new(:color => true),
-                             #Minitest::Reporters::ProgressReporter.new(:color => true),
+Minitest::Reporters.use! [   #Minitest::Reporters::DefaultReporter.new(:color => true),
+                             # Minitest::Reporters::SpecReporter.new(:color => true),
+                             Minitest::Reporters::ProgressReporter.new(:color => true),
                              Minitest::Reporters::RubyMineReporter.new(:color => true)]
 
 
