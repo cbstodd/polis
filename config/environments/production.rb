@@ -45,7 +45,6 @@ Rails.application.configure do
   config.force_ssl = true
   # COLPER COMMENT OUT IF YOU RUN INTO PROBLEMS LOCALLY
 
-
   # Use the lowest log level to ensure availability of diagnostic information
   # when problems arise.
   config.log_level = :debug
