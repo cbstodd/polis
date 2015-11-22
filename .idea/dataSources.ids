@@ -10,8 +10,8 @@
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
-        <introspection-state-number>36890</introspection-state-number>
-        <introspection-timestamp>2015-11-20.16:55:15.840</introspection-timestamp>
+        <introspection-state-number>37847</introspection-state-number>
+        <introspection-timestamp>2015-11-21.20:57:16.267</introspection-timestamp>
       </schema>
       <schema id="3" parent="1" name="pg_catalog">
         <object-id>11</object-id>
@@ -30,441 +30,492 @@
       <schema id="7" parent="1" name="pg_temp_1">
         <object-id>11215</object-id>
       </schema>
-      <table id="8" parent="2" name="schema_migrations">
-        <object-id>54903</object-id>
-        <state-number>36889</state-number>
+      <sequence id="8" parent="2" name="users_id_seq">
+        <object-id>56142</object-id>
+        <state-number>37846</state-number>
+      </sequence>
+      <table id="9" parent="2" name="schema_migrations">
+        <object-id>55993</object-id>
+        <state-number>37610</state-number>
       </table>
-      <table id="9" parent="3" name="pg_aggregate">
+      <table id="10" parent="2" name="users">
+        <object-id>56144</object-id>
+        <state-number>37846</state-number>
+      </table>
+      <table id="11" parent="3" name="pg_aggregate">
         <object-id>2600</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="10" parent="3" name="pg_am">
+      <table id="12" parent="3" name="pg_am">
         <object-id>2601</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="11" parent="3" name="pg_amop">
+      <table id="13" parent="3" name="pg_amop">
         <object-id>2602</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="12" parent="3" name="pg_amproc">
+      <table id="14" parent="3" name="pg_amproc">
         <object-id>2603</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="13" parent="3" name="pg_attrdef">
+      <table id="15" parent="3" name="pg_attrdef">
         <object-id>2604</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="14" parent="3" name="pg_attribute">
+      <table id="16" parent="3" name="pg_attribute">
         <object-id>1249</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="15" parent="3" name="pg_auth_members">
+      <table id="17" parent="3" name="pg_auth_members">
         <object-id>1261</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="16" parent="3" name="pg_authid">
+      <table id="18" parent="3" name="pg_authid">
         <object-id>1260</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="17" parent="3" name="pg_cast">
+      <table id="19" parent="3" name="pg_cast">
         <object-id>2605</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="18" parent="3" name="pg_class">
+      <table id="20" parent="3" name="pg_class">
         <object-id>1259</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="19" parent="3" name="pg_collation">
+      <table id="21" parent="3" name="pg_collation">
         <object-id>3456</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="20" parent="3" name="pg_constraint">
+      <table id="22" parent="3" name="pg_constraint">
         <object-id>2606</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="21" parent="3" name="pg_conversion">
+      <table id="23" parent="3" name="pg_conversion">
         <object-id>2607</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="22" parent="3" name="pg_database">
+      <table id="24" parent="3" name="pg_database">
         <object-id>1262</object-id>
         <state-number>996</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="23" parent="3" name="pg_db_role_setting">
+      <table id="25" parent="3" name="pg_db_role_setting">
         <object-id>2964</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="24" parent="3" name="pg_default_acl">
+      <table id="26" parent="3" name="pg_default_acl">
         <object-id>826</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="25" parent="3" name="pg_depend">
+      <table id="27" parent="3" name="pg_depend">
         <object-id>2608</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="26" parent="3" name="pg_description">
+      <table id="28" parent="3" name="pg_description">
         <object-id>2609</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="27" parent="3" name="pg_enum">
+      <table id="29" parent="3" name="pg_enum">
         <object-id>3501</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="28" parent="3" name="pg_event_trigger">
+      <table id="30" parent="3" name="pg_event_trigger">
         <object-id>3466</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="29" parent="3" name="pg_extension">
+      <table id="31" parent="3" name="pg_extension">
         <object-id>3079</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="30" parent="3" name="pg_foreign_data_wrapper">
+      <table id="32" parent="3" name="pg_foreign_data_wrapper">
         <object-id>2328</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="31" parent="3" name="pg_foreign_server">
+      <table id="33" parent="3" name="pg_foreign_server">
         <object-id>1417</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="32" parent="3" name="pg_foreign_table">
+      <table id="34" parent="3" name="pg_foreign_table">
         <object-id>3118</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="33" parent="3" name="pg_index">
+      <table id="35" parent="3" name="pg_index">
         <object-id>2610</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="34" parent="3" name="pg_inherits">
+      <table id="36" parent="3" name="pg_inherits">
         <object-id>2611</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="35" parent="3" name="pg_language">
+      <table id="37" parent="3" name="pg_language">
         <object-id>2612</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="36" parent="3" name="pg_largeobject">
+      <table id="38" parent="3" name="pg_largeobject">
         <object-id>2613</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="37" parent="3" name="pg_largeobject_metadata">
+      <table id="39" parent="3" name="pg_largeobject_metadata">
         <object-id>2995</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="38" parent="3" name="pg_namespace">
+      <table id="40" parent="3" name="pg_namespace">
         <object-id>2615</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="39" parent="3" name="pg_opclass">
+      <table id="41" parent="3" name="pg_opclass">
         <object-id>2616</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="40" parent="3" name="pg_operator">
+      <table id="42" parent="3" name="pg_operator">
         <object-id>2617</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="41" parent="3" name="pg_opfamily">
+      <table id="43" parent="3" name="pg_opfamily">
         <object-id>2753</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="42" parent="3" name="pg_pltemplate">
+      <table id="44" parent="3" name="pg_pltemplate">
         <object-id>1136</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="43" parent="3" name="pg_proc">
+      <table id="45" parent="3" name="pg_proc">
         <object-id>1255</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="44" parent="3" name="pg_range">
+      <table id="46" parent="3" name="pg_range">
         <object-id>3541</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="45" parent="3" name="pg_rewrite">
+      <table id="47" parent="3" name="pg_rewrite">
         <object-id>2618</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="46" parent="3" name="pg_seclabel">
+      <table id="48" parent="3" name="pg_seclabel">
         <object-id>3596</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="47" parent="3" name="pg_shdepend">
+      <table id="49" parent="3" name="pg_shdepend">
         <object-id>1214</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="48" parent="3" name="pg_shdescription">
+      <table id="50" parent="3" name="pg_shdescription">
         <object-id>2396</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="49" parent="3" name="pg_shseclabel">
+      <table id="51" parent="3" name="pg_shseclabel">
         <object-id>3592</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="50" parent="3" name="pg_statistic">
+      <table id="52" parent="3" name="pg_statistic">
         <object-id>2619</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="51" parent="3" name="pg_tablespace">
+      <table id="53" parent="3" name="pg_tablespace">
         <object-id>1213</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="52" parent="3" name="pg_trigger">
+      <table id="54" parent="3" name="pg_trigger">
         <object-id>2620</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="53" parent="3" name="pg_ts_config">
+      <table id="55" parent="3" name="pg_ts_config">
         <object-id>3602</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="54" parent="3" name="pg_ts_config_map">
+      <table id="56" parent="3" name="pg_ts_config_map">
         <object-id>3603</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="55" parent="3" name="pg_ts_dict">
+      <table id="57" parent="3" name="pg_ts_dict">
         <object-id>3600</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="56" parent="3" name="pg_ts_parser">
+      <table id="58" parent="3" name="pg_ts_parser">
         <object-id>3601</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="57" parent="3" name="pg_ts_template">
+      <table id="59" parent="3" name="pg_ts_template">
         <object-id>3764</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="58" parent="3" name="pg_type">
+      <table id="60" parent="3" name="pg_type">
         <object-id>1247</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="59" parent="3" name="pg_user_mapping">
+      <table id="61" parent="3" name="pg_user_mapping">
         <object-id>1418</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <view id="60" parent="3" name="pg_available_extension_versions">
+      <view id="62" parent="3" name="pg_available_extension_versions">
         <object-id>11099</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="61" parent="3" name="pg_available_extensions">
+      <view id="63" parent="3" name="pg_available_extensions">
         <object-id>11096</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="62" parent="3" name="pg_cursors">
+      <view id="64" parent="3" name="pg_cursors">
         <object-id>11093</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="63" parent="3" name="pg_group">
+      <view id="65" parent="3" name="pg_group">
         <object-id>11060</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="64" parent="3" name="pg_indexes">
+      <view id="66" parent="3" name="pg_indexes">
         <object-id>11082</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="65" parent="3" name="pg_locks">
+      <view id="67" parent="3" name="pg_locks">
         <object-id>11090</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="66" parent="3" name="pg_matviews">
+      <view id="68" parent="3" name="pg_matviews">
         <object-id>11078</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="67" parent="3" name="pg_prepared_statements">
+      <view id="69" parent="3" name="pg_prepared_statements">
         <object-id>11106</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="68" parent="3" name="pg_prepared_xacts">
+      <view id="70" parent="3" name="pg_prepared_xacts">
         <object-id>11102</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="69" parent="3" name="pg_roles">
+      <view id="71" parent="3" name="pg_roles">
         <object-id>11054</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="70" parent="3" name="pg_rules">
+      <view id="72" parent="3" name="pg_rules">
         <object-id>11066</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="71" parent="3" name="pg_seclabels">
+      <view id="73" parent="3" name="pg_seclabels">
         <object-id>11109</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="72" parent="3" name="pg_settings">
+      <view id="74" parent="3" name="pg_settings">
         <object-id>11113</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="73" parent="3" name="pg_shadow">
+      <view id="75" parent="3" name="pg_shadow">
         <object-id>11057</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="74" parent="3" name="pg_stat_activity">
+      <view id="76" parent="3" name="pg_stat_activity">
         <object-id>11186</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="75" parent="3" name="pg_stat_all_indexes">
+      <view id="77" parent="3" name="pg_stat_all_indexes">
         <object-id>11156</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="76" parent="3" name="pg_stat_all_tables">
+      <view id="78" parent="3" name="pg_stat_all_tables">
         <object-id>11124</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="77" parent="3" name="pg_stat_bgwriter">
+      <view id="79" parent="3" name="pg_stat_bgwriter">
         <object-id>11206</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="78" parent="3" name="pg_stat_database">
+      <view id="80" parent="3" name="pg_stat_database">
         <object-id>11192</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="79" parent="3" name="pg_stat_database_conflicts">
+      <view id="81" parent="3" name="pg_stat_database_conflicts">
         <object-id>11195</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="80" parent="3" name="pg_stat_replication">
+      <view id="82" parent="3" name="pg_stat_replication">
         <object-id>11189</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="81" parent="3" name="pg_stat_sys_indexes">
+      <view id="83" parent="3" name="pg_stat_sys_indexes">
         <object-id>11160</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="82" parent="3" name="pg_stat_sys_tables">
+      <view id="84" parent="3" name="pg_stat_sys_tables">
         <object-id>11132</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="83" parent="3" name="pg_stat_user_functions">
+      <view id="85" parent="3" name="pg_stat_user_functions">
         <object-id>11198</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="84" parent="3" name="pg_stat_user_indexes">
+      <view id="86" parent="3" name="pg_stat_user_indexes">
         <object-id>11163</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="85" parent="3" name="pg_stat_user_tables">
+      <view id="87" parent="3" name="pg_stat_user_tables">
         <object-id>11139</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="86" parent="3" name="pg_stat_xact_all_tables">
+      <view id="88" parent="3" name="pg_stat_xact_all_tables">
         <object-id>11128</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="87" parent="3" name="pg_stat_xact_sys_tables">
+      <view id="89" parent="3" name="pg_stat_xact_sys_tables">
         <object-id>11136</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="88" parent="3" name="pg_stat_xact_user_functions">
+      <view id="90" parent="3" name="pg_stat_xact_user_functions">
         <object-id>11202</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="89" parent="3" name="pg_stat_xact_user_tables">
+      <view id="91" parent="3" name="pg_stat_xact_user_tables">
         <object-id>11143</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="90" parent="3" name="pg_statio_all_indexes">
+      <view id="92" parent="3" name="pg_statio_all_indexes">
         <object-id>11166</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="91" parent="3" name="pg_statio_all_sequences">
+      <view id="93" parent="3" name="pg_statio_all_sequences">
         <object-id>11176</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="92" parent="3" name="pg_statio_all_tables">
+      <view id="94" parent="3" name="pg_statio_all_tables">
         <object-id>11146</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="93" parent="3" name="pg_statio_sys_indexes">
+      <view id="95" parent="3" name="pg_statio_sys_indexes">
         <object-id>11170</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="94" parent="3" name="pg_statio_sys_sequences">
+      <view id="96" parent="3" name="pg_statio_sys_sequences">
         <object-id>11180</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="95" parent="3" name="pg_statio_sys_tables">
+      <view id="97" parent="3" name="pg_statio_sys_tables">
         <object-id>11150</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="96" parent="3" name="pg_statio_user_indexes">
+      <view id="98" parent="3" name="pg_statio_user_indexes">
         <object-id>11173</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="97" parent="3" name="pg_statio_user_sequences">
+      <view id="99" parent="3" name="pg_statio_user_sequences">
         <object-id>11183</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="98" parent="3" name="pg_statio_user_tables">
+      <view id="100" parent="3" name="pg_statio_user_tables">
         <object-id>11153</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="99" parent="3" name="pg_stats">
+      <view id="101" parent="3" name="pg_stats">
         <object-id>11086</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="100" parent="3" name="pg_tables">
+      <view id="102" parent="3" name="pg_tables">
         <object-id>11074</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="101" parent="3" name="pg_timezone_abbrevs">
+      <view id="103" parent="3" name="pg_timezone_abbrevs">
         <object-id>11118</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="102" parent="3" name="pg_timezone_names">
+      <view id="104" parent="3" name="pg_timezone_names">
         <object-id>11121</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="103" parent="3" name="pg_user">
+      <view id="105" parent="3" name="pg_user">
         <object-id>11063</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="104" parent="3" name="pg_user_mappings">
+      <view id="106" parent="3" name="pg_user_mappings">
         <object-id>11209</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="105" parent="3" name="pg_views">
+      <view id="107" parent="3" name="pg_views">
         <object-id>11070</object-id>
         <state-number>2</state-number>
       </view>
-      <column id="106" parent="8" name="version">
-        <state-number>36889</state-number>
+      <column id="108" parent="9" name="version">
+        <state-number>37610</state-number>
         <mandatory>1</mandatory>
         <data-type>varchar</data-type>
       </column>
-      <index id="107" parent="8" name="unique_schema_migrations">
-        <object-id>54909</object-id>
+      <index id="109" parent="9" name="unique_schema_migrations">
+        <object-id>55999</object-id>
         <columns>version</columns>
         <unique>1</unique>
       </index>
+      <column id="110" parent="10" name="id">
+        <state-number>37846</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;users_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="111" parent="10" name="username">
+        <state-number>37846</state-number>
+        <data-type>varchar</data-type>
+      </column>
+      <column id="112" parent="10" name="email">
+        <state-number>37846</state-number>
+        <data-type>varchar</data-type>
+      </column>
+      <column id="113" parent="10" name="created_at">
+        <state-number>37846</state-number>
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="114" parent="10" name="updated_at">
+        <state-number>37846</state-number>
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="115" parent="10" name="password_digest">
+        <state-number>37846</state-number>
+        <data-type>varchar</data-type>
+      </column>
+      <index id="116" parent="10" name="users_pkey">
+        <object-id>56151</object-id>
+        <columns>id</columns>
+        <unique>1</unique>
+      </index>
+      <index id="117" parent="10" name="index_users_on_email">
+        <object-id>56153</object-id>
+        <columns>email</columns>
+        <unique>1</unique>
+      </index>
+      <key id="118" parent="10" name="users_pkey">
+        <columns>id</columns>
+        <underlying-index>users_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
     </database-model>
   </data-source>
   <data-source name="Rails polis: test" uuid="c5dcbe8a-b4fe-494b-abd0-6dd6b7cf1102">
@@ -477,8 +528,8 @@
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
-        <introspection-state-number>37498</introspection-state-number>
-        <introspection-timestamp>2015-11-20.16:55:15.850</introspection-timestamp>
+        <introspection-state-number>37812</introspection-state-number>
+        <introspection-timestamp>2015-11-21.20:57:16.265</introspection-timestamp>
       </schema>
       <schema id="3" parent="1" name="pg_catalog">
         <object-id>11</object-id>
@@ -497,441 +548,492 @@
       <schema id="7" parent="1" name="pg_temp_1">
         <object-id>11215</object-id>
       </schema>
-      <table id="8" parent="2" name="schema_migrations">
-        <object-id>55871</object-id>
-        <state-number>37497</state-number>
+      <sequence id="8" parent="2" name="users_id_seq">
+        <object-id>56062</object-id>
+        <state-number>37809</state-number>
+      </sequence>
+      <table id="9" parent="2" name="schema_migrations">
+        <object-id>56074</object-id>
+        <state-number>37811</state-number>
       </table>
-      <table id="9" parent="3" name="pg_aggregate">
+      <table id="10" parent="2" name="users">
+        <object-id>56064</object-id>
+        <state-number>37809</state-number>
+      </table>
+      <table id="11" parent="3" name="pg_aggregate">
         <object-id>2600</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="10" parent="3" name="pg_am">
+      <table id="12" parent="3" name="pg_am">
         <object-id>2601</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="11" parent="3" name="pg_amop">
+      <table id="13" parent="3" name="pg_amop">
         <object-id>2602</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="12" parent="3" name="pg_amproc">
+      <table id="14" parent="3" name="pg_amproc">
         <object-id>2603</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="13" parent="3" name="pg_attrdef">
+      <table id="15" parent="3" name="pg_attrdef">
         <object-id>2604</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="14" parent="3" name="pg_attribute">
+      <table id="16" parent="3" name="pg_attribute">
         <object-id>1249</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="15" parent="3" name="pg_auth_members">
+      <table id="17" parent="3" name="pg_auth_members">
         <object-id>1261</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="16" parent="3" name="pg_authid">
+      <table id="18" parent="3" name="pg_authid">
         <object-id>1260</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="17" parent="3" name="pg_cast">
+      <table id="19" parent="3" name="pg_cast">
         <object-id>2605</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="18" parent="3" name="pg_class">
+      <table id="20" parent="3" name="pg_class">
         <object-id>1259</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="19" parent="3" name="pg_collation">
+      <table id="21" parent="3" name="pg_collation">
         <object-id>3456</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="20" parent="3" name="pg_constraint">
+      <table id="22" parent="3" name="pg_constraint">
         <object-id>2606</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="21" parent="3" name="pg_conversion">
+      <table id="23" parent="3" name="pg_conversion">
         <object-id>2607</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="22" parent="3" name="pg_database">
+      <table id="24" parent="3" name="pg_database">
         <object-id>1262</object-id>
         <state-number>996</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="23" parent="3" name="pg_db_role_setting">
+      <table id="25" parent="3" name="pg_db_role_setting">
         <object-id>2964</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="24" parent="3" name="pg_default_acl">
+      <table id="26" parent="3" name="pg_default_acl">
         <object-id>826</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="25" parent="3" name="pg_depend">
+      <table id="27" parent="3" name="pg_depend">
         <object-id>2608</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="26" parent="3" name="pg_description">
+      <table id="28" parent="3" name="pg_description">
         <object-id>2609</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="27" parent="3" name="pg_enum">
+      <table id="29" parent="3" name="pg_enum">
         <object-id>3501</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="28" parent="3" name="pg_event_trigger">
+      <table id="30" parent="3" name="pg_event_trigger">
         <object-id>3466</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="29" parent="3" name="pg_extension">
+      <table id="31" parent="3" name="pg_extension">
         <object-id>3079</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="30" parent="3" name="pg_foreign_data_wrapper">
+      <table id="32" parent="3" name="pg_foreign_data_wrapper">
         <object-id>2328</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="31" parent="3" name="pg_foreign_server">
+      <table id="33" parent="3" name="pg_foreign_server">
         <object-id>1417</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="32" parent="3" name="pg_foreign_table">
+      <table id="34" parent="3" name="pg_foreign_table">
         <object-id>3118</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="33" parent="3" name="pg_index">
+      <table id="35" parent="3" name="pg_index">
         <object-id>2610</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="34" parent="3" name="pg_inherits">
+      <table id="36" parent="3" name="pg_inherits">
         <object-id>2611</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="35" parent="3" name="pg_language">
+      <table id="37" parent="3" name="pg_language">
         <object-id>2612</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="36" parent="3" name="pg_largeobject">
+      <table id="38" parent="3" name="pg_largeobject">
         <object-id>2613</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="37" parent="3" name="pg_largeobject_metadata">
+      <table id="39" parent="3" name="pg_largeobject_metadata">
         <object-id>2995</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="38" parent="3" name="pg_namespace">
+      <table id="40" parent="3" name="pg_namespace">
         <object-id>2615</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="39" parent="3" name="pg_opclass">
+      <table id="41" parent="3" name="pg_opclass">
         <object-id>2616</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="40" parent="3" name="pg_operator">
+      <table id="42" parent="3" name="pg_operator">
         <object-id>2617</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="41" parent="3" name="pg_opfamily">
+      <table id="43" parent="3" name="pg_opfamily">
         <object-id>2753</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="42" parent="3" name="pg_pltemplate">
+      <table id="44" parent="3" name="pg_pltemplate">
         <object-id>1136</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="43" parent="3" name="pg_proc">
+      <table id="45" parent="3" name="pg_proc">
         <object-id>1255</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="44" parent="3" name="pg_range">
+      <table id="46" parent="3" name="pg_range">
         <object-id>3541</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="45" parent="3" name="pg_rewrite">
+      <table id="47" parent="3" name="pg_rewrite">
         <object-id>2618</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="46" parent="3" name="pg_seclabel">
+      <table id="48" parent="3" name="pg_seclabel">
         <object-id>3596</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="47" parent="3" name="pg_shdepend">
+      <table id="49" parent="3" name="pg_shdepend">
         <object-id>1214</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="48" parent="3" name="pg_shdescription">
+      <table id="50" parent="3" name="pg_shdescription">
         <object-id>2396</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="49" parent="3" name="pg_shseclabel">
+      <table id="51" parent="3" name="pg_shseclabel">
         <object-id>3592</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="50" parent="3" name="pg_statistic">
+      <table id="52" parent="3" name="pg_statistic">
         <object-id>2619</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="51" parent="3" name="pg_tablespace">
+      <table id="53" parent="3" name="pg_tablespace">
         <object-id>1213</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="52" parent="3" name="pg_trigger">
+      <table id="54" parent="3" name="pg_trigger">
         <object-id>2620</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="53" parent="3" name="pg_ts_config">
+      <table id="55" parent="3" name="pg_ts_config">
         <object-id>3602</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="54" parent="3" name="pg_ts_config_map">
+      <table id="56" parent="3" name="pg_ts_config_map">
         <object-id>3603</object-id>
         <state-number>2</state-number>
       </table>
-      <table id="55" parent="3" name="pg_ts_dict">
+      <table id="57" parent="3" name="pg_ts_dict">
         <object-id>3600</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="56" parent="3" name="pg_ts_parser">
+      <table id="58" parent="3" name="pg_ts_parser">
         <object-id>3601</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="57" parent="3" name="pg_ts_template">
+      <table id="59" parent="3" name="pg_ts_template">
         <object-id>3764</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="58" parent="3" name="pg_type">
+      <table id="60" parent="3" name="pg_type">
         <object-id>1247</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <table id="59" parent="3" name="pg_user_mapping">
+      <table id="61" parent="3" name="pg_user_mapping">
         <object-id>1418</object-id>
         <state-number>2</state-number>
         <with-oids>1</with-oids>
       </table>
-      <view id="60" parent="3" name="pg_available_extension_versions">
+      <view id="62" parent="3" name="pg_available_extension_versions">
         <object-id>11099</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="61" parent="3" name="pg_available_extensions">
+      <view id="63" parent="3" name="pg_available_extensions">
         <object-id>11096</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="62" parent="3" name="pg_cursors">
+      <view id="64" parent="3" name="pg_cursors">
         <object-id>11093</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="63" parent="3" name="pg_group">
+      <view id="65" parent="3" name="pg_group">
         <object-id>11060</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="64" parent="3" name="pg_indexes">
+      <view id="66" parent="3" name="pg_indexes">
         <object-id>11082</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="65" parent="3" name="pg_locks">
+      <view id="67" parent="3" name="pg_locks">
         <object-id>11090</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="66" parent="3" name="pg_matviews">
+      <view id="68" parent="3" name="pg_matviews">
         <object-id>11078</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="67" parent="3" name="pg_prepared_statements">
+      <view id="69" parent="3" name="pg_prepared_statements">
         <object-id>11106</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="68" parent="3" name="pg_prepared_xacts">
+      <view id="70" parent="3" name="pg_prepared_xacts">
         <object-id>11102</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="69" parent="3" name="pg_roles">
+      <view id="71" parent="3" name="pg_roles">
         <object-id>11054</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="70" parent="3" name="pg_rules">
+      <view id="72" parent="3" name="pg_rules">
         <object-id>11066</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="71" parent="3" name="pg_seclabels">
+      <view id="73" parent="3" name="pg_seclabels">
         <object-id>11109</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="72" parent="3" name="pg_settings">
+      <view id="74" parent="3" name="pg_settings">
         <object-id>11113</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="73" parent="3" name="pg_shadow">
+      <view id="75" parent="3" name="pg_shadow">
         <object-id>11057</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="74" parent="3" name="pg_stat_activity">
+      <view id="76" parent="3" name="pg_stat_activity">
         <object-id>11186</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="75" parent="3" name="pg_stat_all_indexes">
+      <view id="77" parent="3" name="pg_stat_all_indexes">
         <object-id>11156</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="76" parent="3" name="pg_stat_all_tables">
+      <view id="78" parent="3" name="pg_stat_all_tables">
         <object-id>11124</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="77" parent="3" name="pg_stat_bgwriter">
+      <view id="79" parent="3" name="pg_stat_bgwriter">
         <object-id>11206</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="78" parent="3" name="pg_stat_database">
+      <view id="80" parent="3" name="pg_stat_database">
         <object-id>11192</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="79" parent="3" name="pg_stat_database_conflicts">
+      <view id="81" parent="3" name="pg_stat_database_conflicts">
         <object-id>11195</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="80" parent="3" name="pg_stat_replication">
+      <view id="82" parent="3" name="pg_stat_replication">
         <object-id>11189</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="81" parent="3" name="pg_stat_sys_indexes">
+      <view id="83" parent="3" name="pg_stat_sys_indexes">
         <object-id>11160</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="82" parent="3" name="pg_stat_sys_tables">
+      <view id="84" parent="3" name="pg_stat_sys_tables">
         <object-id>11132</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="83" parent="3" name="pg_stat_user_functions">
+      <view id="85" parent="3" name="pg_stat_user_functions">
         <object-id>11198</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="84" parent="3" name="pg_stat_user_indexes">
+      <view id="86" parent="3" name="pg_stat_user_indexes">
         <object-id>11163</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="85" parent="3" name="pg_stat_user_tables">
+      <view id="87" parent="3" name="pg_stat_user_tables">
         <object-id>11139</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="86" parent="3" name="pg_stat_xact_all_tables">
+      <view id="88" parent="3" name="pg_stat_xact_all_tables">
         <object-id>11128</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="87" parent="3" name="pg_stat_xact_sys_tables">
+      <view id="89" parent="3" name="pg_stat_xact_sys_tables">
         <object-id>11136</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="88" parent="3" name="pg_stat_xact_user_functions">
+      <view id="90" parent="3" name="pg_stat_xact_user_functions">
         <object-id>11202</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="89" parent="3" name="pg_stat_xact_user_tables">
+      <view id="91" parent="3" name="pg_stat_xact_user_tables">
         <object-id>11143</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="90" parent="3" name="pg_statio_all_indexes">
+      <view id="92" parent="3" name="pg_statio_all_indexes">
         <object-id>11166</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="91" parent="3" name="pg_statio_all_sequences">
+      <view id="93" parent="3" name="pg_statio_all_sequences">
         <object-id>11176</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="92" parent="3" name="pg_statio_all_tables">
+      <view id="94" parent="3" name="pg_statio_all_tables">
         <object-id>11146</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="93" parent="3" name="pg_statio_sys_indexes">
+      <view id="95" parent="3" name="pg_statio_sys_indexes">
         <object-id>11170</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="94" parent="3" name="pg_statio_sys_sequences">
+      <view id="96" parent="3" name="pg_statio_sys_sequences">
         <object-id>11180</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="95" parent="3" name="pg_statio_sys_tables">
+      <view id="97" parent="3" name="pg_statio_sys_tables">
         <object-id>11150</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="96" parent="3" name="pg_statio_user_indexes">
+      <view id="98" parent="3" name="pg_statio_user_indexes">
         <object-id>11173</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="97" parent="3" name="pg_statio_user_sequences">
+      <view id="99" parent="3" name="pg_statio_user_sequences">
         <object-id>11183</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="98" parent="3" name="pg_statio_user_tables">
+      <view id="100" parent="3" name="pg_statio_user_tables">
         <object-id>11153</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="99" parent="3" name="pg_stats">
+      <view id="101" parent="3" name="pg_stats">
         <object-id>11086</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="100" parent="3" name="pg_tables">
+      <view id="102" parent="3" name="pg_tables">
         <object-id>11074</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="101" parent="3" name="pg_timezone_abbrevs">
+      <view id="103" parent="3" name="pg_timezone_abbrevs">
         <object-id>11118</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="102" parent="3" name="pg_timezone_names">
+      <view id="104" parent="3" name="pg_timezone_names">
         <object-id>11121</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="103" parent="3" name="pg_user">
+      <view id="105" parent="3" name="pg_user">
         <object-id>11063</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="104" parent="3" name="pg_user_mappings">
+      <view id="106" parent="3" name="pg_user_mappings">
         <object-id>11209</object-id>
         <state-number>2</state-number>
       </view>
-      <view id="105" parent="3" name="pg_views">
+      <view id="107" parent="3" name="pg_views">
         <object-id>11070</object-id>
         <state-number>2</state-number>
       </view>
-      <column id="106" parent="8" name="version">
-        <state-number>37497</state-number>
+      <column id="108" parent="9" name="version">
+        <state-number>37811</state-number>
         <mandatory>1</mandatory>
         <data-type>varchar</data-type>
       </column>
-      <index id="107" parent="8" name="unique_schema_migrations">
-        <object-id>55877</object-id>
+      <index id="109" parent="9" name="unique_schema_migrations">
+        <object-id>56080</object-id>
         <columns>version</columns>
         <unique>1</unique>
       </index>
+      <column id="110" parent="10" name="id">
+        <state-number>37809</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;users_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="111" parent="10" name="username">
+        <state-number>37809</state-number>
+        <data-type>varchar</data-type>
+      </column>
+      <column id="112" parent="10" name="email">
+        <state-number>37809</state-number>
+        <data-type>varchar</data-type>
+      </column>
+      <column id="113" parent="10" name="created_at">
+        <state-number>37809</state-number>
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="114" parent="10" name="updated_at">
+        <state-number>37809</state-number>
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="115" parent="10" name="password_digest">
+        <state-number>37809</state-number>
+        <data-type>varchar</data-type>
+      </column>
+      <index id="116" parent="10" name="users_pkey">
+        <object-id>56071</object-id>
+        <columns>id</columns>
+        <unique>1</unique>
+      </index>
+      <index id="117" parent="10" name="index_users_on_email">
+        <object-id>56073</object-id>
+        <columns>email</columns>
+        <unique>1</unique>
+      </index>
+      <key id="118" parent="10" name="users_pkey">
+        <columns>id</columns>
+        <underlying-index>users_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
     </database-model>
   </data-source>
   <data-source name="Rails polis: production" uuid="03d99e13-c1fd-408c-a8ef-7e3ea581f421">

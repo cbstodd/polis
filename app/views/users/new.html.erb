@@ -1,10 +1,8 @@
 <%= provide(:title, 'Sign up') %>
 
 <div class="col-lg-5 col-lg-offset-3">
-
   <div action="" method="" role="form">
     <h1>Sign up</h1>
-
     <%= form_for(@user) do |f| %>
 
       <%= render 'shared/error_messages' %>
@@ -31,6 +29,5 @@
 
       <%= f.submit 'Sign up', class:'btn btn-primary' %>
     <% end %>
-
   </div>
 </div>
