@@ -20,6 +20,15 @@
       <% end %>
 
       <%= yield %>
+
+      <!-- *-====debug====-* -->
+      <div class="row">
+        <div class="col-lg-12">
+          <%= debug(params) if Rails.env.development? %>
+        </div>
+      </div>
+      <!-- *-====/debug====-* -->
+
     </div>
 
     <%= render 'layouts/footer' %>

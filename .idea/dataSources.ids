@@ -10,8 +10,8 @@
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
-        <introspection-state-number>37847</introspection-state-number>
-        <introspection-timestamp>2015-11-21.20:57:16.267</introspection-timestamp>
+        <introspection-state-number>38022</introspection-state-number>
+        <introspection-timestamp>2015-11-22.17:47:48.443</introspection-timestamp>
       </schema>
       <schema id="3" parent="1" name="pg_catalog">
         <object-id>11</object-id>
@@ -40,7 +40,7 @@
       </table>
       <table id="10" parent="2" name="users">
         <object-id>56144</object-id>
-        <state-number>37846</state-number>
+        <state-number>38022</state-number>
       </table>
       <table id="11" parent="3" name="pg_aggregate">
         <object-id>2600</object-id>
@@ -501,17 +501,21 @@
         <state-number>37846</state-number>
         <data-type>varchar</data-type>
       </column>
-      <index id="116" parent="10" name="users_pkey">
+      <column id="116" parent="10" name="remember_digest">
+        <state-number>38022</state-number>
+        <data-type>varchar</data-type>
+      </column>
+      <index id="117" parent="10" name="users_pkey">
         <object-id>56151</object-id>
         <columns>id</columns>
         <unique>1</unique>
       </index>
-      <index id="117" parent="10" name="index_users_on_email">
+      <index id="118" parent="10" name="index_users_on_email">
         <object-id>56153</object-id>
         <columns>email</columns>
         <unique>1</unique>
       </index>
-      <key id="118" parent="10" name="users_pkey">
+      <key id="119" parent="10" name="users_pkey">
         <columns>id</columns>
         <underlying-index>users_pkey</underlying-index>
         <primary>1</primary>
@@ -528,8 +532,8 @@
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
-        <introspection-state-number>37812</introspection-state-number>
-        <introspection-timestamp>2015-11-21.20:57:16.265</introspection-timestamp>
+        <introspection-state-number>38028</introspection-state-number>
+        <introspection-timestamp>2015-11-22.17:47:48.332</introspection-timestamp>
       </schema>
       <schema id="3" parent="1" name="pg_catalog">
         <object-id>11</object-id>
@@ -549,16 +553,16 @@
         <object-id>11215</object-id>
       </schema>
       <sequence id="8" parent="2" name="users_id_seq">
-        <object-id>56062</object-id>
-        <state-number>37809</state-number>
+        <object-id>56155</object-id>
+        <state-number>38025</state-number>
       </sequence>
       <table id="9" parent="2" name="schema_migrations">
-        <object-id>56074</object-id>
-        <state-number>37811</state-number>
+        <object-id>56167</object-id>
+        <state-number>38027</state-number>
       </table>
       <table id="10" parent="2" name="users">
-        <object-id>56064</object-id>
-        <state-number>37809</state-number>
+        <object-id>56157</object-id>
+        <state-number>38025</state-number>
       </table>
       <table id="11" parent="3" name="pg_aggregate">
         <object-id>2600</object-id>
@@ -982,54 +986,58 @@
         <state-number>2</state-number>
       </view>
       <column id="108" parent="9" name="version">
-        <state-number>37811</state-number>
+        <state-number>38027</state-number>
         <mandatory>1</mandatory>
         <data-type>varchar</data-type>
       </column>
       <index id="109" parent="9" name="unique_schema_migrations">
-        <object-id>56080</object-id>
+        <object-id>56173</object-id>
         <columns>version</columns>
         <unique>1</unique>
       </index>
       <column id="110" parent="10" name="id">
-        <state-number>37809</state-number>
+        <state-number>38025</state-number>
         <mandatory>1</mandatory>
         <data-type>integer</data-type>
         <default-expression>nextval(&apos;users_id_seq&apos;::regclass)</default-expression>
       </column>
       <column id="111" parent="10" name="username">
-        <state-number>37809</state-number>
+        <state-number>38025</state-number>
         <data-type>varchar</data-type>
       </column>
       <column id="112" parent="10" name="email">
-        <state-number>37809</state-number>
+        <state-number>38025</state-number>
         <data-type>varchar</data-type>
       </column>
       <column id="113" parent="10" name="created_at">
-        <state-number>37809</state-number>
+        <state-number>38025</state-number>
         <mandatory>1</mandatory>
         <data-type>timestamp</data-type>
       </column>
       <column id="114" parent="10" name="updated_at">
-        <state-number>37809</state-number>
+        <state-number>38025</state-number>
         <mandatory>1</mandatory>
         <data-type>timestamp</data-type>
       </column>
       <column id="115" parent="10" name="password_digest">
-        <state-number>37809</state-number>
+        <state-number>38025</state-number>
         <data-type>varchar</data-type>
       </column>
-      <index id="116" parent="10" name="users_pkey">
-        <object-id>56071</object-id>
+      <column id="116" parent="10" name="remember_digest">
+        <state-number>38025</state-number>
+        <data-type>varchar</data-type>
+      </column>
+      <index id="117" parent="10" name="users_pkey">
+        <object-id>56164</object-id>
         <columns>id</columns>
         <unique>1</unique>
       </index>
-      <index id="117" parent="10" name="index_users_on_email">
-        <object-id>56073</object-id>
+      <index id="118" parent="10" name="index_users_on_email">
+        <object-id>56166</object-id>
         <columns>email</columns>
         <unique>1</unique>
       </index>
-      <key id="118" parent="10" name="users_pkey">
+      <key id="119" parent="10" name="users_pkey">
         <columns>id</columns>
         <underlying-index>users_pkey</underlying-index>
         <primary>1</primary>

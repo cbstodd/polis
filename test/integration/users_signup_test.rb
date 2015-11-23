@@ -25,4 +25,9 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
       assert_template 'users/show'
       assert is_logged_in?
   end
+
+  test 'should have a link to log in' do
+    get signup_path
+    assert_select 'p a[href=?]', login_path
+  end
 end
