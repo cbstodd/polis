@@ -3,9 +3,14 @@
   padding: 15px 15px 0 0;
 }
 
-#alert-msg {
+.alert-msg {
   text-align: center;
 }
+
+#error_explanation > ul {
+  color: #E74C3C;
+}
+
 
 /* ### footer ### */
 .footer {
