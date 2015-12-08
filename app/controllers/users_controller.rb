@@ -16,8 +16,8 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     if @user.save
       log_in @user
-      flash[:success] = "Welcome to Polis! Post a event to let others know whats going on."
       redirect_to @user
+      flash[:success] = "Welcome to Polis! Post a event to let others know whats going on."
     else
       render 'new'
     end
@@ -46,6 +46,7 @@ class UsersController < ApplicationController
     #Confirms a logged_in_user
     def logged_in_user
       unless logged_in?
+        store_location
         flash[:danger] = "Please log in"
         redirect_to login_url
       end

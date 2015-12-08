@@ -11,7 +11,7 @@ class SessionsController < ApplicationController
       else
         forget user
       end
-      redirect_to user
+      redirect_back_or user
     else
       flash.now[:warning] = "Invalid email/password combination"
       #.now prevents error message from rendering on another page.
