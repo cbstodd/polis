@@ -19,10 +19,10 @@
         <li><%= nav_link 'Home', root_path %></li>
         <li><%= nav_link 'Posts', '#' %></li>
         <li><%= nav_link 'About', about_path %></li>
-    <% if logged_in? %>
-        <li><%= link_to 'Users', users_path %></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
+        <% if logged_in? %>
+        <li><%= link_to 'Users', users_path %></li>
             <form class="navbar-form navbar-left" role="search">
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search">
