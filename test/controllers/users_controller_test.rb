@@ -7,10 +7,9 @@ class UsersControllerTest < ActionController::TestCase
     @another_user = users(:exampleuser_two)
   end
 
-  test 'should get user index page and title' do
+  test 'should redirect index to login_path when not logged in' do
     get :index
-    assert_response :success
-    assert_select 'title', 'Users ~ Polis'
+    assert_redirected_to login_url
   end
 
   test "should get new and title" do

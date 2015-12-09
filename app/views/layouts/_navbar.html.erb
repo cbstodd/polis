@@ -19,9 +19,10 @@
         <li><%= nav_link 'Home', root_path %></li>
         <li><%= nav_link 'Posts', '#' %></li>
         <li><%= nav_link 'About', about_path %></li>
+    <% if logged_in? %>
+        <li><%= link_to 'Users', users_path %></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <% if logged_in? %>
             <form class="navbar-form navbar-left" role="search">
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search">
@@ -41,11 +42,11 @@
               <li><%= link_to 'Log out', logout_path, method: :delete %></li>
             </ul>
           </li>
-        <% else %>
+    <% else %>
           <li><%= nav_link 'Contact', contact_path %></li>
           <li><%= nav_link 'Help', help_path %></li>
           <li><%= nav_link 'Log in', login_path %></li>
-        <% end %>
+    <% end %>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div>

@@ -11,6 +11,17 @@
   color: #E74C3C;
 }
 
+.panel {
+  margin: 3px 5px;
+}
+.users-link {
+  color: $white;
+  &:hover {
+    color: $white;
+    text-decoration: none;
+  }
+}
+
 
 /* ### footer ### */
 .footer {

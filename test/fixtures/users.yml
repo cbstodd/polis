@@ -10,3 +10,25 @@ exampleuser_two:
   username: exampleUsername_two
   email: test_two@user.com
   password_digest: <%= User.digest('password') %>
+
+exampleuser_three:
+  username: exampleUsername_three
+  email: test_three@user.com
+  password_digest: <%= User.digest('password') %>
+
+exampleuser_four:
+  username: exampleUsername_four
+  email: test_four@user.com
+  password_digest: <%= User.digest('password') %>
+
+exampleuser_five:
+  username: exampleUsername_five
+  email: test_five@user.com
+  password_digest: <%= User.digest('password') %>
+
+<% 30.times do |num| %>
+user_<%= num %>:
+  username: <%= "User #{num}" %>
+  email: <%= "user-#{num}@example.com" %>
+  password_digest: <%= User.digest('password') %>
+<% end %>
