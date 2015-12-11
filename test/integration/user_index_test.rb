@@ -3,7 +3,8 @@ require 'test_helper'
 class UserIndexTest < ActionDispatch::IntegrationTest
 
   def setup
-    @user = users(:exampleuser)
+    @user = users(:example_user)
+    @admin_user = users(:admin_user)
   end
 
   test 'index including pagination' do
@@ -11,8 +12,14 @@ class UserIndexTest < ActionDispatch::IntegrationTest
     get users_path
     assert_template 'users/index'
     assert_select '.users-link'
-    # User.paginate(page: 1).each do |user|
-    #   assert_select 'a[href=?]', user_path(user), user.username
-    # end
   end
+
+  test 'index admin page should have delete button on users' do
+    log_in_as(@admin_user)
+    get users_path
+    assert_template 'users/index'
+    assert_select '.btn-danger'
+  end
+
+
 end

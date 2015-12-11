@@ -9,7 +9,8 @@
 User.create!(username: 'cbstodd',
              email: 'cbstodd@gmail.com',
              password: 'password1',
-             password_confirmation: 'password1'
+             password_confirmation: 'password1',
+             admin: true
 )
 
 99.times do |num|
