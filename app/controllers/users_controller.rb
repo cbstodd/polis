@@ -20,9 +20,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      log_in @user
-      redirect_to @user
-      flash[:success] = "Welcome to Polis! Post a event to let others know whats going on."
+      @user.send_activation_email
+      flash[:info] = "Thank you for joining! Please check your email to activate your account."
+      redirect_to root_url
     else
       render 'new'
     end
