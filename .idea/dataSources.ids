@@ -10,8 +10,8 @@
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
-        <introspection-state-number>40251</introspection-state-number>
-        <introspection-timestamp>2015-12-10.22:08:13.574</introspection-timestamp>
+        <introspection-state-number>43975</introspection-state-number>
+        <introspection-timestamp>2015-12-16.04:02:17.243</introspection-timestamp>
       </schema>
       <schema id="3" parent="1" name="pg_catalog">
         <object-id>11</object-id>
@@ -31,16 +31,16 @@
         <object-id>11215</object-id>
       </schema>
       <sequence id="8" parent="2" name="users_id_seq">
-        <object-id>56428</object-id>
-        <state-number>40250</state-number>
+        <object-id>56705</object-id>
+        <state-number>43974</state-number>
       </sequence>
       <table id="9" parent="2" name="schema_migrations">
         <object-id>56315</object-id>
         <state-number>39308</state-number>
       </table>
       <table id="10" parent="2" name="users">
-        <object-id>56430</object-id>
-        <state-number>40250</state-number>
+        <object-id>56707</object-id>
+        <state-number>43974</state-number>
       </table>
       <table id="11" parent="3" name="pg_aggregate">
         <object-id>2600</object-id>
@@ -474,53 +474,66 @@
         <unique>1</unique>
       </index>
       <column id="110" parent="10" name="id">
-        <state-number>40250</state-number>
+        <state-number>43974</state-number>
         <mandatory>1</mandatory>
         <data-type>integer</data-type>
         <default-expression>nextval(&apos;users_id_seq&apos;::regclass)</default-expression>
       </column>
       <column id="111" parent="10" name="username">
-        <state-number>40250</state-number>
+        <state-number>43974</state-number>
         <data-type>varchar</data-type>
       </column>
       <column id="112" parent="10" name="email">
-        <state-number>40250</state-number>
+        <state-number>43974</state-number>
         <data-type>varchar</data-type>
       </column>
       <column id="113" parent="10" name="created_at">
-        <state-number>40250</state-number>
+        <state-number>43974</state-number>
         <mandatory>1</mandatory>
         <data-type>timestamp</data-type>
       </column>
       <column id="114" parent="10" name="updated_at">
-        <state-number>40250</state-number>
+        <state-number>43974</state-number>
         <mandatory>1</mandatory>
         <data-type>timestamp</data-type>
       </column>
       <column id="115" parent="10" name="password_digest">
-        <state-number>40250</state-number>
+        <state-number>43974</state-number>
         <data-type>varchar</data-type>
       </column>
       <column id="116" parent="10" name="remember_digest">
-        <state-number>40250</state-number>
+        <state-number>43974</state-number>
         <data-type>varchar</data-type>
       </column>
       <column id="117" parent="10" name="admin">
-        <state-number>40250</state-number>
+        <state-number>43974</state-number>
         <data-type>boolean</data-type>
         <default-expression>false</default-expression>
       </column>
-      <index id="118" parent="10" name="users_pkey">
-        <object-id>56438</object-id>
+      <column id="118" parent="10" name="activation_digest">
+        <state-number>43974</state-number>
+        <data-type>varchar</data-type>
+      </column>
+      <column id="119" parent="10" name="activated">
+        <state-number>43974</state-number>
+        <data-type>boolean</data-type>
+        <default-expression>false</default-expression>
+      </column>
+      <column id="120" parent="10" name="activated_at">
+        <state-number>43974</state-number>
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="121" parent="10" name="users_pkey">
+        <object-id>56716</object-id>
         <columns>id</columns>
         <unique>1</unique>
       </index>
-      <index id="119" parent="10" name="index_users_on_email">
-        <object-id>56440</object-id>
+      <index id="122" parent="10" name="index_users_on_email">
+        <object-id>56718</object-id>
         <columns>email</columns>
         <unique>1</unique>
       </index>
-      <key id="120" parent="10" name="users_pkey">
+      <key id="123" parent="10" name="users_pkey">
         <columns>id</columns>
         <underlying-index>users_pkey</underlying-index>
         <primary>1</primary>
@@ -537,8 +550,8 @@
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
-        <introspection-state-number>39945</introspection-state-number>
-        <introspection-timestamp>2015-12-10.22:08:13.637</introspection-timestamp>
+        <introspection-state-number>41842</introspection-state-number>
+        <introspection-timestamp>2015-12-16.04:02:17.171</introspection-timestamp>
       </schema>
       <schema id="3" parent="1" name="pg_catalog">
         <object-id>11</object-id>
@@ -567,7 +580,7 @@
       </table>
       <table id="10" parent="2" name="users">
         <object-id>56157</object-id>
-        <state-number>39945</state-number>
+        <state-number>41842</state-number>
       </table>
       <table id="11" parent="3" name="pg_aggregate">
         <object-id>2600</object-id>
@@ -1037,17 +1050,30 @@
         <data-type>boolean</data-type>
         <default-expression>false</default-expression>
       </column>
-      <index id="118" parent="10" name="users_pkey">
+      <column id="118" parent="10" name="activation_digest">
+        <state-number>41842</state-number>
+        <data-type>varchar</data-type>
+      </column>
+      <column id="119" parent="10" name="activated">
+        <state-number>41842</state-number>
+        <data-type>boolean</data-type>
+        <default-expression>false</default-expression>
+      </column>
+      <column id="120" parent="10" name="activated_at">
+        <state-number>41842</state-number>
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="121" parent="10" name="users_pkey">
         <object-id>56164</object-id>
         <columns>id</columns>
         <unique>1</unique>
       </index>
-      <index id="119" parent="10" name="index_users_on_email">
+      <index id="122" parent="10" name="index_users_on_email">
         <object-id>56166</object-id>
         <columns>email</columns>
         <unique>1</unique>
       </index>
-      <key id="120" parent="10" name="users_pkey">
+      <key id="123" parent="10" name="users_pkey">
         <columns>id</columns>
         <underlying-index>users_pkey</underlying-index>
         <primary>1</primary>
