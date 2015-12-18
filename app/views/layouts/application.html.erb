@@ -13,11 +13,16 @@
     <%= render 'layouts/navbar' %>
 
     <div class="container">
-      <% flash.each do |message_type, message| %>
-          <div class="alert-msg alert alert-<%= message_type %>">
-            <%= message %>
-          </div>
-      <% end %>
+
+    <div class="row">
+      <div class="col-lg-7 col-lg-offset-2">
+        <% flash.each do |message_type, message| %>
+            <div class="alert-msg alert alert-<%= message_type %>">
+              <%= message %>
+            </div>
+        <% end %>
+      </div>
+    </div>
 
       <%= yield %>
 

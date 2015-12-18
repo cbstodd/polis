@@ -1,7 +1,8 @@
-<h1>Welcome to Polis</h1>
+<h1>Welcome to Polis <%= @user.username %>,</h1>
 
-Hey <%= @user.username %>,
-
-<p>Thank you for becoming a Polis member!  To activate your account, click <%= link_to 'HERE', edit_account_activation_url(@user.activation_token, email: @user.email) %> or click the link below.</p>
+<p>Thank you for becoming a member!  To activate your account, click on <%= link_to 'this link', edit_account_activation_url(@user.activation_token, email: @user.email) %> or click the link below.</p>
 
 <p><%= edit_account_activation_url(@user.activation_token, email: @user.email) %></p>
+
+
+<p><small>If you think this message was sent by mistake, please disregard this message.</small></p>

@@ -8,12 +8,8 @@
       <% if current_user.admin? && !current_user?(user)%>
           <%= link_to "delete", user, class:'btn btn-danger', method: :delete,
                       data: { confirm: "Are you sure you want to delete this user?" } %>
-      <% elsif current_user?(user) %>
+      <% elsif current_user.admin? %>
               <%= link_to 'Admin', user_path(user), class:'btn btn-warning' %>
-      <% end %>
-
-      <% if current_user.admin? %>
-
       <% end %>
     </div>
   </div>
