@@ -1,5 +1,8 @@
 class User < ActiveRecord::Base
+  has_many :eventposts, dependent: :destroy
+
   attr_accessor :remember_token, :activation_token, :reset_token
+
   before_save { self.email = email.downcase }
   before_create :create_activation_digest
 

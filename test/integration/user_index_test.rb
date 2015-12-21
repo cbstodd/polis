@@ -11,7 +11,7 @@ class UserIndexTest < ActionDispatch::IntegrationTest
     log_in_as(@user)
     get users_path
     assert_template 'users/index'
-    assert_select '.users-link'
+    assert_select '.badge'
   end
 
   test 'index admin page should have delete button on users' do

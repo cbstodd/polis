@@ -10,6 +10,21 @@
   </div>
 
   <div class="col-lg-9">
-    <h1><%= @user.username %>'s events</h1>
+    <h1>
+      <%= @user.username %>'s events
+      <% if @user.eventposts.any? %>
+          (<%= @user.eventposts.count %>)
+    </h1>
+      <ul class="eventposts">
+        <%= render @eventposts %>
+      </ul>
+
   </div>
 </div>
+
+        <div class="row">
+          <%= will_paginate @eventposts %>
+        </div>
+      <% end %>
+
+

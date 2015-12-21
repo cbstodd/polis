@@ -1,38 +1,40 @@
 <%= provide(:title, 'Edit') %>
 
 <div class="col-lg-5 col-lg-offset-3">
-  <div action="" method="" role="form">
-    <h1>Edit <%= @user.username %></h1>
-    <%= form_for(@user) do |f| %>
+  <div class="well">
+    <div action="" method="" role="form">
+      <h1>Edit <%= @user.username %></h1>
+      <%= form_for(@user) do |f| %>
 
-        <%= render 'shared/error_messages' %>
+          <%= render 'shared/error_messages' %>
 
-        <div class="form-group">
-          <%= f.label :username %>
-          <%= f.text_field :username, class:'form-control' %>
-        </div>
+          <div class="form-group">
+            <%= f.label :username %>
+            <%= f.text_field :username, class:'form-control' %>
+          </div>
 
-        <div class="form-group">
-          <%= f.label :email %>
-          <%= f.email_field :email, class:'form-control' %>
-        </div>
+          <div class="form-group">
+            <%= f.label :email %>
+            <%= f.email_field :email, class:'form-control' %>
+          </div>
 
-        <div class="form-group">
-          <%= f.label :password %>
-          <%= f.password_field :password, class:'form-control' %>
-        </div>
+          <div class="form-group">
+            <%= f.label :password %>
+            <%= f.password_field :password, class:'form-control' %>
+          </div>
 
-        <div class="form-group">
-          <%= f.label :password_confirmation %>
-          <%= f.password_field :password_confirmation, class:'form-control' %>
-        </div>
+          <div class="form-group">
+            <%= f.label :password_confirmation %>
+            <%= f.password_field :password_confirmation, class:'form-control' %>
+          </div>
 
-        <%= f.submit 'Save changes', class:'btn btn-primary' %>
-    <% end %>
+          <%= f.submit 'Save changes', class:'btn btn-primary' %>
+      <% end %>
 
-    <div class="gravatar_edit">
-      <%= gravatar_for(@user) %>
-      <%= link_to 'Change image', 'http://gravatar.com/emails', target: '_blank' %>
+      <div class="gravatar_edit">
+        <%= gravatar_for(@user) %>
+        <%= link_to 'Change image', 'http://gravatar.com/emails', target: '_blank' %>
+      </div>
     </div>
   </div>
 </div>

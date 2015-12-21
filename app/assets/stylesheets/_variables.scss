@@ -27,7 +27,7 @@ $brand-danger:          #E74C3C !default;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               #eee !default;
+$body-bg:               $white !default;
 //** Global text color on `<body>`.
 $text-color:            $brand-primary !default;
 
@@ -106,7 +106,7 @@ $padding-xs-horizontal:     5px !default;
 $line-height-large:         1.3333333 !default; // extra decimals for Win 8.1 Chrome
 $line-height-small:         1.5 !default;
 
-$border-radius-base:        0px !default;
+$border-radius-base:        4px !default;
 $border-radius-large:       6px !default;
 $border-radius-small:       3px !default;
 
@@ -363,7 +363,7 @@ $container-lg:                 $container-large-desktop !default;
 // Basics of a navbar
 $navbar-height:                    60px !default;
 $navbar-margin-bottom:             $line-height-computed !default;
-$navbar-border-radius:             $border-radius-base !default;
+$navbar-border-radius:             0px !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
 $navbar-collapse-max-height:       340px !default;
@@ -490,7 +490,7 @@ $pager-disabled-color:                 #fff !default;
 
 $jumbotron-padding:              30px !default;
 $jumbotron-color:                inherit !default;
-$jumbotron-bg:                   $white !default;
+$jumbotron-bg:                   $gray-lighter !default;
 $jumbotron-heading-color:        inherit !default;
 $jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
 $jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;

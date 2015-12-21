@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+concert:
+  title: "Earthtone"
+  content: "Earthtone is playing at the Metropolitan"
+  created_at: <%= 4.months.ago %>
+  user_id: example_user
+
+beer_races:
+  title: "Beer Races"
+  content: "Come to the beer races in Eastport"
+  created_at: <%= 3.days.ago %>
+  user_id: example_user
+
+art_show:
+  title: "CasaliArt show"
+  content: "Rick Casali has an art show this weekend."
+  created_at: <%= 3.weeks.ago %>
+  user_id: example_user
+
+most_recent_post:
+  title: "Most recent post"
+  content: "Writing a short test"
+  created_at: <%= Time.zone.now %>
+  user_id: example_user
+
+<% 101.times do |event| %>
+eventpost_<%= event %>:
+  title: <%= Faker::Lorem.sentence(5) %>
+  content: <%= Faker::Lorem.paragraph(5) %>
+  created_at: <%= Faker::Time.between(DateTime.now - 30, DateTime.now - 1) %>
+  user_id: example_user
+<% end %>

@@ -24,7 +24,15 @@ User.create!(username: 'cbstodd',
                email: email,
                password: password,
                password_confirmation: password,
+               admin: false,
                activated: true,
                activated_at: random_date
   )
+end
+
+users = User.order(:created_at).take(50)
+33.times do
+  title = Faker::Lorem.sentence(1)
+  content = Faker::Lorem.paragraphs
+  users.each { |user| user.eventposts.create!(title: title, content: content)}
 end
