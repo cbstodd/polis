@@ -22,11 +22,12 @@
   }
 }
 
-/* EVENTPOSTS */
-
-.event-post-username {
-
+/* found in users_helper.rb */
+.img-thumbnail:hover {
+  box-shadow: 0 0 1em $gray;
 }
+
+.event-post-username {}
 
 /* ### footer ### */
 .footer {

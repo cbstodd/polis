@@ -78,6 +78,13 @@ class User < ActiveRecord::Base
     reset_sent_at < 2.hours.ago
   end
 
+  # Defines a eventpost-feed.
+  # See "Following users" for the full implementation.
+  def feed
+    Eventpost.where('user_id = ?', id)
+    # Same as self or user.eventpost
+  end
+
 
   private
 

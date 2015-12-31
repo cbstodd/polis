@@ -1,0 +1,16 @@
+<%= form_for(@eventpost) do |f| %>
+  <%= render 'shared/error_messages', object: f.object %>
+
+  <div class="form-group">
+    <%= f.label :title %>
+    <%= f.text_field :title, class:'form-control', placeholder:'Type event title here' %>
+  </div>
+
+  <div class="form-group">
+    <%= f.label :content %>
+    <%= f.text_area :content, class:'form-control', placeholder:'Type event content here...' %>
+  </div>
+
+  <%= f.submit 'Post', class:'btn btn-primary' %>
+
+<% end %>

@@ -1,5 +1,20 @@
 <% provide(:title, '') %>
 
+<% if logged_in? %>
+
+  <div class="row">
+    <div class="col-lg-4">
+      <p><%= render 'shared/user_info' %></p>
+      <p><%= render 'shared/eventpost_form' %></p>
+    </div>
+
+    <div class="col-lg-8">
+      <h3>Event feed</h3>
+      <%= render 'shared/feed' %>
+    </div>
+  </div>
+<% else %>
+
 <div class="jumbotron">
 	<div class="container">
       <h1>Polis</h1>
@@ -10,3 +25,5 @@
 		</p>
 	</div>
 </div>
+
+<% end %>

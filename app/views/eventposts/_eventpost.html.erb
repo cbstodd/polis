@@ -7,7 +7,12 @@
       <div class="col-lg-2">
         <%= link_to gravatar_for(eventpost.user), user_path(eventpost.user) %> <br>
         <div class="event-post-username">
-          <%= eventpost.user.username %>
+          <%= eventpost.user.username %> <br>
+          <% if current_user?(eventpost.user) %>
+              <%= link_to 'Delete post', eventpost, class:'btn btn-sm btn-default',
+                          method: :delete,
+                          data: { confirm: "Are you sure?"} %>
+          <% end %>
         </div>
       </div>
       <div class="col-lg-10">
@@ -15,7 +20,10 @@
       </div>
     </div>
   </div>
-  <div class="panel-footer">Posted <%= time_ago_in_words(eventpost.created_at) %> ago.</div>
+  <div class="panel-footer">
+    Posted <%= time_ago_in_words(eventpost.created_at) %> ago.
+  </div>
+
 </div>
 
 
