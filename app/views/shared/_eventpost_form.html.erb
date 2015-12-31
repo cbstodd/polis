@@ -1,4 +1,4 @@
-<%= form_for(@eventpost) do |f| %>
+<%= form_for(@eventpost, html: { multipart: true }) do |f| %>
   <%= render 'shared/error_messages', object: f.object %>
 
   <div class="form-group">
@@ -8,9 +8,23 @@
 
   <div class="form-group">
     <%= f.label :content %>
-    <%= f.text_area :content, class:'form-control', placeholder:'Type event content here...' %>
+    <%= f.cktext_area :content, class:'form-control', placeholder:'Type event content here...' %>
+  </div>
+
+  <div class="form-group">
+    <%= f.label :image_upload %>
+    <%= f.file_field :event_image, class:'btn btn-default' %>
   </div>
 
   <%= f.submit 'Post', class:'btn btn-primary' %>
 
 <% end %>
+
+<script type="text/javascript">
+  $('#eventpost_event_image').bind('change', function() {
+    var size_in_megabytes = this.files[0].size/1024/1024;
+    if (size_in_megabytes > 5) {
+      alert('Your file size is: '+ size_in_megabytes + 'MB. It cannot be larger than 5.0MB. Please choose a smaller file.');
+    }
+  });
+</script>

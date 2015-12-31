@@ -4,7 +4,7 @@
   </div>
   <div class="panel-body">
     <div class="row">
-      <div class="col-lg-2">
+      <div class="col-lg-3">
         <%= link_to gravatar_for(eventpost.user), user_path(eventpost.user) %> <br>
         <div class="event-post-username">
           <%= eventpost.user.username %> <br>
@@ -15,8 +15,9 @@
           <% end %>
         </div>
       </div>
-      <div class="col-lg-10">
-        <%= eventpost.content %>
+      <div class="col-lg-9">
+        <%= eventpost.content.html_safe %>
+        <%= image_tag eventpost.event_image.url(:medium) if eventpost.event_image? %>
       </div>
     </div>
   </div>
