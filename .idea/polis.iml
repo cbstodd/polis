@@ -267,126 +267,1383 @@
       <excludeFolder url="file://$MODULE_DIR$/components" />
       <excludeFolder url="file://$MODULE_DIR$/public/system" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cache" />
     </content>
     <orderEntry type="jdk" jdkName="rbenv: 2.1.3" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="jQuery-2.0.0" level="application" />
     <orderEntry type="library" name="jQuery UI-1.10.2" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="CFPropertyList (v2.3.2, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="actionmailer (v4.2.5, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="actionpack (v4.2.5, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="actionview (v4.2.5, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activejob (v4.2.5, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activemodel (v4.2.5, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.2.5, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.2.5, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ansi (v1.5.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="arel (v6.0.3, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.7, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="binding_of_caller (v0.7.3.pre1, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bootstrap-sass (v3.2.0.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bootstrap-will_paginate (v0.0.10, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, rbenv: 2.1.3) [gem]" level="application" />
+    <orderEntry type="module-library">
+      <library name="CFPropertyList (vbundled(2.3.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/CFPropertyList-2.3.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/CFPropertyList-2.3.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/CFPropertyList-2.3.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="actionmailer (vbundled(4.2.5), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/actionmailer-4.2.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/actionmailer-4.2.5/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/actionmailer-4.2.5/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="actionpack (vbundled(4.2.5), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/actionpack-4.2.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/actionpack-4.2.5/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/actionpack-4.2.5/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="actionview (vbundled(4.2.5), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/actionview-4.2.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/actionview-4.2.5/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/actionview-4.2.5/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="activejob (vbundled(4.2.5), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/activejob-4.2.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/activejob-4.2.5/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/activejob-4.2.5/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="activemodel (vbundled(4.2.5), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/activemodel-4.2.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/activemodel-4.2.5/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/activemodel-4.2.5/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="activerecord (vbundled(4.2.5), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/activerecord-4.2.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/activerecord-4.2.5/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/activerecord-4.2.5/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="activesupport (vbundled(4.2.5), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/activesupport-4.2.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/activesupport-4.2.5/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/activesupport-4.2.5/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ansi (vbundled(1.5.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/ansi-1.5.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ansi-1.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ansi-1.5.0/demo" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ansi-1.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ansi-1.5.0/demo" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="arel (vbundled(6.0.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/arel-6.0.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/arel-6.0.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/arel-6.0.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bcrypt (vbundled(3.1.7), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/bcrypt-3.1.7) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/bcrypt-3.1.7/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/bcrypt-3.1.7/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/bcrypt-3.1.7/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/bcrypt-3.1.7/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="binding_of_caller (vbundled(0.7.3.pre1), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/binding_of_caller-0.7.3.pre1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/binding_of_caller-0.7.3.pre1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/binding_of_caller-0.7.3.pre1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/binding_of_caller-0.7.3.pre1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/binding_of_caller-0.7.3.pre1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bootstrap-sass (vbundled(3.2.0.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/bootstrap-sass-3.2.0.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/bootstrap-sass-3.2.0.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/bootstrap-sass-3.2.0.0/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/bootstrap-sass-3.2.0.0/assets" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/bootstrap-sass-3.2.0.0/templates" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/bootstrap-sass-3.2.0.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/bootstrap-sass-3.2.0.0/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/bootstrap-sass-3.2.0.0/assets" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/bootstrap-sass-3.2.0.0/templates" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bootstrap-will_paginate (vbundled(0.0.10), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/bootstrap-will_paginate-0.0.10) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/bootstrap-will_paginate-0.0.10/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/bootstrap-will_paginate-0.0.10/config" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/bootstrap-will_paginate-0.0.10/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/bootstrap-will_paginate-0.0.10/config" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="builder (vbundled(3.2.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/builder-3.2.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/builder-3.2.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/builder-3.2.2/rakelib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/builder-3.2.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/builder-3.2.2/rakelib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="byebug (vbundled(3.4.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/byebug-3.4.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/byebug-3.4.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/byebug-3.4.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/byebug-3.4.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/byebug-3.4.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/byebug-3.4.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/byebug-3.4.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="carrierwave (vbundled(0.10.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/carrierwave-0.10.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/carrierwave-0.10.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/carrierwave-0.10.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ckeditor (vbundled(4.1.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/ckeditor-4.1.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ckeditor-4.1.2/app" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ckeditor-4.1.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ckeditor-4.1.2/config" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ckeditor-4.1.2/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ckeditor-4.1.2/app" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ckeditor-4.1.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ckeditor-4.1.2/config" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ckeditor-4.1.2/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="climate_control (vbundled(0.0.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/climate_control-0.0.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/climate_control-0.0.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/climate_control-0.0.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="cocaine (vbundled(0.5.7), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/cocaine-0.5.7) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/cocaine-0.5.7/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/cocaine-0.5.7/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="coderay (vbundled(1.1.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/coderay-1.1.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/coderay-1.1.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/coderay-1.1.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/coderay-1.1.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/coderay-1.1.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="coffee-rails (vbundled(4.1.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/coffee-rails-4.1.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/coffee-rails-4.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/coffee-rails-4.1.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/coffee-rails-4.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/coffee-rails-4.1.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="coffee-script (vbundled(2.4.1), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/coffee-script-2.4.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/coffee-script-2.4.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/coffee-script-2.4.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="coffee-script-source (vbundled(1.10.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/coffee-script-source-1.10.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/coffee-script-source-1.10.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/coffee-script-source-1.10.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="columnize (vbundled(0.9.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/columnize-0.9.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/columnize-0.9.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/columnize-0.9.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="concurrent-ruby (vbundled(1.0.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/concurrent-ruby-1.0.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/concurrent-ruby-1.0.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/concurrent-ruby-1.0.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="debug_inspector (vbundled(0.0.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/debug_inspector-0.0.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/debug_inspector-0.0.2/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/debug_inspector-0.0.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/debug_inspector-0.0.2/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/debug_inspector-0.0.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="debugger-linecache (vbundled(1.2.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/debugger-linecache-1.2.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/debugger-linecache-1.2.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/debugger-linecache-1.2.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="erubis (vbundled(2.7.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/erubis-2.7.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/erubis-2.7.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/erubis-2.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/erubis-2.7.0/contrib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/erubis-2.7.0/doc-api" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/erubis-2.7.0/benchmark" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/erubis-2.7.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/erubis-2.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/erubis-2.7.0/contrib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/erubis-2.7.0/doc-api" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/erubis-2.7.0/benchmark" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="excon (vbundled(0.45.4), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/excon-0.45.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/excon-0.45.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/excon-0.45.4/data" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/excon-0.45.4/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/excon-0.45.4/benchmarks" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/excon-0.45.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/excon-0.45.4/data" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/excon-0.45.4/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/excon-0.45.4/benchmarks" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="execjs (vbundled(2.6.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/execjs-2.6.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/execjs-2.6.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/execjs-2.6.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="faker (vbundled(1.4.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/faker-1.4.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/faker-1.4.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/faker-1.4.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ffi (vbundled(1.9.10), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/ffi-1.9.10) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ffi-1.9.10/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ffi-1.9.10/gen" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ffi-1.9.10/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ffi-1.9.10/libtest" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ffi-1.9.10/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ffi-1.9.10/gen" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ffi-1.9.10/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ffi-1.9.10/libtest" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="figaro (vbundled(1.1.1), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/figaro-1.1.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/figaro-1.1.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/figaro-1.1.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/figaro-1.1.1/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/figaro-1.1.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/figaro-1.1.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/figaro-1.1.1/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fission (vbundled(0.5.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/fission-0.5.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fission-0.5.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fission-0.5.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fission-0.5.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fission-0.5.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog (vbundled(1.26.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/fog-1.26.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-1.26.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-1.26.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-1.26.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-1.26.0/benchs" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-1.26.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-1.26.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-1.26.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-1.26.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-1.26.0/benchs" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-1.26.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-atmos (vbundled(0.1.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/fog-atmos-0.1.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-atmos-0.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-atmos-0.1.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-atmos-0.1.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-atmos-0.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-atmos-0.1.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-atmos-0.1.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-brightbox (vbundled(0.10.1), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/fog-brightbox-0.10.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-brightbox-0.10.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-brightbox-0.10.1/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-brightbox-0.10.1/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-brightbox-0.10.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-brightbox-0.10.1/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-brightbox-0.10.1/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-core (vbundled(1.35.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/fog-core-1.35.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-core-1.35.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-core-1.35.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-ecloud (vbundled(0.3.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/fog-ecloud-0.3.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-ecloud-0.3.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-ecloud-0.3.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-ecloud-0.3.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-ecloud-0.3.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-ecloud-0.3.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-ecloud-0.3.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-json (vbundled(1.0.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/fog-json-1.0.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-json-1.0.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-json-1.0.2/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-json-1.0.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-json-1.0.2/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-profitbricks (vbundled(0.0.5), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/fog-profitbricks-0.0.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-profitbricks-0.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-profitbricks-0.0.5/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-profitbricks-0.0.5/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-profitbricks-0.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-profitbricks-0.0.5/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-profitbricks-0.0.5/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-radosgw (vbundled(0.0.4), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/fog-radosgw-0.0.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-radosgw-0.0.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-radosgw-0.0.4/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-radosgw-0.0.4/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-radosgw-0.0.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-radosgw-0.0.4/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-radosgw-0.0.4/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-sakuracloud (vbundled(1.7.5), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/fog-sakuracloud-1.7.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-sakuracloud-1.7.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-sakuracloud-1.7.5/tests" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-sakuracloud-1.7.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-sakuracloud-1.7.5/tests" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-softlayer (vbundled(1.0.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/fog-softlayer-1.0.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-softlayer-1.0.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-softlayer-1.0.2/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-softlayer-1.0.2/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-softlayer-1.0.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-softlayer-1.0.2/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-softlayer-1.0.2/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-storm_on_demand (vbundled(0.1.1), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/fog-storm_on_demand-0.1.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-storm_on_demand-0.1.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-storm_on_demand-0.1.1/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-storm_on_demand-0.1.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-storm_on_demand-0.1.1/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-terremark (vbundled(0.1.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/fog-terremark-0.1.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-terremark-0.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-terremark-0.1.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-terremark-0.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-terremark-0.1.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-vmfusion (vbundled(0.1.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/fog-vmfusion-0.1.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-vmfusion-0.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-vmfusion-0.1.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-vmfusion-0.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-vmfusion-0.1.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-voxel (vbundled(0.1.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/fog-voxel-0.1.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-voxel-0.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-voxel-0.1.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-voxel-0.1.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-voxel-0.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-voxel-0.1.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-voxel-0.1.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fog-xml (vbundled(0.1.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/fog-xml-0.1.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-xml-0.1.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-xml-0.1.2/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-xml-0.1.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/fog-xml-0.1.2/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="formatador (vbundled(0.2.5), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/formatador-0.2.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/formatador-0.2.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/formatador-0.2.5/tests" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/formatador-0.2.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/formatador-0.2.5/tests" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="globalid (vbundled(0.3.6), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/globalid-0.3.6) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/globalid-0.3.6/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/globalid-0.3.6/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="guard (vbundled(2.13.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/guard-2.13.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/guard-2.13.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/guard-2.13.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/guard-2.13.0/man" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/guard-2.13.0/images" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/guard-2.13.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/guard-2.13.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/guard-2.13.0/man" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/guard-2.13.0/images" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="guard-minitest (vbundled(2.3.1), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/guard-minitest-2.3.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/guard-minitest-2.3.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/guard-minitest-2.3.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="i18n (vbundled(0.7.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/i18n-0.7.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/i18n-0.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/i18n-0.7.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/i18n-0.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/i18n-0.7.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="inflecto (vbundled(0.0.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/inflecto-0.0.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/inflecto-0.0.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/inflecto-0.0.2/config" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/inflecto-0.0.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/inflecto-0.0.2/config" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ipaddress (vbundled(0.8.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/ipaddress-0.8.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ipaddress-0.8.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ipaddress-0.8.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbuilder (vbundled(2.2.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/jbuilder-2.2.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/jbuilder-2.2.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/jbuilder-2.2.3/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/jbuilder-2.2.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/jbuilder-2.2.3/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jquery-rails (vbundled(4.0.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/jquery-rails-4.0.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/jquery-rails-4.0.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/jquery-rails-4.0.3/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/jquery-rails-4.0.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/jquery-rails-4.0.3/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="json (vbundled(1.8.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/json-1.8.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/json-1.8.3/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/json-1.8.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/json-1.8.3/data" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/json-1.8.3/java" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/json-1.8.3/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/json-1.8.3/tools" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/json-1.8.3/diagrams" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/json-1.8.3/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/json-1.8.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/json-1.8.3/data" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/json-1.8.3/java" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/json-1.8.3/tests" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/json-1.8.3/tools" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/json-1.8.3/diagrams" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="listen (vbundled(3.0.5), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/listen-3.0.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/listen-3.0.5/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/listen-3.0.5/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/listen-3.0.5/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/listen-3.0.5/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="loofah (vbundled(2.0.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/loofah-2.0.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/loofah-2.0.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/loofah-2.0.3/benchmark" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/loofah-2.0.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/loofah-2.0.3/benchmark" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="lumberjack (vbundled(1.0.9), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/lumberjack-1.0.9) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/lumberjack-1.0.9/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/lumberjack-1.0.9/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mail (vbundled(2.6.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/mail-2.6.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/mail-2.6.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/mail-2.6.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="method_source (vbundled(0.8.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/method_source-0.8.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/method_source-0.8.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/method_source-0.8.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mime-types (vbundled(2.99), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/mime-types-2.99) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/mime-types-2.99/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/mime-types-2.99/data" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/mime-types-2.99/support" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/mime-types-2.99/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/mime-types-2.99/data" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/mime-types-2.99/support" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mini_backtrace (vbundled(0.1.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/mini_backtrace-0.1.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/mini_backtrace-0.1.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/mini_backtrace-0.1.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mini_portile2 (vbundled(2.0.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/mini_portile2-2.0.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/mini_portile2-2.0.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/mini_portile2-2.0.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="minitest (vbundled(5.8.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/minitest-5.8.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/minitest-5.8.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/minitest-5.8.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="minitest-reporters (vbundled(1.0.5), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/minitest-reporters-1.0.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/minitest-reporters-1.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/minitest-reporters-1.0.5/assets" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/minitest-reporters-1.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/minitest-reporters-1.0.5/assets" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="multi_json (vbundled(1.11.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/multi_json-1.11.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/multi_json-1.11.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/multi_json-1.11.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="nenv (vbundled(0.2.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/nenv-0.2.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/nenv-0.2.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/nenv-0.2.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="net-ssh (vbundled(3.0.1), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/net-ssh-3.0.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/net-ssh-3.0.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/net-ssh-3.0.1/support" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/net-ssh-3.0.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/net-ssh-3.0.1/support" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="nokogiri (vbundled(1.6.7.1), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/nokogiri-1.6.7.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/nokogiri-1.6.7.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/nokogiri-1.6.7.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/nokogiri-1.6.7.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/nokogiri-1.6.7.1/ports" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/nokogiri-1.6.7.1/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/nokogiri-1.6.7.1/patches" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/nokogiri-1.6.7.1/suppressions" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/nokogiri-1.6.7.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/nokogiri-1.6.7.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/nokogiri-1.6.7.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/nokogiri-1.6.7.1/ports" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/nokogiri-1.6.7.1/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/nokogiri-1.6.7.1/patches" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/nokogiri-1.6.7.1/suppressions" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="notiffany (vbundled(0.0.8), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/notiffany-0.0.8) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/notiffany-0.0.8/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/notiffany-0.0.8/images" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/notiffany-0.0.8/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/notiffany-0.0.8/images" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="orm_adapter (vbundled(0.5.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/orm_adapter-0.5.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/orm_adapter-0.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/orm_adapter-0.5.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/orm_adapter-0.5.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/orm_adapter-0.5.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pg (vbundled(0.17.1), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/pg-0.17.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/pg-0.17.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/pg-0.17.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/pg-0.17.1/sample" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/pg-0.17.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/pg-0.17.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/pg-0.17.1/sample" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pry (vbundled(0.10.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/pry-0.10.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/pry-0.10.3/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/pry-0.10.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/pry-0.10.3/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/pry-0.10.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pry-rails (vbundled(0.3.4), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/pry-rails-0.3.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/pry-rails-0.3.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/pry-rails-0.3.4/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/pry-rails-0.3.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/pry-rails-0.3.4/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="puma (vbundled(2.15.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/puma-2.15.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/puma-2.15.3/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/puma-2.15.3/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/puma-2.15.3/tools" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/puma-2.15.3/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/puma-2.15.3/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/puma-2.15.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/puma-2.15.3/tools" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rack (vbundled(1.6.4), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/rack-1.6.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rack-1.6.4/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rack-1.6.4/contrib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rack-1.6.4/example" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rack-1.6.4/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rack-1.6.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rack-1.6.4/contrib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rack-1.6.4/example" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rack-test (vbundled(0.6.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/rack-test-0.6.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rack-test-0.6.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rack-test-0.6.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rails (vbundled(4.2.5), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/rails-4.2.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails-4.2.5/guides" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails-4.2.5/guides" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rails-deprecated_sanitizer (vbundled(1.0.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/rails-deprecated_sanitizer-1.0.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails-deprecated_sanitizer-1.0.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails-deprecated_sanitizer-1.0.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rails-dom-testing (vbundled(1.0.7), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/rails-dom-testing-1.0.7) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails-dom-testing-1.0.7/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails-dom-testing-1.0.7/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rails-html-sanitizer (vbundled(1.0.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/rails-html-sanitizer-1.0.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails-html-sanitizer-1.0.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails-html-sanitizer-1.0.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rails_12factor (vbundled(0.0.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/rails_12factor-0.0.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails_12factor-0.0.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails_12factor-0.0.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rails_serve_static_assets (vbundled(0.0.4), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/rails_serve_static_assets-0.0.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails_serve_static_assets-0.0.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails_serve_static_assets-0.0.4/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails_serve_static_assets-0.0.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails_serve_static_assets-0.0.4/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rails_stdout_logging (vbundled(0.0.4), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/rails_stdout_logging-0.0.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails_stdout_logging-0.0.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails_stdout_logging-0.0.4/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails_stdout_logging-0.0.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails_stdout_logging-0.0.4/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="railties (vbundled(4.2.5), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/railties-4.2.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/railties-4.2.5/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/railties-4.2.5/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/railties-4.2.5/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/railties-4.2.5/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rake (vbundled(10.4.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/rake-10.4.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rake-10.4.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rake-10.4.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rake-10.4.2/rakelib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rake-10.4.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rake-10.4.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rake-10.4.2/rakelib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rb-fsevent (vbundled(0.9.7), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/rb-fsevent-0.9.7) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rb-fsevent-0.9.7/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rb-fsevent-0.9.7/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rb-fsevent-0.9.7/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rb-fsevent-0.9.7/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rb-fsevent-0.9.7/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rb-fsevent-0.9.7/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rb-inotify (vbundled(0.9.5), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/rb-inotify-0.9.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rb-inotify-0.9.5/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rb-inotify-0.9.5/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rdoc (vbundled(4.2.1), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/rdoc-4.2.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rdoc-4.2.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rdoc-4.2.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rdoc-4.2.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rdoc-4.2.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rmagick (vbundled(2.15.4), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/rmagick-2.15.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rmagick-2.15.4/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rmagick-2.15.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rmagick-2.15.4/deprecated" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rmagick-2.15.4/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rmagick-2.15.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rmagick-2.15.4/deprecated" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ruby-progressbar (vbundled(1.7.5), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/ruby-progressbar-1.7.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ruby-progressbar-1.7.5/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ruby-progressbar-1.7.5/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sass (vbundled(3.4.20), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/sass-3.4.20) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sass-3.4.20/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sass-3.4.20/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sass-3.4.20/extra" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sass-3.4.20/rails" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sass-3.4.20/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sass-3.4.20/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sass-3.4.20/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sass-3.4.20/extra" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sass-3.4.20/rails" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sass-3.4.20/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sass-rails (vbundled(5.0.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/sass-rails-5.0.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sass-rails-5.0.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sass-rails-5.0.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sdoc (vbundled(0.4.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/sdoc-0.4.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sdoc-0.4.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sdoc-0.4.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sdoc-0.4.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sdoc-0.4.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="shellany (vbundled(0.0.1), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/shellany-0.0.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/shellany-0.0.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/shellany-0.0.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slop (vbundled(3.6.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/slop-3.6.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/slop-3.6.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/slop-3.6.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spring (vbundled(1.1.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/spring-1.1.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/spring-1.1.3/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/spring-1.1.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/spring-1.1.3/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/spring-1.1.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sprockets (vbundled(3.5.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/sprockets-3.5.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sprockets-3.5.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sprockets-3.5.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sprockets-3.5.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sprockets-3.5.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sprockets-rails (vbundled(3.0.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/sprockets-rails-3.0.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sprockets-rails-3.0.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sprockets-rails-3.0.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sqlite3 (vbundled(1.3.9), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/sqlite3-1.3.9) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sqlite3-1.3.9/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sqlite3-1.3.9/faq" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sqlite3-1.3.9/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sqlite3-1.3.9/tasks" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sqlite3-1.3.9/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sqlite3-1.3.9/faq" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sqlite3-1.3.9/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sqlite3-1.3.9/tasks" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="thor (vbundled(0.19.1), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/thor-0.19.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/thor-0.19.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/thor-0.19.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/thor-0.19.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/thor-0.19.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="thread_safe (vbundled(0.3.5), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/thread_safe-0.3.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/thread_safe-0.3.5/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/thread_safe-0.3.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/thread_safe-0.3.5/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/thread_safe-0.3.5/yard-template" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/thread_safe-0.3.5/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/thread_safe-0.3.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/thread_safe-0.3.5/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/thread_safe-0.3.5/yard-template" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tilt (vbundled(1.4.1), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/tilt-1.4.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/tilt-1.4.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/tilt-1.4.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/tilt-1.4.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/tilt-1.4.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="turbolinks (vbundled(2.3.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/turbolinks-2.3.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/turbolinks-2.3.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/turbolinks-2.3.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tzinfo (vbundled(1.2.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/tzinfo-1.2.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/tzinfo-1.2.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/tzinfo-1.2.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="uglifier (vbundled(2.5.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/uglifier-2.5.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/uglifier-2.5.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/uglifier-2.5.3/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/uglifier-2.5.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/uglifier-2.5.3/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="web-console (vbundled(2.0.0.beta3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/web-console-2.0.0.beta3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/web-console-2.0.0.beta3/app" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/web-console-2.0.0.beta3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/web-console-2.0.0.beta3/config" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/web-console-2.0.0.beta3/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/web-console-2.0.0.beta3/app" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/web-console-2.0.0.beta3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/web-console-2.0.0.beta3/config" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/web-console-2.0.0.beta3/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="will_paginate (vbundled(3.0.7), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/will_paginate-3.0.7) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/will_paginate-3.0.7/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/will_paginate-3.0.7/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.10.6, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="byebug (v3.4.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="carrierwave (v0.10.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ckeditor (v4.1.2, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="climate_control (v0.0.3, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="cocaine (v0.5.7, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="coderay (v1.1.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.1.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.4.1, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.10.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="columnize (v0.9.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.0.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="debug_inspector (v0.0.2, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="debugger-linecache (v1.2.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="excon (v0.45.4, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="execjs (v2.6.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="faker (v1.4.2, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.10, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="figaro (v1.1.1, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fission (v0.5.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog (v1.26.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-atmos (v0.1.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-brightbox (v0.10.1, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-core (v1.35.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-ecloud (v0.3.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-json (v1.0.2, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-profitbricks (v0.0.5, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-radosgw (v0.0.4, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-sakuracloud (v1.7.5, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-softlayer (v1.0.2, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-storm_on_demand (v0.1.1, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-terremark (v0.1.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-vmfusion (v0.1.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-voxel (v0.1.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-xml (v0.1.2, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="formatador (v0.2.5, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="globalid (v0.3.6, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="guard (v2.13.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="guard-minitest (v2.3.1, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="i18n (v0.7.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="inflecto (v0.0.2, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ipaddress (v0.8.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.2.3, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.0.3, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="json (v1.8.3, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="listen (v3.0.5, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="loofah (v2.0.3, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="lumberjack (v1.0.9, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mail (v2.6.3, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="method_source (v0.8.2, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mime-types (v2.99, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mini_backtrace (v0.1.3, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mini_magick (v3.8.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.0.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.8.3, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="minitest-reporters (v1.0.5, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.11.2, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="nenv (v0.2.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="net-ssh (v3.0.1, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.6.7.1, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="notiffany (v0.0.8, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.5.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="pg (v0.17.1, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="pry (v0.10.3, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="pry-rails (v0.3.4, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="puma (v2.15.3, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rack (v1.6.4, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.3, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails (v4.2.5, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails-deprecated_sanitizer (v1.0.3, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails-dom-testing (v1.0.7, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.0.2, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails_12factor (v0.0.2, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails_serve_static_assets (v0.0.4, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails_stdout_logging (v0.0.4, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="railties (v4.2.5, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rake (v10.4.2, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rb-fsevent (v0.9.7, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rb-inotify (v0.9.5, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rdoc (v4.2.1, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ruby-progressbar (v1.7.5, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sass (v3.4.20, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sass-rails (v5.0.2, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.4.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="shellany (v0.0.1, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="slop (v3.6.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spring (v1.1.3, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.5.2, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.0.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.3.9, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="subexec (v0.2.3, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="thor (v0.19.1, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.5, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tilt (v1.4.1, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="turbolinks (v2.3.0, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.2, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.5.3, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="web-console (v2.0.0.beta3, rbenv: 2.1.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="will_paginate (v3.0.7, rbenv: 2.1.3) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />

@@ -1,0 +1,16 @@
+current directory: /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/binding_of_caller-0.7.3.pre1/ext/binding_of_caller
+/usr/local/opt/rbenv/versions/2.1.3/bin/ruby -r ./siteconf20160104-42025-1dt4bmr.rb extconf.rb
+
+current directory: /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/binding_of_caller-0.7.3.pre1/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/binding_of_caller-0.7.3.pre1/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/binding_of_caller-0.7.3.pre1/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.

@@ -31,7 +31,7 @@ User.create!(username: 'cbstodd',
 end
 
 users = User.order(:created_at).take(50)
-33.times do
+10.times do
   title = Faker::Lorem.sentence(1)
   content = Faker::Lorem.paragraphs
   users.each { |user| user.eventposts.create!(title: title, content: content)}

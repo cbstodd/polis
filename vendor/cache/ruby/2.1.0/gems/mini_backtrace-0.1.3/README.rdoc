@@ -1,0 +1,18 @@
+
+= MiniBacktrace
+
+MiniBacktrace allows you to take advantage of the Rails.backtrace_cleaner when using MiniTest. This includes everyone using Rails 3 with Ruby 1.9.
+
+
+= Usage
+
+Just add 'mini_backtrace' to your Gemfile's :test group and your should automatically see a huge difference. Any additions to the Rails.backtrace_cleaner should now work.
+
+  Rails.backtrace_cleaner.add_silencer { |line| line =~ /my_noisy_library/ }
+
+
+= Code
+
+* http://github.com/metaskills/mini_backtrace
+
+

@@ -1,0 +1,16 @@
+current directory: /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+/usr/local/opt/rbenv/versions/2.1.3/bin/ruby -r ./siteconf20160104-42025-s8hdaz.rb extconf.rb
+creating Makefile
+
+current directory: /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20160104-42025-1yr8qyk
+installing default debug_inspector libraries
