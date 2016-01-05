@@ -14,4 +14,3 @@
 
 # Ignore application configuration
 /config/application.yml
-/public/uploads/eventpost/event_image/
