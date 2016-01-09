@@ -1,8 +1,8 @@
 # USERS
-User.create!(username: 'cbstodd',
-             email: 'cbstodd@gmail.com',
-             password: 'password1',
-             password_confirmation: 'password1',
+User.create!(username: 'ADMIN_USERNAME',
+             email: 'ADMIN_EMAIL',
+             password: 'ADMIN_PASSWORD',
+             password_confirmation: 'ADMIN_PASSWORD',
              admin: true,
              activated: true,
              activated_at: Time.zone.now
