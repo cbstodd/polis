@@ -1,11 +1,18 @@
 <% @user ||= current_user %>
+<div class="stats">
 
-<div id="stats"><!-- *= & stat AJAX IDs =* -->
-  <a href="<%= following_user_path(@user) %>">Following
-    <span id="stat" class="badge"><%= @user.following.count %></span>
+  <a href="<%= following_user_path(@user) %>">
+    following:
+    <strong id="following" class="stat">
+      <%= @user.following.count %>
+    </strong>
   </a>
   |
-  <a href="<%= following_user_path(@user) %>">Followers
-    <span id="stat" class="badge"><%= @user.followers.count %></span>
+  <a href="<%= followers_user_path(@user) %>">
+    followers:
+    <strong id="followers" class="stat">
+      <%= @user.followers.count %>
+    </strong>
+
   </a>
 </div>
