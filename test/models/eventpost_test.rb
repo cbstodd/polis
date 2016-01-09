@@ -3,7 +3,7 @@ require 'test_helper'
 class EventpostTest < ActiveSupport::TestCase
 
   def setup
-    @user = users(:example_user)
+    @user = users(:tommy)
     @eventpost = @user.eventposts.build(title: 'Event title',
                                         content: 'Content text here')
   end

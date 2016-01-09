@@ -83,16 +83,41 @@ class UserTest < ActiveSupport::TestCase
   end
 
   test 'should follow and unfollow a user' do
-    colin = users(:example_user)
-    tommy = users(:example_user_two)
+    tommy = users(:tommy)
+    tommy = users(:charlotte)
 
-    assert_not colin.following?(tommy)
-    colin.follow(tommy)
-    assert colin.following?(tommy)
-    assert tommy.followers.include?(colin)
+    assert_not tommy.following?(tommy)
+    tommy.follow(tommy)
+    assert tommy.following?(tommy)
+    assert tommy.followers.include?(tommy)
 
-    colin.unfollow(tommy)
-    assert_not colin.following?(tommy)
+    tommy.unfollow(tommy)
+    assert_not tommy.following?(tommy)
+  end
+
+  # Status feed #
+  test "feed should have the right posts" do
+    tommy =     users(:tommy)
+    charlotte = users(:charlotte)
+    riggins =   users(:riggins)
+
+    # Posts from the followed user
+    # Tommy should see riggins posts.
+    riggins.eventposts.each do |post_following|
+      assert tommy.feed.include?(post_following)
+    end
+
+    # Post from self
+    # Tommy should see his own posts.
+    tommy.eventposts.each do |post_self|
+      assert tommy.feed.include?(post_self)
+    end
+
+    # Posts from unfollowed user
+    # Tommy should NOT see charlotte's posts.
+    charlotte.eventposts.each do |post_unfollowed|
+      assert_not tommy.feed.include?(post_unfollowed)
+    end
   end
 
 

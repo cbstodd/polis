@@ -88,8 +88,18 @@ class User < ActiveRecord::Base
 
   # Defines a eventpost-feed.
   # See "Following users" for the full implementation.
+  # [1, 2, 3, 4].map(&:to_s).join(', ') or
+  # Similar to User.first.following_ids.join(', ')
+
+  #SELECT * FROM microposts
+  #WHERE user_id IN (SELECT followed_id FROM relationships
+  #   WHERE  follower_id = 1)
+  #   OR user_id = 1
   def feed
-    Eventpost.where('user_id = ?', id)
+    following_ids = "SELECT followed_id FROM relationships
+                     WHERE  follower_id = :user_id"
+    Eventpost.where("user_id IN (#{following_ids})
+                     OR user_id = :user_id", user_id: id)
     # Same as self or user.eventpost
   end
 

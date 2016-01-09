@@ -8,7 +8,7 @@ User.create!(username: 'cbstodd',
              activated_at: Time.zone.now
 )
 
-99.times do |num|
+50.times do |num|
   username = Faker::Name.name
   random_date = Faker::Time.between(30.days.ago - 1, DateTime.now)
   email = Faker::Internet.email
@@ -28,8 +28,8 @@ end
 users = User.order(:created_at).take(50)
 10.times do
   title = Faker::Lorem.sentence(1)
-  content = Faker::Lorem.paragraphs
-  users.each { |user| user.eventposts.create!(title: title, content: content)}
+  content = Faker::Lorem.paragraphs.join('<br><br>')
+  users.each { |user| user.eventposts.create!(title: title, content: content) }
 end
 
 # FOLLOWING RELATIONSHIPS

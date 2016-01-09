@@ -3,7 +3,7 @@ require 'test_helper'
 class EventpostsInterfaceTest < ActionDispatch::IntegrationTest
 
   def setup
-    @user = users(:admin_user)
+    @user = users(:colin)
   end
 
   test "eventpost interface" do
@@ -37,7 +37,7 @@ class EventpostsInterfaceTest < ActionDispatch::IntegrationTest
     end
 
     # Visit a different user.
-    get user_path(users(:example_user_two))
+    get user_path(users(:charlotte))
     assert_select 'a', text: 'Delete post', count: 0
 
   end

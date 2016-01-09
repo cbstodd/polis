@@ -5,7 +5,7 @@ class UsersProfileTest < ActionDispatch::IntegrationTest
   # Includes the Application helper to add (full_title) helper.
 
   def setup
-    @user = users(:example_user)
+    @user = users(:tommy)
   end
 
   test "profile display" do

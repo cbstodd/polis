@@ -22,7 +22,7 @@ class EventpostsControllerTest < ActionController::TestCase
   end
 
   test "should redirect destroy for wrong eventpost" do
-    log_in_as(users(:example_user))
+    log_in_as(users(:tommy))
     assert_no_difference 'Eventpost.count' do
       delete :destroy, id: eventposts(:damn_right)
     end

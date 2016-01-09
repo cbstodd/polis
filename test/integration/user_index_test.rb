@@ -3,8 +3,8 @@ require 'test_helper'
 class UserIndexTest < ActionDispatch::IntegrationTest
 
   def setup
-    @user = users(:example_user)
-    @admin_user = users(:admin_user)
+    @admin_user = users(:colin)
+    @user = users(:tommy)
   end
 
   test 'index including pagination' do

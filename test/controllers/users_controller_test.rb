@@ -3,9 +3,9 @@ require 'test_helper'
 class UsersControllerTest < ActionController::TestCase
 
   def setup
-    @user = users(:example_user)
-    @another_user = users(:example_user_two)
-    @admin_user = users(:admin_user)
+    @user = users(:charlotte)
+    @another_user = users(:tommy)
+    @admin_user = users(:colin)
   end
 
   test 'should redirect index to login_path when not logged in' do
