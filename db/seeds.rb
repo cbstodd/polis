@@ -1,8 +1,8 @@
 # USERS
-User.create!(username: 'ADMIN_USERNAME',
-             email: 'ADMIN_EMAIL',
-             password: 'ADMIN_PASSWORD',
-             password_confirmation: 'ADMIN_PASSWORD',
+User.create!(username: ENV['ADMIN_USERNAME'],
+             email: ENV['ADMIN_EMAIL'],
+             password: ENV['ADMIN_PASSWORD'],
+             password_confirmation: ENV['ADMIN_PASSWORD'],
              admin: true,
              activated: true,
              activated_at: Time.zone.now
