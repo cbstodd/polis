@@ -26,6 +26,11 @@ span.eventposts {
   }
 }
 
+.follow-avatars > img {
+  max-width: 30px;
+
+}
+
 /* found in users_helper.rb */
 .img-thumbnail:hover {
   box-shadow: 0 0 1em $gray;

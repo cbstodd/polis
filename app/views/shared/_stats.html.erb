@@ -1,0 +1,11 @@
+<% @user ||= current_user %>
+
+<div id="stats"><!-- *= & stat AJAX IDs =* -->
+  <a href="<%= following_user_path(@user) %>">Following
+    <span id="stat" class="badge"><%= @user.following.count %></span>
+  </a>
+  |
+  <a href="<%= following_user_path(@user) %>">Followers
+    <span id="stat" class="badge"><%= @user.followers.count %></span>
+  </a>
+</div>

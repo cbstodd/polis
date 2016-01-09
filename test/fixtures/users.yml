@@ -43,7 +43,7 @@ example_user_five:
   activated: true
   activated_at: <%= Time.zone.now %>
 
-<% 30.times do |num| %>
+<% 35.times do |num| %>
 user_<%= num %>:
   username: <%= "User #{num}" %>
   email: <%= "user-#{num}@example.com" %>

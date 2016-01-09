@@ -16,7 +16,9 @@
         </div>
       </div>
       <div class="col-lg-9">
-        <span class="eventposts"><%= eventpost.content.html_safe %></span>
+        <span class="eventposts
+
+        "><%= eventpost.content.html_safe %></span>
 
         <%= image_tag(eventpost.event_image.url(:medium), class: 'img-responsive img-rounded center-block') if eventpost.event_image? %>
 
