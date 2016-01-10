@@ -5,8 +5,15 @@ class EventpostsInterfaceTest < ActionDispatch::IntegrationTest
   def setup
     @user = users(:colin)
   end
+  #
+  test "eventpost interface on Event page" do
+    log_in_as(@user)
+    get events_path
+    assert_template 'eventposts/index'
+    assert_select 'h1', 'Events'
+  end
 
-  test "eventpost interface" do
+  test "eventpost interface on user page" do
     log_in_as(@user)
     get root_path
     assert_template root_path

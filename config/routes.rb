@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get  'about'   => 'static_pages#about'
   get  'contact' => 'static_pages#contact'
   get  'help'    => 'static_pages#help'
+  get 'events' => 'eventposts#index'
 
   #USERS
   resources :users do
@@ -23,8 +24,8 @@ Rails.application.routes.draw do
 
   resources :account_activations, only: [:edit]
   resources :password_resets,     only: [:new, :create, :edit, :update]
-  resources :eventposts,          only: [:index, :create, :destroy]
   resources :relationships,       only: [:create, :destroy]
+  resources :eventposts,          only: [:create, :destroy]
 
   mount Ckeditor::Engine => '/ckeditor'
 
