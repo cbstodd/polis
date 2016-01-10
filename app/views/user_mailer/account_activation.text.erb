@@ -1,8 +1,8 @@
-Welcome to Polis  <%= @user.email %>,
+Welcome to Polis  <%= @user.username %>,
 
 To activate your account you need to copy and paste the link below into your browser.
 
 <%= edit_account_activation_url(@user.activation_token, email: @user.email) %>
 
-If you think this message is a mistake, please disregard this message.
+If you think this message was sent by mistake, please disregard this message.
 
