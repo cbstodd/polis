@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f21599c-23c1-4e3f-bc54-6d2b848dba33" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/user_mailer.rb" afterPath="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
     </list>
     <ignored path="polis.iws" />
@@ -17,7 +16,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/polis@All_tests_in_test__polis.coverage" NAME="All tests in test: polis Coverage Results" MODIFIED="1452399210766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="polis" />
+    <SUITE FILE_PATH="coverage/polis@All_tests_in_test__polis.coverage" NAME="All tests in test: polis Coverage Results" MODIFIED="1452441722653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="polis" />
     <SUITE FILE_PATH="coverage/polis@All_tests_in_controllers__polis.coverage" NAME="All tests in controllers: polis Coverage Results" MODIFIED="1448158937042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="polis" />
     <SUITE FILE_PATH="coverage/polis@test__polis.coverage" NAME="test: polis Coverage Results" MODIFIED="1448226735284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="polis" />
     <SUITE FILE_PATH="coverage/polis@All_tests_in_integration__polis.coverage" NAME="All tests in integration: polis Coverage Results" MODIFIED="1451586552031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="polis" />
@@ -82,25 +81,42 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
                   <caret line="75" column="23" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="33" />
-                  <folding />
+                  <folding>
+                    <marker date="1452439500000" expanded="true" signature="669:700" placeholder="{ ... }" />
+                    <marker date="1452439500000" expanded="true" signature="1346:1505" placeholder=" ... end" />
+                    <marker date="1452439500000" expanded="true" signature="1555:1593" placeholder=" ... end" />
+                    <marker date="1452439500000" expanded="true" signature="1682:1797" placeholder=" ... end" />
+                    <marker date="1452439500000" expanded="true" signature="1831:1881" placeholder=" ... end" />
+                    <marker date="1452439500000" expanded="true" signature="1977:2109" placeholder=" ... end" />
+                    <marker date="1452439500000" expanded="true" signature="2151:2250" placeholder=" ... end" />
+                    <marker date="1452439500000" expanded="true" signature="2306:2364" placeholder=" ... end" />
+                    <marker date="1452439500000" expanded="true" signature="2434:2592" placeholder=" ... end" />
+                    <marker date="1452439500000" expanded="true" signature="2656:2710" placeholder=" ... end" />
+                    <marker date="1452439500000" expanded="true" signature="2791:2829" placeholder=" ... end" />
+                    <marker date="1452439500000" expanded="true" signature="3283:3546" placeholder=" ... end" />
+                    <marker date="1452439500000" expanded="true" signature="3594:3660" placeholder=" ... end" />
+                    <marker date="1452439500000" expanded="true" signature="3710:3785" placeholder=" ... end" />
+                    <marker date="1452439500000" expanded="true" signature="3881:3927" placeholder=" ... end" />
+                    <marker date="1452439500000" expanded="true" signature="4003:4045" placeholder=" ... end" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="user_mailer.rb" pinned="false" current-in-tab="false">
+          <file leaf-file-name="user_mailer.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.30555555">
+                  <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+          <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/application.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
                   <folding />
                 </state>
@@ -111,7 +127,7 @@
             <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+                  <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
                   <folding />
                 </state>
               </provider>
@@ -758,7 +774,7 @@
       <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: polis">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.All tests in test: polis">
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -979,9 +995,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_tests_in_test__polis - 2016.01.09 at 22h 15m 32s.xml">
-      <configuration name="All tests in test: polis" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="All_tests_in_test__polis - 2016.01.09 at 22h 15m 59s.xml">
       <configuration name="All tests in test: polis" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
@@ -1007,6 +1020,9 @@
       <configuration name="All tests in test: polis" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
     <history-entry file="All_tests_in_test__polis - 2016.01.09 at 23h 13m 42s.xml">
+      <configuration name="All tests in test: polis" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_tests_in_test__polis - 2016.01.10 at 11h 02m 15s.xml">
       <configuration name="All tests in test: polis" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
   </component>
@@ -1151,6 +1167,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.110749185">
           <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1421,6 +1438,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="75" column="23" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="33" />
+          <folding>
+            <marker date="1452439500000" expanded="true" signature="669:700" placeholder="{ ... }" />
+            <marker date="1452439500000" expanded="true" signature="1346:1505" placeholder=" ... end" />
+            <marker date="1452439500000" expanded="true" signature="1555:1593" placeholder=" ... end" />
+            <marker date="1452439500000" expanded="true" signature="1682:1797" placeholder=" ... end" />
+            <marker date="1452439500000" expanded="true" signature="1831:1881" placeholder=" ... end" />
+            <marker date="1452439500000" expanded="true" signature="1977:2109" placeholder=" ... end" />
+            <marker date="1452439500000" expanded="true" signature="2151:2250" placeholder=" ... end" />
+            <marker date="1452439500000" expanded="true" signature="2306:2364" placeholder=" ... end" />
+            <marker date="1452439500000" expanded="true" signature="2434:2592" placeholder=" ... end" />
+            <marker date="1452439500000" expanded="true" signature="2656:2710" placeholder=" ... end" />
+            <marker date="1452439500000" expanded="true" signature="2791:2829" placeholder=" ... end" />
+            <marker date="1452439500000" expanded="true" signature="3283:3546" placeholder=" ... end" />
+            <marker date="1452439500000" expanded="true" signature="3594:3660" placeholder=" ... end" />
+            <marker date="1452439500000" expanded="true" signature="3710:3785" placeholder=" ... end" />
+            <marker date="1452439500000" expanded="true" signature="3881:3927" placeholder=" ... end" />
+            <marker date="1452439500000" expanded="true" signature="4003:4045" placeholder=" ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22222222">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1436,31 +1486,15 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22222222">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.30555555">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
           <folding />
         </state>
       </provider>
