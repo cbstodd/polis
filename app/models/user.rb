@@ -86,6 +86,12 @@ class User < ActiveRecord::Base
     reset_sent_at < 2.hours.ago
   end
 
+  def send_admin_user_email
+    @admin_email = User.first.email
+    UserMailer.account_activation(self).deliver_now
+  end
+
+
   # Defines a eventpost-feed.
   # See "Following users" for the full implementation.
   # [1, 2, 3, 4].map(&:to_s).join(', ') or
