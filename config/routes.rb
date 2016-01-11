@@ -13,7 +13,12 @@ Rails.application.routes.draw do
     member do
       get :following, :followers
     end
+    member do
+      get :eventposts, as: :events
+    end
+
   end
+
   get 'signup' => 'users#new'
   get 'user'   => 'users#show'
 

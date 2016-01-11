@@ -5,30 +5,27 @@
   <div class="panel-body">
     <div class="row">
       <div class="col-lg-3">
-        <%= link_to gravatar_for(eventpost.user), user_path(eventpost.user) %> <br>
+        <%= link_to gravatar_for(eventpost.user), user_path(eventpost.user) %>
+        <br>
         <div class="event-post-username">
-          <%= eventpost.user.username %> <br>
+          <%= eventpost.user.username %>
+          <br>
           <% if current_user?(eventpost.user) %>
-              <%= link_to 'Delete post', eventpost, class:'btn btn-sm btn-default',
-                          method: :delete,
-                          data: { confirm: "Are you sure?" } %>
+          <%= link_to 'Delete post', eventpost, class:'btn btn-sm btn-default',
+                        method: :delete,
+                      data: { confirm: "Are you sure?" } %>
           <% end %>
         </div>
       </div>
       <div class="col-lg-9">
-        <span class="eventposts
-
-        "><%= eventpost.content.html_safe %></span>
-
-        <%= image_tag(eventpost.event_image.url(:medium), class: 'img-responsive img-rounded center-block') if eventpost.event_image? %>
-
+        <span class="eventposts"><%= eventpost.content.html_safe %></span>
+        <%= image_tag(eventpost.event_image.url(:medium), class: 'img-responsive img-roundedter-block') if eventpost.event_image? %>
       </div>
     </div>
   </div>
   <div class="panel-footer">
-    Posted <%= time_ago_in_words(eventpost.created_at) %> ago.
+    Posted
+    <%= time_ago_in_words(eventpost.created_at) %>
+    ago.
   </div>
-
 </div>
-
-

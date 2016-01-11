@@ -2,12 +2,18 @@ class UsersController < ApplicationController
   # @user = User.find(params[:id]) Not needed in Edit and Update bc
   #  of the before_actions below.
   before_action :logged_in_user, only: [:index, :edit, :update, :destroy,
-                                        :following, :followers]
+                                        :following, :followers, :eventposts]
   before_action :correct_user,   only: [:edit, :update]
   before_action :admin_user,     only: :destroy
 
   def index
     @users = User.paginate(page: params[:page], per_page: 25)
+  end
+
+  # Calls users eventposts page.
+  def eventposts
+    @user = User.find(params[:id])
+    @eventposts = @user.eventposts
   end
 
   def show
@@ -61,7 +67,6 @@ class UsersController < ApplicationController
     @users = @user.followers.paginate(page: params[:page])
     render 'show_follow'
   end
-
 
   private
 
