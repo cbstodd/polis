@@ -964,6 +964,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="mini_magick (vbundled(3.8.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/mini_magick-3.8.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/mini_magick-3.8.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/mini_magick-3.8.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="mini_portile2 (vbundled(2.0.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/mini_portile2-2.0.0) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/mini_portile2-2.0.0/lib" />
@@ -1420,6 +1430,16 @@
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sqlite3-1.3.9/faq" />
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sqlite3-1.3.9/lib" />
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sqlite3-1.3.9/tasks" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="subexec (vbundled(0.2.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/subexec-0.2.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/subexec-0.2.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/subexec-0.2.3/lib" />
         </SOURCES>
       </library>
     </orderEntry>
