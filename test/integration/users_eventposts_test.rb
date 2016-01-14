@@ -8,7 +8,9 @@ class UsersEventpostsTest < ActionDispatch::IntegrationTest
 
   test "should render user eventpost page" do
     log_in_as(@user)
-    get root_url
+    get root_path
+    assert_template root_path
+    assert_select 'h3', 'Event feed'
     title = "Title to event"
     content = "This eventpost really ties the room together"
     assert_difference 'Eventpost.count', 1 do

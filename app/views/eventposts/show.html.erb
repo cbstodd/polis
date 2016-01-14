@@ -4,7 +4,7 @@
 
 <h3>Event</h3>
 
-<div class="panel panel-primary">
+<div class="panel panel-success">
   <div class="panel-heading">
     <h3 class="panel-title"><%= @eventpost.title %></h3>
   </div>
@@ -20,13 +20,12 @@
               <%= link_to 'Delete post', eventpost_url, class:'btn btn-sm btn-default',
                           method: :delete,
                           data: { confirm: "Are you sure?" } %>
-
           <% end %>
         </div>
       </div>
       <div class="col-lg-9">
         <span class="eventposts"><%= @eventpost.content.html_safe %></span>
-        <%= link_to image_tag(@eventpost.event_image.url(:full_image), class: 'img-responsive img-roundedter-block'), eventpost_url if @eventpost.event_image? %>
+        <%= link_to image_tag(@eventpost.event_image.url(:full_image), class:'img-responsive img-roundedter-block'), eventpost_url if @eventpost.event_image? %>
       </div>
     </div>
   </div>
@@ -35,3 +34,4 @@
     <%= time_ago_in_words(@eventpost.created_at) %>
     ago.
   </div>
+</div>
