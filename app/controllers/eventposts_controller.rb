@@ -1,5 +1,5 @@
 class EventpostsController < ApplicationController
-  before_action :logged_in_user, only: [:index, :create, :destroy]
+  before_action :logged_in_user, only: [:index, :show, :create, :destroy]
   before_action :correct_user, only: :destroy
 
   def index
@@ -17,7 +17,11 @@ class EventpostsController < ApplicationController
       @feed_items = []
       render 'static_pages/home'
     end
+  end
 
+  def show
+    @eventpost = current_user.eventposts.find_by(id: params[:id])
+    @user = User.find_by(params[:user_id])
   end
 
   def destroy

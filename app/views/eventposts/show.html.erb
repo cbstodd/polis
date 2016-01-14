@@ -1,0 +1,37 @@
+<%= provide(:title, 'Event') %>
+
+<%= link_to 'Back', root_path  %>
+
+<h3>Event</h3>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title"><%= @eventpost.title %></h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-lg-3">
+        <%= link_to gravatar_for(@eventpost.user), user_path(@eventpost.user) %>
+        <br>
+        <div class="event-post-username">
+          <%= @eventpost.user.username %>
+          <br>
+          <% if current_user?(@eventpost.user) %>
+              <%= link_to 'Delete post', eventpost_url, class:'btn btn-sm btn-default',
+                          method: :delete,
+                          data: { confirm: "Are you sure?" } %>
+
+          <% end %>
+        </div>
+      </div>
+      <div class="col-lg-9">
+        <span class="eventposts"><%= @eventpost.content.html_safe %></span>
+        <%= link_to image_tag(@eventpost.event_image.url(:full_image), class: 'img-responsive img-roundedter-block'), eventpost_url if @eventpost.event_image? %>
+      </div>
+    </div>
+  </div>
+  <div class="panel-footer">
+    Posted
+    <%= time_ago_in_words(@eventpost.created_at) %>
+    ago.
+  </div>

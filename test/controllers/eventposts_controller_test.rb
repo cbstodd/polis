@@ -27,4 +27,5 @@ class EventpostsControllerTest < ActionController::TestCase
       delete :destroy, id: eventposts(:damn_right)
     end
   end
+
 end
