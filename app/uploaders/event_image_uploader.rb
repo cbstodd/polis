@@ -3,8 +3,9 @@
 class EventImageUploader < CarrierWave::Uploader::Base
 
   # Include RMagick or MiniMagick support:
-  # include CarrierWave::RMagick
-  include CarrierWave::MiniMagick
+  include CarrierWave::RMagick
+  # include CarrierWave::MiniMagick
+  include CarrierWave::MimeTypes
 
   # Choose what kind of storage to use for this uploader:
   if Rails.env.production?
@@ -28,19 +29,52 @@ class EventImageUploader < CarrierWave::Uploader::Base
   # end
 
   # Process files as they are uploaded:
-  process :resize_to_fit => [450, 450]
+  process :resize_to_fit => [600, 600]
 
   # def scale(width, height)
   #   # do something
   # end
 
-  # Create different versions of your uploaded files:
-  version :thumb do
-    process :resize_to_fit => [50, 50]
+  version :normal, :if => :image? do
+    process :resize_to_limit => [600, 600]
   end
 
-  version :medium do
-    process :resize_to_fit => [250, 250]
+  # # PDF view.
+  def cover
+    manipulate! do |frame, index|
+      frame if index.zero?
+    end
+  end
+
+
+  version :thumb do
+    process :cover
+    process :resize_to_fit => [150, 210]
+    process :convert => :jpg
+
+    def full_filename (for_file = model.source.file)
+      super.chomp(File.extname(super)) + '.jpg'
+    end
+  end
+
+  version :large_thumb do
+    process :cover
+    process :resize_to_fit => [450, 450]
+    process :convert => :jpg
+
+    def full_filename (for_file = model.source.file)
+      super.chomp(File.extname(super)) + '.jpg'
+    end
+  end
+
+  version :full_image do
+    process :cover
+    process :resize_to_fit => [600, 600]
+    process :convert => :jpg
+
+    def full_filename (for_file = model.source.file)
+      super.chomp(File.extname(super)) + '.jpg'
+    end
   end
 
   # Add a white list of extensions which are allowed to be uploaded.
@@ -54,9 +88,16 @@ class EventImageUploader < CarrierWave::Uploader::Base
   # def filename
   #   "something.jpg" if original_filename
   # end
+  #
 
+
+  private
 
   protected
+  def image?(new_file)
+    new_file.content_type.start_with? 'image'
+  end
+
 
 
 end

@@ -14,12 +14,13 @@
           <%= link_to 'Delete post', eventpost, class:'btn btn-sm btn-default',
                         method: :delete,
                       data: { confirm: "Are you sure?" } %>
+
           <% end %>
         </div>
       </div>
       <div class="col-lg-9">
         <span class="eventposts"><%= eventpost.content.html_safe %></span>
-        <%= image_tag(eventpost.event_image.url(:medium), class: 'img-responsive img-roundedter-block') if eventpost.event_image? %>
+        <%= image_tag(eventpost.event_image.url(:large_thumb), class: 'img-responsive img-roundedter-block') if eventpost.event_image? %>
       </div>
     </div>
   </div>
