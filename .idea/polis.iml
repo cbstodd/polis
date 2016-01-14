@@ -332,16 +332,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="carrierwave (vbundled(0.10.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/carrierwave-0.10.0) [path][gem]">
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/carrierwave-0.10.0/lib" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/carrierwave-0.10.0/lib" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="ckeditor (vbundled(4.1.6), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/ckeditor-4.1.6) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ckeditor-4.1.6/app" />
