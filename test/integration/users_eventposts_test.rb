@@ -9,8 +9,8 @@ class UsersEventpostsTest < ActionDispatch::IntegrationTest
   test "should render user eventpost page" do
     log_in_as(@user)
     get events_user_path(@user)
-    assert_select 'title', 'My events ~ Polis'
-    assert_select 'h3', 'My events'
+    assert_select 'title', "#{@user.username}s events ~ Polis"
+    assert_select 'h3', "#{@user.username}'s events"
     # Valid submission
     title = "Title to event"
     content = "This eventpost really ties the room together"
