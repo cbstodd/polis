@@ -20,14 +20,15 @@ class EventpostsController < ApplicationController
   end
 
   def show
-    @eventpost = current_user.eventposts.find_by(id: params[:id])
+    @eventpost = Eventpost.find(params[:id])
+    # @eventpost = current_user.eventposts.find_by(id: params[:id])
     @user = User.find_by(params[:user_id])
   end
 
   def destroy
     @eventpost.destroy
     flash[:success] = "Event was deleted"
-    redirect_to request.referrer || root_url
+    redirect_to root_url || request.referrer
   end
 
   private

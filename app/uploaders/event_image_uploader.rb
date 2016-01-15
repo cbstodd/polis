@@ -29,7 +29,7 @@ class EventImageUploader < CarrierWave::Uploader::Base
   # end
 
   # Process files as they are uploaded:
-  process :resize_to_fit => [600, 600]
+  process :resize_to_fit => [800, 800]
 
   # def scale(width, height)
   #   # do something
@@ -69,7 +69,7 @@ class EventImageUploader < CarrierWave::Uploader::Base
 
   version :full_image do
     process :cover
-    process :resize_to_fit => [600, 600]
+    process :resize_to_fit => [800, 800]
     process :convert => :jpg
 
     def full_filename (for_file = model.source.file)
