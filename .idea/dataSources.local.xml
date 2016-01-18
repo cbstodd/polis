@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails polis: production" uuid="91158c00-6f21-4b8a-b64a-68ae52feeb95">
+      <user-name>polis</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddffadfe5dfe6dfe3dff9dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+    </data-source>
+    <data-source name="Rails polis: development" uuid="d92c81f3-7aed-4b92-b9bc-d10787052aa9">
+      <schema-pattern>polis_development.*</schema-pattern>
+      <default-schemas>polis_development.*</default-schemas>
+    </data-source>
+    <data-source name="Rails polis: test" uuid="15f67a2d-5a37-4846-936c-24a1a33538d1" />
+  </component>
+</project>

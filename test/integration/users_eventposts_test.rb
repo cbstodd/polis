@@ -12,9 +12,10 @@ class UsersEventpostsTest < ActionDispatch::IntegrationTest
     assert_template root_path
     assert_select 'h3', 'Event feed'
     title = "Title to event"
+    date = "10-15-2016"
     content = "This eventpost really ties the room together"
     assert_difference 'Eventpost.count', 1 do
-      post eventposts_path, eventpost: { title: title, content: content }
+      post eventposts_path, eventpost: { title: title, event_date: date, content: content }
     end
 
     get events_user_path(@user)

@@ -57,7 +57,7 @@ class EventImageUploader < CarrierWave::Uploader::Base
     end
   end
 
-  version :large_thumb do
+  version :medium do
     process :cover
     process :resize_to_fit => [450, 450]
     process :convert => :jpg
@@ -67,15 +67,17 @@ class EventImageUploader < CarrierWave::Uploader::Base
     end
   end
 
-  version :full_image do
+  version :large do
     process :cover
-    process :resize_to_fit => [800, 800]
+    process :resize_to_fit => [700, 700]
     process :convert => :jpg
 
     def full_filename (for_file = model.source.file)
       super.chomp(File.extname(super)) + '.jpg'
     end
   end
+
+
 
   # Add a white list of extensions which are allowed to be uploaded.
   # For images you might use something like this:
@@ -93,11 +95,9 @@ class EventImageUploader < CarrierWave::Uploader::Base
 
   private
 
-  protected
-  def image?(new_file)
-    new_file.content_type.start_with? 'image'
-  end
-
+    def image?(new_file)
+      new_file.content_type.start_with? 'image'
+    end
 
 
 end

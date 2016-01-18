@@ -1,6 +1,13 @@
 <div class="panel panel-primary">
   <div class="panel-heading">
-    <h3 class="panel-title"><%= link_to eventpost.title, eventpost %></h3>
+    <h3 class="panel-title">
+      <%= link_to eventpost.title, eventpost %>
+      <% if eventpost.event_date.empty? %>
+        <!-- *= empty =* -->
+      <% else %>
+          on:  <i><%= eventpost.event_date %></i>
+      <% end %>
+    </h3>
   </div>
   <div class="panel-body">
     <div class="row">
@@ -19,7 +26,7 @@
       </div>
       <div class="col-lg-9">
         <span class="eventposts"><%= eventpost.content.html_safe %></span>
-        <%= link_to image_tag(eventpost.event_image.url(:large_thumb), class: 'img-responsive img-roundedter-block'), eventpost if eventpost.event_image? %>
+        <%= link_to image_tag(eventpost.event_image.url(:medium), class: 'img-responsive img-roundedter-block'), eventpost if eventpost.event_image? %>
       </div>
     </div>
   </div>

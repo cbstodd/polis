@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160108002058) do
+ActiveRecord::Schema.define(version: 20160116143551) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -39,6 +39,7 @@ ActiveRecord::Schema.define(version: 20160108002058) do
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
     t.string   "event_image"
+    t.string   "event_date"
   end
 
   add_index "eventposts", ["updated_at", "created_at"], name: "index_eventposts_on_updated_at_and_created_at", using: :btree

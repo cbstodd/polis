@@ -11,7 +11,8 @@ class Eventpost < ActiveRecord::Base
   validates :user_id, presence: true
   validates :title, presence: true, length: { maximum: 80 }
   validates :content, presence: true, length: { maximum: 2000 }
-  validate :event_image_size
+  validate  :event_image_size
+  # validates_format_of :event_image
 
   private
 

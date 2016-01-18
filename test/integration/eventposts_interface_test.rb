@@ -10,7 +10,7 @@ class EventpostsInterfaceTest < ActionDispatch::IntegrationTest
     log_in_as(@user)
     get events_path
     assert_template 'eventposts/index'
-    assert_select 'h1', 'Events'
+    assert_select 'h1', 'All events'
   end
 
   test "eventpost interface on user page" do
@@ -20,20 +20,22 @@ class EventpostsInterfaceTest < ActionDispatch::IntegrationTest
     assert_select 'h3', 'Event feed'
     # Invalid submission
     assert_no_difference 'Eventpost.count' do
-      post eventposts_path, eventpost: { title: "", content: "" }
+      post eventposts_path, eventpost: { title: "", event_date: "", content: "" }
     end
 
     assert_select 'div#error_explanation'
     # Valid submission
     title = "Title to event"
+    date = "10-15-2016"
     content = "This eventpost really ties the room together"
     assert_difference 'Eventpost.count', 1 do
-      post eventposts_path, eventpost: { title: title, content: content }
+      post eventposts_path, eventpost: { title: title, event_date: date, content: content }
     end
 
     assert_redirected_to root_url
     follow_redirect!
     assert_match title, response.body
+    assert_match date, response.body
     assert_match content, response.body
     # Delete a post.
     first_eventpost = @user.eventposts.paginate(page: 1).first

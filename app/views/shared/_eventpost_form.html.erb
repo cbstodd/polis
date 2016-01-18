@@ -1,15 +1,32 @@
+
+
+
 <%= form_for(@eventpost, html: { multipart: true }) do |f| %>
   <%= render 'shared/error_messages', object: f.object %>
 
-  <div class="form-group">
+    <div class="form-group" xmlns="http://www.w3.org/1999/html">
     <%= f.label :title %>
     <%= f.text_field :title, class:'form-control', placeholder:'Type event title here' %>
   </div>
 
   <div class="form-group">
     <%= f.label :content %>
-    <%= f.cktext_area :content, class:'form-control', placeholder:'Type event content here...' %>
+    <%= f.cktext_area :content, class: 'form-control', placeholder: 'Type event content here...' %>
   </div>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="form-group">
+          <div class="input-group date" id="datetimepicker2">
+            <!--<input class="form-control" type="text">-->
+            <span class="input-group-addon">
+              <span class="glyphicon glyphicon-calendar"></span>
+                <%= f.text_field :event_date, id:'datepicker', class: '', placeholder:'Click to select date' %>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
 
   <div class="form-group">
     <%= f.label :upload_image %> <small>(Allowed: .jpg .jpeg .gif .png .tiff .pdf)</small>
@@ -28,3 +45,4 @@
     }
   });
 </script>
+

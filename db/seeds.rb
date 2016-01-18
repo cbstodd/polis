@@ -1,7 +1,7 @@
 # USERS
-User.create!(username: ENV['ADMIN_USERNAME'],
-             email: ENV['ADMIN_EMAIL'],
-             password: ENV['ADMIN_PASSWORD'],
+User.create!(username:              ENV['ADMIN_USERNAME'],
+             email:                 ENV['ADMIN_EMAIL'],
+             password:              ENV['ADMIN_PASSWORD'],
              password_confirmation: ENV['ADMIN_PASSWORD'],
              admin: true,
              activated: true,
@@ -9,13 +9,13 @@ User.create!(username: ENV['ADMIN_USERNAME'],
 )
 
 50.times do |num|
-  username = Faker::Name.name
+  username =    Faker::Name.name
   random_date = Faker::Time.between(30.days.ago - 1, DateTime.now)
-  email = Faker::Internet.email
-  password = 'password'
+  email =       Faker::Internet.email
+  password =    'password'
   User.create!(username: username,
-               email: email,
-               password: password,
+               email:    email,
+               password:              password,
                password_confirmation: password,
                admin: false,
                activated: true,
@@ -27,14 +27,16 @@ end
 # EVENTS
 users = User.order(:created_at).take(50)
 10.times do
-  title = Faker::Lorem.sentence(1)
-  content = Faker::Lorem.paragraphs.join('<br><br>')
-  users.each { |user| user.eventposts.create!(title: title, content: content) }
+  title =      Faker::Lorem.sentence(1)
+  content =    Faker::Lorem.paragraphs.join('<br><br>')
+  event_date = Faker::Date.forward(100)
+  users.each { |user| user.eventposts.create!(title: title, content: content,
+                                              event_date: event_date) }
 end
 
 # FOLLOWING RELATIONSHIPS
-users = User.all
-user = users.first
+users =     User.all
+user =      users.first
 following = users[2..50]
 followers = users[5..40]
 following.each { |followed| user.follow(followed) }

@@ -2,31 +2,36 @@
 
 concert:
   title: "Earthtone"
+  event_date: "10-15-2016"
   content: "Earthtone is playing at the Metropolitan"
   created_at: <%= 4.months.ago %>
   user_id: example_user
 
 beer_races:
   title: "Beer Races"
+  event_date: "10-11-2016"
   content: "Come to the beer races in Eastport"
   created_at: <%= 3.days.ago %>
   user_id: example_user
 
 art_show:
   title: "CasaliArt show"
+  event_date: "10-10-2016"
   content: "Rick Casali has an art show this weekend."
   created_at: <%= 3.weeks.ago %>
   user_id: example_user
 
 most_recent_post:
   title: "Most recent post"
+  event_date: "10-1-2016"
   content: "Writing a short test"
   created_at: <%= Time.zone.now %>
   user_id: example_user
 
-<% 101.times do |event| %>
+<% 50.times do |event| %>
 eventpost_<%= event %>:
   title: <%= Faker::Lorem.sentence(5) %>
+  event_date: <%= Faker::Date.forward(100) %>
   content: <%= Faker::Lorem.paragraph(5) %>
   created_at: <%= Faker::Time.between(DateTime.now - 30, DateTime.now - 1) %>
   user_id: example_user
@@ -34,24 +39,28 @@ eventpost_<%= event %>:
 
 damn_right:
   title: "Damn Right! show"
+  event_date: "1-1-2016"
   content: "Damn Right! is playing at the Metropolitan"
   created_at: <%= 4.years.ago %>
   user_id: example_user_three
 
 phish:
   title: "Phish at Merriweather"
+  event_date: "3-1-2016"
   content: "Phish is playing a show at Merriweather"
   created_at: <%= 2.months.ago %>
   user_id: example_user_three
 
 pressing_strings:
   title: "Pressing Strings show"
+  event_date: "4-1-2016"
   content: "Pressing strings is playing a concert."
   created_at: <%= 2.days.ago %>
   user_id: example_user_four
 
 moe:
   title: "Moe."
+  event_date: "1-5-2016"
   content: "Moe. is playing a concert"
   created_at: <%= 10.days.ago %>
   user_id: example_user_four

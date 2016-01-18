@@ -44,6 +44,12 @@ span.eventposts {
   text-align: center;
 }
 
+.ui-datepicker {
+  background-color: $gray-lighter;
+  padding: 20px;
+  cursor: pointer;
+}
+
 /* ### footer ### */
 .footer {
   position: relative;

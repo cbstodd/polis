@@ -5,6 +5,7 @@ class EventpostsController < ApplicationController
   def index
     @eventposts = current_user.feed.paginate(page: params[:page])
     @user = User.find_by(params[:id])
+
     # @feed_items = current_user.feed.paginate(page: params[:page])
   end
 
@@ -34,7 +35,7 @@ class EventpostsController < ApplicationController
   private
 
     def eventpost_params
-      params.require(:eventpost).permit(:title, :content, :event_image)
+      params.require(:eventpost).permit(:title, :content, :event_image, :event_date)
     end
 
     def correct_user

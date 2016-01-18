@@ -6,7 +6,10 @@
 
 <div class="panel panel-success">
   <div class="panel-heading">
-    <h3 class="panel-title"><%= @eventpost.title %></h3>
+    <h3 class="panel-title">
+      <%= @eventpost.event_date %>
+      <%= @eventpost.title %>
+    </h3>
   </div>
   <div class="panel-body">
     <div class="row">
@@ -25,7 +28,7 @@
       </div>
       <div class="col-lg-9">
         <span class="eventposts"><%= @eventpost.content.html_safe %></span>
-        <%= link_to image_tag(@eventpost.event_image.url(:full_image), class:'img-responsive img-roundedter-block'), eventpost_url if @eventpost.event_image? %>
+        <%= link_to image_tag(@eventpost.event_image.url(:large), class:'img-responsive img-roundedter-block'), eventpost_url if @eventpost.event_image? %>
       </div>
     </div>
   </div>
