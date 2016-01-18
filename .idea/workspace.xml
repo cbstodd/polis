@@ -3,26 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="24e6c9f3-54c1-480f-a29e-b5ac1b1d9c33" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cache/ruby/2.1.0/bundler/gems/carrierwave-43179f94d6a4" afterPath="$PROJECT_DIR$/vendor/cache/ruby/2.1.0/bundler/gems/carrierwave-43179f94d6a4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/polis.iml" afterPath="$PROJECT_DIR$/.idea/polis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/eventposts.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/eventposts.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/master.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/master.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/eventposts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/eventposts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/eventpost.rb" afterPath="$PROJECT_DIR$/app/models/eventpost.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/event_image_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/event_image_uploader.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/eventposts/_eventpost.html.erb" afterPath="$PROJECT_DIR$/app/views/eventposts/_eventpost.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/eventposts/index.html.erb" afterPath="$PROJECT_DIR$/app/views/eventposts/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/eventposts/show.html.erb" afterPath="$PROJECT_DIR$/app/views/eventposts/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_eventpost_form.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_eventpost_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/eventposts.yml" afterPath="$PROJECT_DIR$/test/fixtures/eventposts.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/eventposts_interface_test.rb" afterPath="$PROJECT_DIR$/test/integration/eventposts_interface_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/users_eventposts_test.rb" afterPath="$PROJECT_DIR$/test/integration/users_eventposts_test.rb" />
     </list>
     <ignored path="polis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,11 +49,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/eventposts/show.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.49913344">
-                  <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+                <state vertical-scroll-proportion="-16.346153">
+                  <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -88,11 +69,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_eventpost_form.html.erb" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_eventpost_form.html.erb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/shared/_eventpost_form.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.50086653">
+                  <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
                   <folding />
                 </state>
               </provider>
@@ -145,7 +126,7 @@
           <file leaf-file-name="application.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.03846154">
+                <state vertical-scroll-proportion="-2.5769231">
                   <caret line="7" column="98" selection-start-line="7" selection-start-column="98" selection-end-line="7" selection-end-column="98" />
                   <folding />
                 </state>
@@ -178,8 +159,6 @@
         <option value="$PROJECT_DIR$/app/controllers/eventposts_controller.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-        <option value="$PROJECT_DIR$/app/views/shared/_eventpost_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/eventposts/show.html.erb" />
         <option value="$PROJECT_DIR$/app/uploaders/event_image_uploader.rb" />
         <option value="$PROJECT_DIR$/test/integration/users_eventposts_test.rb" />
         <option value="$PROJECT_DIR$/test/fixtures/eventposts.yml" />
@@ -189,6 +168,8 @@
         <option value="$PROJECT_DIR$/test/integration/eventposts_interface_test.rb" />
         <option value="$PROJECT_DIR$/app/views/eventposts/_eventpost.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/eventposts/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_eventpost_form.html.erb" />
       </list>
     </option>
   </component>
@@ -1059,14 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_eventpost_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1114,26 +1087,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/eventposts/_eventpost.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/uploaders/event_image_uploader.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.6633499">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/eventposts/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49913344">
-          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
           <folding />
         </state>
       </provider>
@@ -1156,7 +1113,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03846154">
+        <state vertical-scroll-proportion="-2.5769231">
           <caret line="7" column="98" selection-start-line="7" selection-start-column="98" selection-end-line="7" selection-end-column="98" />
           <folding />
         </state>
@@ -1190,6 +1147,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12603648">
           <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/eventposts/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/eventposts/_eventpost.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_eventpost_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50086653">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
           <folding />
         </state>
       </provider>
