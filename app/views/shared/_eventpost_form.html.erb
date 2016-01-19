@@ -14,11 +14,12 @@
     <div class="row">
       <div class="col-lg-6">
         <div class="form-group">
+          <%= f.label :date %>
           <div class="input-group date" id="datetimepicker2">
             <span class="input-group-addon">
               <span class="glyphicon glyphicon-calendar"></span>
-              <small><i>Click arrow for calendar</i></small>
-              <%= f.date_field :event_date, id:'datepicker', class: '', placeholder:'Click to select date' %>
+              <small><i>Select date &nbsp;</i></small>
+              <%= f.date_field :event_date, id:'date', class: '', placeholder:'mm-dd-yyyy' %>
             </span>
           </div>
         </div>
@@ -30,7 +31,7 @@
     <%= f.file_field :event_image, class:'btn btn-success' %>
   </div>
 
-  <%= f.submit 'Post', class:'btn btn-primary' %>
+    <%= f.submit 'Post', class:'btn btn-primary' %>
 
 <% end %>
 
@@ -41,5 +42,8 @@
       alert('Your file size is: '+ size_in_megabytes + 'MB. It cannot be larger than 5.0MB. Please choose a smaller file.');
     }
   });
+
+
+
 </script>
 
