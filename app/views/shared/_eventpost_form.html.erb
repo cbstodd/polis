@@ -1,13 +1,13 @@
 <%= form_for(@eventpost, html: { multipart: true }) do |f| %>
   <%= render 'shared/error_messages', object: f.object %>
 
-    <div class="form-group" xmlns="http://www.w3.org/1999/html">
-    <%= f.label :title %>
+  <div class="form-group">
+    <%= f.label :title, 'Title*' %>
     <%= f.text_field :title, class:'form-control', placeholder:'Type event title here' %>
   </div>
 
   <div class="form-group">
-    <%= f.label :content %>
+    <%= f.label :content, 'Content*' %>
     <%= f.cktext_area :content, class: 'form-control', placeholder: 'Type event content here...' %>
   </div>
 
@@ -17,7 +17,8 @@
           <div class="input-group date" id="datetimepicker2">
             <span class="input-group-addon">
               <span class="glyphicon glyphicon-calendar"></span>
-                <%= f.text_field :event_date, id:'datepicker', class: '', placeholder:'Click to select date' %>
+              <small><i>Click arrow for calendar</i></small>
+              <%= f.date_field :event_date, id:'datepicker', class: '', placeholder:'Click to select date' %>
             </span>
           </div>
         </div>
@@ -25,8 +26,8 @@
     </div>
 
   <div class="form-group">
-    <%= f.label :upload_image %> <small>(Allowed: .jpg .jpeg .gif .png .tiff .pdf)</small>
-    <%= f.file_field :event_image, class:'btn btn-default' %>
+    <%= f.label :upload_image %> <small><i>(Allowed: .jpg .jpeg .gif .png .tiff .pdf)</i></small>
+    <%= f.file_field :event_image, class:'btn btn-success' %>
   </div>
 
   <%= f.submit 'Post', class:'btn btn-primary' %>
