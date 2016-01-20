@@ -151,6 +151,8 @@
     </content>
     <orderEntry type="jdk" jdkName="rbenv: 2.1.3 (1)" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jQuery UI-1.10.2" level="application" />
+    <orderEntry type="library" name="jQuery-2.0.0" level="application" />
     <orderEntry type="module-library">
       <library name="CFPropertyList (vbundled(2.3.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/CFPropertyList-2.3.2) [path][gem]">
         <CLASSES>
@@ -1408,6 +1410,20 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="simple_calendar (vbundled(2.0.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/simple_calendar-2.0.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/simple_calendar-2.0.3/app" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/simple_calendar-2.0.3/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/simple_calendar-2.0.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/simple_calendar-2.0.3/app" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/simple_calendar-2.0.3/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/simple_calendar-2.0.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="slop (vbundled(3.6.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/slop-3.6.0) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/slop-3.6.0/lib" />
@@ -1576,8 +1592,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.11.2, rbenv: 2.1.3 (1)) [gem]" level="application" />
-    <orderEntry type="library" name="jQuery UI-1.10.2" level="application" />
-    <orderEntry type="library" name="jQuery-2.0.0" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />

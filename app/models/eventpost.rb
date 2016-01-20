@@ -14,6 +14,10 @@ class Eventpost < ActiveRecord::Base
   validate  :event_image_size
   # validates_format_of :event_image
 
+  # def start_time
+  #   self.event_date.start
+  # end
+
   private
 
     def event_image_size
@@ -21,5 +25,6 @@ class Eventpost < ActiveRecord::Base
         errors.add(event_image_size, "should be less than 5MB")
       end
     end
+
 
 end

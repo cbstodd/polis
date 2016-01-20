@@ -32,6 +32,9 @@ gem 'net-ssh'
 gem 'figaro'
 gem 'ckeditor'
 
+#Calendar
+gem 'simple_calendar', '~> 2.0'
+
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
   gem 'byebug',      '3.4.0'

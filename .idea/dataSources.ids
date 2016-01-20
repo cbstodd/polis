@@ -13,8 +13,8 @@
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
-        <introspection-state-number>122963</introspection-state-number>
-        <introspection-timestamp>2016-01-18.14:29:38.744</introspection-timestamp>
+        <introspection-state-number>125140</introspection-state-number>
+        <introspection-timestamp>2016-01-19.20:34:39.001</introspection-timestamp>
       </schema>
       <schema id="3" parent="1" name="pg_catalog">
         <object-id>11</object-id>
@@ -55,7 +55,7 @@
       </table>
       <table id="13" parent="2" name="eventposts">
         <object-id>61296</object-id>
-        <state-number>122963</state-number>
+        <state-number>125140</state-number>
       </table>
       <table id="14" parent="2" name="relationships">
         <object-id>61309</object-id>
@@ -594,7 +594,7 @@ assetable_id</columns>
         <data-type>varchar</data-type>
       </column>
       <column id="136" parent="13" name="event_date">
-        <state-number>122952</state-number>
+        <state-number>125140</state-number>
         <data-type>varchar</data-type>
       </column>
       <index id="137" parent="13" name="eventposts_pkey">

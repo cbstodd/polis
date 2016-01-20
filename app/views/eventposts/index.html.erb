@@ -1,14 +1,25 @@
 <%= provide(:title, 'Events') %>
 
-<div class="row">
-  <div class="col-lg-10 col-lg-offset-1">
-    <h1>All events</h1>
-    <p><i>Events are ordered from when they were posted</i></p>
-    <p><%= will_paginate %></p>
-    <%= render @eventposts %>
-    <p><%= will_paginate %></p>
-  </div>
-  <!--<div class="col-lg-3">-->
-    <!--&lt;!&ndash; * Ad Space Goes here * &ndash;&gt;-->
+<!--<div class="row">-->
+  <!--<div class="col-lg-10 col-lg-offset-1">-->
+    <!--<h1>All events</h1>-->
+    <!--<p><i>Events are ordered from when they were posted</i></p>-->
+    <!--<p><%# will_paginate %></p>-->
+    <!--<%# render @eventposts %>-->
+    <!--<p><%# will_paginate %></p>-->
   <!--</div>-->
-</div>
+  <!--&lt;!&ndash;<div class="col-lg-3">&ndash;&gt;-->
+    <!--&lt;!&ndash;&lt;!&ndash; * Ad Space Goes here * &ndash;&gt;&ndash;&gt;-->
+  <!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--</div>-->
+
+<%= month_calendar(attribute: :event_date, events: @eventposts)  do |date, eventposts| %>
+    <%= date.strftime('%d') %>
+
+    <% eventposts.each do |eventpost| %>
+        <div>
+          <%= eventpost.title %>
+        </div>
+    <% end %>
+
+<% end %>
