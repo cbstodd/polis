@@ -13,6 +13,8 @@
   <!--&lt;!&ndash;</div>&ndash;&gt;-->
 <!--</div>-->
 
+<h1>Event calendar</h1>
+
 <%= month_calendar(attribute: :event_date, events: @eventposts)  do |date, eventposts| %>
     <%= date.strftime('%d') %>
 

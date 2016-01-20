@@ -10,7 +10,7 @@ class EventpostsInterfaceTest < ActionDispatch::IntegrationTest
     log_in_as(@user)
     get events_path
     assert_template 'eventposts/index'
-    assert_select 'h1', 'All events'
+    assert_select 'h1', 'Event calendar'
   end
 
   test "eventpost interface on user page" do
