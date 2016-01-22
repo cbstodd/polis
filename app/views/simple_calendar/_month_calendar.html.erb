@@ -1,11 +1,17 @@
 <div class="simple-calendar">
-  <%= link_to "Previous", start_date: date_range.first - 1.day  %>
-  <%= I18n.t("date.month_names")[start_date.month] %> <%= start_date.year %>
-  <%= link_to "Next", start_date: date_range.last + 1.day  %>
+
+  <h3><%= I18n.t("date.month_names")[start_date.month] %> <%= start_date.year %></h3>
+
+  <nav>
+    <ul class="pager">
+      <li><%= link_to "Next ->", start_date: date_range.last + 1.day, class: 'next' %></li>
+      <li><%= link_to "<- Previous", start_date: date_range.first - 1.day, class:'previous' %></li>
+    </ul>
+  </nav>
 
   <table class="table table-default">
     <thead>
-      <tr>
+      <tr class="days-of-week">
         <% date_range.slice(0, 7).each do |day| %>
           <th><%= I18n.t("date.abbr_day_names")[day.wday] %></th>
         <% end %>

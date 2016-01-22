@@ -26,10 +26,12 @@ class EventpostsInterfaceTest < ActionDispatch::IntegrationTest
     assert_select 'div#error_explanation'
     # Valid submission
     title = "Title to event"
-    date = "10-15-2016"
     content = "This eventpost really ties the room together"
+    date = '2016-10-15'
     assert_difference 'Eventpost.count', 1 do
-      post eventposts_path, eventpost: { title: title, event_date: date, content: content }
+      post eventposts_path, eventpost: { title: title,
+                                         content: content,
+                                         event_date: date }
     end
 
     assert_redirected_to root_url

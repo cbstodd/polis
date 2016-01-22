@@ -15,12 +15,12 @@
 
 <h1>Event calendar</h1>
 
-<%= month_calendar(attribute: :event_date, events: @eventposts)  do |date, eventposts| %>
+<%= month_calendar(events: @eventposts)  do |date, eventposts| %>
     <%= date.strftime('%d') %>
 
     <% eventposts.each do |eventpost| %>
         <div>
-          <%= eventpost.title %>
+          <span class="calendar-title" colspan="2"><%= link_to "*#{eventpost.title.first(20)}...", eventpost %></span>
         </div>
     <% end %>
 

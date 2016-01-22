@@ -13,8 +13,8 @@
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
-        <introspection-state-number>125140</introspection-state-number>
-        <introspection-timestamp>2016-01-19.20:34:39.001</introspection-timestamp>
+        <introspection-state-number>125227</introspection-state-number>
+        <introspection-timestamp>2016-01-20.19:26:21.579</introspection-timestamp>
       </schema>
       <schema id="3" parent="1" name="pg_catalog">
         <object-id>11</object-id>
@@ -34,40 +34,40 @@
         <object-id>11215</object-id>
       </schema>
       <sequence id="8" parent="2" name="ckeditor_assets_id_seq">
-        <object-id>61281</object-id>
-        <state-number>122948</state-number>
+        <object-id>61406</object-id>
+        <state-number>125212</state-number>
       </sequence>
       <sequence id="9" parent="2" name="eventposts_id_seq">
-        <object-id>61294</object-id>
-        <state-number>122952</state-number>
+        <object-id>61419</object-id>
+        <state-number>125216</state-number>
       </sequence>
       <sequence id="10" parent="2" name="relationships_id_seq">
-        <object-id>61307</object-id>
-        <state-number>122956</state-number>
+        <object-id>61432</object-id>
+        <state-number>125220</state-number>
       </sequence>
       <sequence id="11" parent="2" name="users_id_seq">
-        <object-id>61318</object-id>
-        <state-number>122961</state-number>
+        <object-id>61443</object-id>
+        <state-number>125225</state-number>
       </sequence>
       <table id="12" parent="2" name="ckeditor_assets">
-        <object-id>61283</object-id>
-        <state-number>122948</state-number>
+        <object-id>61408</object-id>
+        <state-number>125212</state-number>
       </table>
       <table id="13" parent="2" name="eventposts">
-        <object-id>61296</object-id>
-        <state-number>125140</state-number>
+        <object-id>61421</object-id>
+        <state-number>125227</state-number>
       </table>
       <table id="14" parent="2" name="relationships">
-        <object-id>61309</object-id>
-        <state-number>122956</state-number>
+        <object-id>61434</object-id>
+        <state-number>125220</state-number>
       </table>
       <table id="15" parent="2" name="schema_migrations">
         <object-id>56315</object-id>
         <state-number>39308</state-number>
       </table>
       <table id="16" parent="2" name="users">
-        <object-id>61320</object-id>
-        <state-number>122963</state-number>
+        <object-id>61445</object-id>
+        <state-number>125227</state-number>
       </table>
       <table id="17" parent="3" name="pg_aggregate">
         <object-id>2600</object-id>
@@ -491,66 +491,66 @@
         <state-number>2</state-number>
       </view>
       <column id="114" parent="12" name="id">
-        <state-number>122948</state-number>
+        <state-number>125212</state-number>
         <mandatory>1</mandatory>
         <data-type>integer</data-type>
         <default-expression>nextval(&apos;ckeditor_assets_id_seq&apos;::regclass)</default-expression>
       </column>
       <column id="115" parent="12" name="data_file_name">
-        <state-number>122948</state-number>
+        <state-number>125212</state-number>
         <mandatory>1</mandatory>
         <data-type>varchar</data-type>
       </column>
       <column id="116" parent="12" name="data_content_type">
-        <state-number>122948</state-number>
+        <state-number>125212</state-number>
         <data-type>varchar</data-type>
       </column>
       <column id="117" parent="12" name="data_file_size">
-        <state-number>122948</state-number>
+        <state-number>125212</state-number>
         <data-type>integer</data-type>
       </column>
       <column id="118" parent="12" name="assetable_id">
-        <state-number>122948</state-number>
+        <state-number>125212</state-number>
         <data-type>integer</data-type>
       </column>
       <column id="119" parent="12" name="assetable_type">
-        <state-number>122948</state-number>
+        <state-number>125212</state-number>
         <data-type>varchar(30)</data-type>
       </column>
       <column id="120" parent="12" name="type">
-        <state-number>122948</state-number>
+        <state-number>125212</state-number>
         <data-type>varchar(30)</data-type>
       </column>
       <column id="121" parent="12" name="width">
-        <state-number>122948</state-number>
+        <state-number>125212</state-number>
         <data-type>integer</data-type>
       </column>
       <column id="122" parent="12" name="height">
-        <state-number>122948</state-number>
+        <state-number>125212</state-number>
         <data-type>integer</data-type>
       </column>
       <column id="123" parent="12" name="created_at">
-        <state-number>122948</state-number>
+        <state-number>125212</state-number>
         <data-type>timestamp</data-type>
       </column>
       <column id="124" parent="12" name="updated_at">
-        <state-number>122948</state-number>
+        <state-number>125212</state-number>
         <data-type>timestamp</data-type>
       </column>
       <index id="125" parent="12" name="ckeditor_assets_pkey">
-        <object-id>61290</object-id>
+        <object-id>61415</object-id>
         <columns>id</columns>
         <desc-columns></desc-columns>
         <unique>1</unique>
       </index>
       <index id="126" parent="12" name="idx_ckeditor_assetable">
-        <object-id>61292</object-id>
+        <object-id>61417</object-id>
         <columns>assetable_type
 assetable_id</columns>
         <desc-columns></desc-columns>
       </index>
       <index id="127" parent="12" name="idx_ckeditor_assetable_type">
-        <object-id>61293</object-id>
+        <object-id>61418</object-id>
         <columns>assetable_type
 type
 assetable_id</columns>
@@ -562,54 +562,54 @@ assetable_id</columns>
         <primary>1</primary>
       </key>
       <column id="129" parent="13" name="id">
-        <state-number>122952</state-number>
+        <state-number>125216</state-number>
         <mandatory>1</mandatory>
         <data-type>integer</data-type>
         <default-expression>nextval(&apos;eventposts_id_seq&apos;::regclass)</default-expression>
       </column>
       <column id="130" parent="13" name="title">
-        <state-number>122952</state-number>
+        <state-number>125216</state-number>
         <data-type>varchar</data-type>
       </column>
       <column id="131" parent="13" name="content">
-        <state-number>122952</state-number>
+        <state-number>125216</state-number>
         <data-type>text</data-type>
       </column>
       <column id="132" parent="13" name="user_id">
-        <state-number>122952</state-number>
+        <state-number>125216</state-number>
         <data-type>integer</data-type>
       </column>
       <column id="133" parent="13" name="created_at">
-        <state-number>122952</state-number>
+        <state-number>125216</state-number>
         <mandatory>1</mandatory>
         <data-type>timestamp</data-type>
       </column>
       <column id="134" parent="13" name="updated_at">
-        <state-number>122952</state-number>
+        <state-number>125216</state-number>
         <mandatory>1</mandatory>
         <data-type>timestamp</data-type>
       </column>
       <column id="135" parent="13" name="event_image">
-        <state-number>122952</state-number>
+        <state-number>125216</state-number>
         <data-type>varchar</data-type>
       </column>
       <column id="136" parent="13" name="event_date">
-        <state-number>125140</state-number>
+        <state-number>125216</state-number>
         <data-type>varchar</data-type>
       </column>
       <index id="137" parent="13" name="eventposts_pkey">
-        <object-id>61303</object-id>
+        <object-id>61428</object-id>
         <columns>id</columns>
         <desc-columns></desc-columns>
         <unique>1</unique>
       </index>
       <index id="138" parent="13" name="index_eventposts_on_user_id">
-        <object-id>61306</object-id>
+        <object-id>61431</object-id>
         <columns>user_id</columns>
         <desc-columns></desc-columns>
       </index>
       <index id="139" parent="13" name="index_eventposts_on_updated_at_and_created_at">
-        <object-id>61305</object-id>
+        <object-id>61430</object-id>
         <columns>updated_at
 created_at</columns>
         <desc-columns></desc-columns>
@@ -626,49 +626,49 @@ created_at</columns>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
       <column id="142" parent="14" name="id">
-        <state-number>122956</state-number>
+        <state-number>125220</state-number>
         <mandatory>1</mandatory>
         <data-type>integer</data-type>
         <default-expression>nextval(&apos;relationships_id_seq&apos;::regclass)</default-expression>
       </column>
       <column id="143" parent="14" name="follower_id">
-        <state-number>122956</state-number>
+        <state-number>125220</state-number>
         <data-type>integer</data-type>
       </column>
       <column id="144" parent="14" name="followed_id">
-        <state-number>122956</state-number>
+        <state-number>125220</state-number>
         <data-type>integer</data-type>
       </column>
       <column id="145" parent="14" name="created_at">
-        <state-number>122956</state-number>
+        <state-number>125220</state-number>
         <mandatory>1</mandatory>
         <data-type>timestamp</data-type>
       </column>
       <column id="146" parent="14" name="updated_at">
-        <state-number>122956</state-number>
+        <state-number>125220</state-number>
         <mandatory>1</mandatory>
         <data-type>timestamp</data-type>
       </column>
       <index id="147" parent="14" name="relationships_pkey">
-        <object-id>61313</object-id>
+        <object-id>61438</object-id>
         <columns>id</columns>
         <desc-columns></desc-columns>
         <unique>1</unique>
       </index>
       <index id="148" parent="14" name="index_relationships_on_follower_id_and_followed_id">
-        <object-id>61316</object-id>
+        <object-id>61441</object-id>
         <columns>follower_id
 followed_id</columns>
         <desc-columns></desc-columns>
         <unique>1</unique>
       </index>
       <index id="149" parent="14" name="index_relationships_on_follower_id">
-        <object-id>61317</object-id>
+        <object-id>61442</object-id>
         <columns>follower_id</columns>
         <desc-columns></desc-columns>
       </index>
       <index id="150" parent="14" name="index_relationships_on_followed_id">
-        <object-id>61315</object-id>
+        <object-id>61440</object-id>
         <columns>followed_id</columns>
         <desc-columns></desc-columns>
       </index>
@@ -689,71 +689,71 @@ followed_id</columns>
         <unique>1</unique>
       </index>
       <column id="154" parent="16" name="id">
-        <state-number>122961</state-number>
+        <state-number>125225</state-number>
         <mandatory>1</mandatory>
         <data-type>integer</data-type>
         <default-expression>nextval(&apos;users_id_seq&apos;::regclass)</default-expression>
       </column>
       <column id="155" parent="16" name="username">
-        <state-number>122961</state-number>
+        <state-number>125225</state-number>
         <data-type>varchar</data-type>
       </column>
       <column id="156" parent="16" name="email">
-        <state-number>122961</state-number>
+        <state-number>125225</state-number>
         <data-type>varchar</data-type>
       </column>
       <column id="157" parent="16" name="created_at">
-        <state-number>122961</state-number>
+        <state-number>125225</state-number>
         <mandatory>1</mandatory>
         <data-type>timestamp</data-type>
       </column>
       <column id="158" parent="16" name="updated_at">
-        <state-number>122961</state-number>
+        <state-number>125225</state-number>
         <mandatory>1</mandatory>
         <data-type>timestamp</data-type>
       </column>
       <column id="159" parent="16" name="password_digest">
-        <state-number>122961</state-number>
+        <state-number>125225</state-number>
         <data-type>varchar</data-type>
       </column>
       <column id="160" parent="16" name="remember_digest">
-        <state-number>122961</state-number>
+        <state-number>125225</state-number>
         <data-type>varchar</data-type>
       </column>
       <column id="161" parent="16" name="admin">
-        <state-number>122961</state-number>
+        <state-number>125225</state-number>
         <data-type>boolean</data-type>
         <default-expression>false</default-expression>
       </column>
       <column id="162" parent="16" name="activation_digest">
-        <state-number>122961</state-number>
+        <state-number>125225</state-number>
         <data-type>varchar</data-type>
       </column>
       <column id="163" parent="16" name="activated">
-        <state-number>122961</state-number>
+        <state-number>125225</state-number>
         <data-type>boolean</data-type>
         <default-expression>false</default-expression>
       </column>
       <column id="164" parent="16" name="activated_at">
-        <state-number>122961</state-number>
+        <state-number>125225</state-number>
         <data-type>timestamp</data-type>
       </column>
       <column id="165" parent="16" name="reset_digest">
-        <state-number>122961</state-number>
+        <state-number>125225</state-number>
         <data-type>varchar</data-type>
       </column>
       <column id="166" parent="16" name="reset_sent_at">
-        <state-number>122961</state-number>
+        <state-number>125225</state-number>
         <data-type>timestamp</data-type>
       </column>
       <index id="167" parent="16" name="users_pkey">
-        <object-id>61329</object-id>
+        <object-id>61454</object-id>
         <columns>id</columns>
         <desc-columns></desc-columns>
         <unique>1</unique>
       </index>
       <index id="168" parent="16" name="index_users_on_email">
-        <object-id>61331</object-id>
+        <object-id>61456</object-id>
         <columns>email</columns>
         <desc-columns></desc-columns>
         <unique>1</unique>

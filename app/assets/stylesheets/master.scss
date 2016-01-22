@@ -1,5 +1,11 @@
-span.eventposts {
-  //font-family: $font-family-serif;
+
+.body {
+  background-color: $almost-white;
+}
+
+p {
+  line-height: 1.75em;
+  font-size: 1.25em;
 }
 
 #ship {
@@ -44,12 +50,17 @@ span.eventposts {
   text-align: center;
 }
 
-.ui-datepicker {
+div#ui-datepicker-div {
   background-color: $gray-lighter;
   padding: 20px;
   cursor: pointer;
 }
 
+.ui-datepicker {
+  width: 17em;
+  padding: 0;
+  display: none;
+}
 /* ### footer ### */
 .footer {
   position: relative;
@@ -63,4 +74,13 @@ span.eventposts {
     text-align: center;
     padding-top: 20px;
   }
+}
+
+
+
+div.alert-msg {
+
+  box-shadow: 0 0 0.75em $gray;
+
+
 }

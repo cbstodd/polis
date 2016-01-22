@@ -25,14 +25,17 @@ end
 
 
 # EVENTS
-users = User.order(:created_at).take(50)
-10.times do
+users = User.order(:created_at).take(5)
+1.times do
   title =      Faker::Lorem.sentence(1)
   content =    Faker::Lorem.paragraphs.join('<br><br>')
-  event_date = Faker::Date.forward(100)
-  users.each { |user| user.eventposts.create!(title: title, content: content,
+  event_date = Faker::Date.forward(3)
+  users.each { |user| user.eventposts.create!(title: title,
+                                              content: content,
                                               event_date: event_date) }
 end
+
+
 
 # FOLLOWING RELATIONSHIPS
 users =     User.all

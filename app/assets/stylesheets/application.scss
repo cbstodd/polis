@@ -16,6 +16,12 @@
 //Flatly VARIABLES.
 @import '_variables';
 
+//Custom
+@import 'master';
+@import 'eventposts';
+
+
+
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -24,7 +30,5 @@
 @import 'jquery.ui.datepicker';
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
-//Custom
-@import 'master';
-@import 'eventposts'
+
 

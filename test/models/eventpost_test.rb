@@ -5,7 +5,8 @@ class EventpostTest < ActiveSupport::TestCase
   def setup
     @user = users(:tommy)
     @eventpost = @user.eventposts.build(title: 'Event title',
-                                        content: 'Content text here')
+                                        content: 'Content text here',
+                                        event_date: '2016-10-15')
   end
 
   # Asserts all database values are present with example above.

@@ -3,8 +3,10 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-.simple-calendar {}
+.simple-calendar {
+
   .day {
+
   }
 
   .wday-0 {
@@ -23,6 +25,9 @@
   }
 
   .today {
+    background-color: #ffe4bc;
+    //opacity: 0.6;
+
   }
   .past {
   }
@@ -32,11 +37,12 @@
   .start-date {
   }
 
-td.prev-month {
-    background-color: $brand-primary;
+  .prev-month {
+    background-color: $gray-lighter;
   }
 
   .next-month {
+    background-color: $gray-lighter;
   }
 
   .current-month {
@@ -44,3 +50,33 @@ td.prev-month {
 
   .has-events {
   }
+
+  th {
+    border-right: 1px solid #3f556b;
+
+
+  }
+
+  table > thead > tr.days-of-week {
+    background-color: $brand-primary;
+    border-right: $brand-primary;
+    border-top: 1px solid $brand-primary;
+    color: $white;
+  }
+
+  .pager li > a, .pager li > span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #18BC9C;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    color: $white;
+    float: right;
+    margin: 0 10px;
+  }
+
+   span.calendar-title {
+
+    }
+
+}

@@ -12,11 +12,20 @@ class Eventpost < ActiveRecord::Base
   validates :title, presence: true, length: { maximum: 80 }
   validates :content, presence: true, length: { maximum: 2000 }
   validate  :event_image_size
-  # validates_format_of :event_image
+  #Validates proper date.
+  validates_each :event_date do |record, attr, value|
+    begin
+      Date.parse(value)
+    rescue
+      record.errors.add(attr, 'Invalid date')
+    end
+  end
 
-  # def start_time
-  #   self.event_date.start
-  # end
+  # Assigns :event_date to :start_time to work with month_calendar.
+  #  its needed in order for it to work with simple_calendar gem.
+  def start_time
+    self.event_date
+  end
 
   private
 

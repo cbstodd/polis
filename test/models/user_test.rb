@@ -76,7 +76,9 @@ class UserTest < ActiveSupport::TestCase
 
   test 'associated users eventposts should be destroyed' do
     @user.save
-    @user.eventposts.create!(title: 'Post title', content: 'Post content.')
+    @user.eventposts.create!(title: 'Post title',
+                             content: 'Post content.',
+                             event_date: '2016-10-15')
     assert_difference 'Eventpost.count', -1 do
       @user.destroy
     end

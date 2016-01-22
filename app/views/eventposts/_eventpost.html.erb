@@ -5,7 +5,7 @@
       <% if eventpost.event_date.empty? %>
         <!-- *= empty =* -->
       <% else %>
-          on:  <i><%= eventpost.event_date %></i>
+          on:  <i><%= Date.parse(eventpost.event_date).strftime('%Y-%m-%d') %></i>
       <% end %>
     </h3>
   </div>
