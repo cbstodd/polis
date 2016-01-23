@@ -1,0 +1,23 @@
+{
+	"name": "Polis",
+	"icons": [
+		{
+			"src": "/assets/favicon/android-chrome-36x36-05cb59d558bea43cc2a29fea1e766e3a2bc033bbd5bfc847342090587f6785f6.png",
+			"sizes": "36x36",
+			"type": "image\/png",
+			"density": 0.75
+		},
+		{
+			"src": "/assets/favicon/android-chrome-48x48-ceb3693a5ca4ab128f993b7bc549e58bbe48c77db6c76f5e5e9121e7ea4dda82.png",
+			"sizes": "48x48",
+			"type": "image\/png",
+			"density": 1
+		},
+		{
+			"src": "/assets/favicon/android-chrome-72x72-0851071db68ff7003a65a23ef9bbad36c6c5dd538fcef70aa7f7e83fc8681da3.png",
+			"sizes": "72x72",
+			"type": "image\/png",
+			"density": 1.5
+		}
+	]
+}
