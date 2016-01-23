@@ -1,0 +1,21 @@
+current directory: /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/unf_ext-0.0.7.1/ext/unf_ext
+/usr/local/opt/rbenv/versions/2.1.3/bin/ruby -r ./siteconf20160123-16987-17o1wkr.rb extconf.rb
+checking for main() in -lstdc++... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/extensions/x86_64-darwin-15/2.1.0-static/unf_ext-0.0.7.1/mkmf.log
+
+current directory: /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/unf_ext-0.0.7.1/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/unf_ext-0.0.7.1/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.bundle
+
+current directory: /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/unf_ext-0.0.7.1/ext/unf_ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20160123-16987-1f3qaqc
+installing default unf_ext libraries

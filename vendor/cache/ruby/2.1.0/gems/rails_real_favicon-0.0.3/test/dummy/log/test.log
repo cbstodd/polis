@@ -1,0 +1,210 @@
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------
+FaviconGeneratorTest: test_generator_runs_without_errors
+--------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------
+RailsRealFaviconTest: test_truth
+--------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------
+FaviconGeneratorTest: test_generator_runs_without_errors
+--------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_XML
+------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_XML
+------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_XML
+------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_JSON
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_XML
+------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_JSON
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_XML
+------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_JSON
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_XML
+------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_JSON
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_XML
+------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_XML
+------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_JSON
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_JSON
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_XML
+------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_XML
+------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_JSON
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_JSON
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_XML
+------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_JSON
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_XML
+------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_JSON
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_HTML
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_XML
+------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_HTML
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_JSON
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_XML
+------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_JSON
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_HTML
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_XML
+------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_HTML
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_XML
+------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_JSON
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_XML
+------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_JSON
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_HTML
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_HTML
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_JSON
+-------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------
+FaviconGeneratorTest: test_replace_URLs_by_asset_path_in_XML
+------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction

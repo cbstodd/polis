@@ -466,6 +466,20 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="domain_name (vbundled(0.5.25), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/domain_name-0.5.25) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/domain_name-0.5.25/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/domain_name-0.5.25/data" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/domain_name-0.5.25/tool" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/domain_name-0.5.25/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/domain_name-0.5.25/data" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/domain_name-0.5.25/tool" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="erubis (vbundled(2.7.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/erubis-2.7.0) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/erubis-2.7.0/bin" />
@@ -818,6 +832,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="http-cookie (vbundled(1.0.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/http-cookie-1.0.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/http-cookie-1.0.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/http-cookie-1.0.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="i18n (vbundled(0.7.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/i18n-0.7.0) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/i18n-0.7.0/lib" />
@@ -1074,6 +1098,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="netrc (vbundled(0.11.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/netrc-0.11.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/netrc-0.11.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/netrc-0.11.0/data" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/netrc-0.11.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/netrc-0.11.0/data" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="nokogiri (vbundled(1.6.7.1), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/nokogiri-1.6.7.1) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/nokogiri-1.6.7.1/bin" />
@@ -1250,6 +1286,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="rails_real_favicon (vbundled(0.0.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/rails_real_favicon-0.0.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails_real_favicon-0.0.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails_real_favicon-0.0.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="rails_serve_static_assets (vbundled(0.0.4), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/rails_serve_static_assets-0.0.4) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rails_serve_static_assets-0.0.4/lib" />
@@ -1336,6 +1382,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="rest-client (vbundled(1.8.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/rest-client-1.8.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rest-client-1.8.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rest-client-1.8.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rest-client-1.8.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rest-client-1.8.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="rmagick (vbundled(2.15.4), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/rmagick-2.15.4) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rmagick-2.15.4/ext" />
@@ -1356,6 +1414,18 @@
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/ruby-progressbar-1.7.5/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rubyzip (vbundled(1.1.7), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/rubyzip-1.1.7) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rubyzip-1.1.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rubyzip-1.1.7/samples" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rubyzip-1.1.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rubyzip-1.1.7/samples" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -1562,6 +1632,28 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/uglifier-2.5.3/lib" />
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/uglifier-2.5.3/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="unf (vbundled(0.1.4), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/unf-0.1.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/unf-0.1.4/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/unf-0.1.4/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="unf_ext (vbundled(0.0.7.1), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/unf_ext-0.0.7.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/unf_ext-0.0.7.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/unf_ext-0.0.7.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/unf_ext-0.0.7.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/unf_ext-0.0.7.1/lib" />
         </SOURCES>
       </library>
     </orderEntry>

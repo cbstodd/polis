@@ -35,6 +35,10 @@ gem 'ckeditor'
 #Calendar
 gem 'simple_calendar', '~> 2.0'
 
+group :development do
+  gem 'rails_real_favicon'
+end
+
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
   gem 'byebug',      '3.4.0'

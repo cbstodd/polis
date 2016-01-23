@@ -1,0 +1,39 @@
+{
+  "master_picture": "app/assets/images/ship72px.png",
+  "favicon_design": {
+    "ios": {
+      "picture_aspect": "background_and_margin",
+      "background_color": "#18bc9c",
+      "margin": "14%"
+    },
+    "desktop_browser": [
+
+    ],
+    "windows": {
+      "picture_aspect": "no_change",
+      "background_color": "#da532c",
+      "on_conflict": "override"
+    },
+    "android_chrome": {
+      "picture_aspect": "background_and_margin",
+      "margin": "17%",
+      "background_color": "#18bc9c",
+      "theme_color": "#2c3e50",
+      "manifest": {
+        "name": "Polis",
+        "display": "browser",
+        "orientation": "not_set",
+        "on_conflict": "override",
+        "declared": true
+      }
+    },
+    "safari_pinned_tab": {
+      "picture_aspect": "silhouette",
+      "theme_color": "#2C3E50"
+    }
+  },
+  "settings": {
+    "scaling_algorithm": "NearestNeighbor",
+    "error_on_image_too_small": false
+  }
+}
