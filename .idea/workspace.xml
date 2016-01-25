@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="24e6c9f3-54c1-480f-a29e-b5ac1b1d9c33" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cache/ruby/2.1.0/bundler/gems/carrierwave-43179f94d6a4" afterPath="$PROJECT_DIR$/vendor/cache/ruby/2.1.0/bundler/gems/carrierwave-43179f94d6a4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/master.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/master.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/eventposts/index.html.erb" afterPath="$PROJECT_DIR$/app/views/eventposts/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/eventposts/show.html.erb" afterPath="$PROJECT_DIR$/app/views/eventposts/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_eventpost_form.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_eventpost_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/about.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/about.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/contact.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/contact.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user_mailer/account_activation.html.erb" afterPath="$PROJECT_DIR$/app/views/user_mailer/account_activation.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user_mailer/account_activation.text.erb" afterPath="$PROJECT_DIR$/app/views/user_mailer/account_activation.text.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/users_login_test.rb" afterPath="$PROJECT_DIR$/test/integration/users_login_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/users_signup_test.rb" afterPath="$PROJECT_DIR$/test/integration/users_signup_test.rb" />
     </list>
     <ignored path="polis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,8 +82,8 @@
           <file leaf-file-name="contact.html.erb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/static_pages/contact.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.27818182">
-                  <caret line="4" column="486" selection-start-line="4" selection-start-column="486" selection-end-line="4" selection-end-column="486" />
+                <state vertical-scroll-proportion="0.15454546">
+                  <caret line="4" column="136" selection-start-line="4" selection-start-column="136" selection-end-line="4" selection-end-column="136" />
                   <folding />
                 </state>
               </provider>
@@ -1256,8 +1243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/contact.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27818182">
-          <caret line="4" column="486" selection-start-line="4" selection-start-column="486" selection-end-line="4" selection-end-column="486" />
+        <state vertical-scroll-proportion="0.15454546">
+          <caret line="4" column="136" selection-start-line="4" selection-start-column="136" selection-end-line="4" selection-end-column="136" />
           <folding />
         </state>
       </provider>
