@@ -46,6 +46,6 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
 
   test 'should have a link to log in' do
     get signup_path
-    assert_select 'p a[href=?]', login_path
+    assert_select 'span a[href=?]', login_path
   end
 end

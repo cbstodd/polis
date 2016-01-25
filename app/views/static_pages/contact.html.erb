@@ -2,4 +2,19 @@
 
 <h1>Contact</h1>
 
-<p>Please contact us by clicking <%= link_to 'Here', 'mailto:cbstodd@gmail.com' %>.</p>
+<p>Polis was built and is maintained by <%= link_to 'Colper', 'http://www.colinstodd.com', alt:'Colper aka Colin Stodd' %> and friends. It is an open source project where you can view the code <%= link_to 'here', 'https://github.com/cbstodd/polis' %>.  All of the money it takes to create and maintain this application comes out of his pocket, so donations are welcome.  All and any donations will go to the domain and hosting expenses. We are going to do our best to make sure this app stays free. Who the hell likes to pay to use an application? Not us!</p>
+<p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick">
+  <input type="hidden" name="hosted_button_id" value="GKZHXPJXKBQ6J">
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</p>
+
+
+<p>Special thanks to <%= link_to 'Michael Hartl', 'https://www.railstutorial.org/', alt: 'Rails tutorial' %> for his work on the Ruby on Rails Tutorial. Polis's core was built using much of the
+  Sample App's code.</p>
+
+<p>If you have any questions or concerns please contact us using
+  this <%= link_to 'email address', 'mailto:cbstodd@gmail.com', subject: 'Polis ~ Contact' %>.</p>

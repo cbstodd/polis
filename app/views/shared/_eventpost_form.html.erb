@@ -14,12 +14,12 @@
     <div class="row">
       <div class="col-lg-6">
         <div class="form-group">
-          <%= f.label :date %>
-          <div class="input-group date" id="datetimepicker2">
-            <span class="input-group-addon">
+          <%= f.label :date, 'Date*' %>
+          <div class="input-group date">
+            <span class="input-group-addon" id="datetimepicker2">
               <span class="glyphicon glyphicon-calendar"></span>
               <small><i>Select date &nbsp;</i></small>
-              <%= f.text_field :event_date, id:'date', class: '', placeholder:'yyyy-mm-dd' %>
+              <%= f.text_field :event_date, class: '', id:'date', placeholder:'yyyy-mm-dd' %>
             </span>
           </div>
         </div>
@@ -42,8 +42,5 @@
       alert('Your file size is: '+ size_in_megabytes + 'MB. It cannot be larger than 5.0MB. Please choose a smaller file.');
     }
   });
-
-
-
 </script>
 

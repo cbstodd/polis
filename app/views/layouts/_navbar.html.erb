@@ -9,15 +9,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>        
       </button>
-      <i id="ship" class="fa fa-ship fa-2x"><%= link_to '', root_path %></i>
-
+        <%= link_to '', root_path, class:'fa fa-ship fa-2x', id:'ship' %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div id="active-nav" class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav">
         <li><%= nav_link 'Home', root_path %></li>
-        <%= nav_link 'Events', events_path %></li>
+        <%= nav_link 'Calendar', events_path %></li>
         <li><%= nav_link 'About', about_path %></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">

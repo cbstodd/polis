@@ -14,7 +14,7 @@
 <!--</div>-->
 
 <h1>Event calendar</h1>
-
+<p class="note"><i>Make sure you follow <b><%= link_to "users", users_path %></b> to see their events</i></p>
 <%= month_calendar(events: @eventposts)  do |date, eventposts| %>
     <%= date.strftime('%d') %>
 
