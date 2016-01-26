@@ -3,6 +3,7 @@ User.create!(username:              ENV['ADMIN_USERNAME'],
              email:                 ENV['ADMIN_EMAIL'],
              password:              ENV['ADMIN_PASSWORD'],
              password_confirmation: ENV['ADMIN_PASSWORD'],
+             summary:               ENV['ADMIN_SUMMARY'],
              admin: true,
              activated: true,
              activated_at: Time.zone.now
@@ -12,11 +13,13 @@ User.create!(username:              ENV['ADMIN_USERNAME'],
   username =    Faker::Name.name
   random_date = Faker::Time.between(30.days.ago - 1, DateTime.now)
   email =       Faker::Internet.email
-  password =    'password'
+  password =    ENV['EXAMPLE_USER_PASSWORD']
+  summary =     Faker::Lorem.paragraph
   User.create!(username: username,
                email:    email,
                password:              password,
                password_confirmation: password,
+               summary: summary,
                admin: false,
                activated: true,
                activated_at: random_date
