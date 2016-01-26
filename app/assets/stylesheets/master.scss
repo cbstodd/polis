@@ -4,18 +4,27 @@
 }
 
 p {
-  line-height: 1.75em;
-  font-size: 1.25em;
+  line-height: 23px;
+  font-size: 1em;
+}
+
+p.static-content {
+  font-size: 1.30em;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+p.note {
+  color: $brand-success;
+  font-style: italic;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  text-align: justify;
 }
 
 #ship {
   color: $white;
   padding: 15px 15px 0 0;
-}
-
-.note {
-  color: $brand-success;
-  font-style: italic;
 }
 
 .alert-msg {
@@ -51,6 +60,10 @@ p {
   box-shadow: inset 0 0 1em $gray;
 }
 
+a.colper-design-logo > img {
+  max-width: 75px;
+}
+
 .panel-title {
   text-align: center;
 }
@@ -70,15 +83,21 @@ div#ui-datepicker-div {
   padding: 0;
   display: none;
 }
+
+span.user-summary {
+  line-height: 20px;
+  //text-align: justify;
+}
 /* ### footer ### */
 .footer {
-  position: relative;
+  position: absolute;
   bottom: 0;
   width: 100%;
+  left: 0%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #eeeeee;
-  //border-top: 1px solid $gray-light;
+  background-color: $almost-white;
+  border-top: 1px solid $gray-lighter;
   p {
     text-align: center;
     padding-top: 20px;

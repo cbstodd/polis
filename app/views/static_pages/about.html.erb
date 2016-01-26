@@ -1,13 +1,24 @@
 <% provide(:title, 'About') %>
 
 
-<h1>About Polis</h1>
 
 
-  <p>Polis is a social network for events happening in Annapolis, MD.</p>
+<div class="col-lg-11 col-lg-offset-0">
+  <h1>About Polis</h1>
+  <p class="static-content">Polis is a social network for events happening in Annapolis, MD.</p>
 
-  <p>As a fellow Annapolitan and musician, I grew up wanting to have a place where I could go to find the various bands that were playing in the Annapolis area on any given night. When I was bored I wish I had a place to find all the fun stuff (big and large) going on. So I built this social network so that anyone can post their events.</p>
+  <p class="static-content">As a fellow Annapolitan and musician, I grew up wanting to have a place where I could go to
+    find the various bands that were playing in the Annapolis area on any given night. When I was bored I wish I had a
+    place to find all the fun stuff (big and large) going on. So I built this social network so that anyone can post
+    their events.</p>
 
-  <p>Be it a party, concert, yard sale, special night at your restaurant, a street musican wanting to let people know your performing, an art show or whatever. POST IT, it's free! And I hope to see you at the next Polis posted event.</p>
+  <p class="static-content">Be it a party, concert, yard sale, special night at your restaurant, a street musican
+    wanting to let people know your performing, an art show or whatever. POST IT, it's free! And I hope to see you at
+    the next Polis posted event.</p>
 
-<p class="note">Once you have activated your account, make sure you start following <b><%= link_to 'users', users_path %></b> to see their events.  You can find users by clicking on the "<b><%= link_to "Users", users_path %></b>" tab.</p>
+  <p class="note">Once you activate your account, make sure you start following
+    <b><%= link_to 'users', users_path %></b> to see their events. You can find users by clicking on the
+    "<b><%= link_to "Users", users_path %></b>" tab.</p>
+</div>
+
+<%= render 'layouts/footer' %>

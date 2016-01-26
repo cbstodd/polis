@@ -34,9 +34,9 @@
               <li><%= link_to 'Profile', current_user %></li>
               <li><%= link_to 'Edit', edit_user_path(current_user) %></li>
               <li><%= link_to 'My Events', events_user_path(current_user)  %></li>
-              <li><%= nav_link 'Contact', contact_path %></li>
               <li><%= nav_link 'Help', help_path %></li>
               <li role="separator" class="divider"></li>
+              <li><%= nav_link 'Contact', contact_path %></li>
               <li><%= link_to 'Log out', logout_path, method: :delete %></li>
             </ul>
           </li>

@@ -4,6 +4,7 @@ class UserTest < ActiveSupport::TestCase
 
   def setup
     @user = User.new(username: 'ExampleUser', email: 'example@user.com',
+                     summary: 'This is a users profile summary',
                       password: 'Password1', password_confirmation: 'Password1')
   end
 
@@ -28,6 +29,11 @@ class UserTest < ActiveSupport::TestCase
 
   test 'email should not be too long' do
     @user.email = 'a' * 256
+    assert_not @user.valid?
+  end
+
+  test 'profile summary should not be too long' do
+    @user.summary = 'a' * 501
     assert_not @user.valid?
   end
 
@@ -86,15 +92,15 @@ class UserTest < ActiveSupport::TestCase
 
   test 'should follow and unfollow a user' do
     tommy = users(:tommy)
-    tommy = users(:charlotte)
+    charlotte = users(:charlotte)
 
-    assert_not tommy.following?(tommy)
-    tommy.follow(tommy)
-    assert tommy.following?(tommy)
-    assert tommy.followers.include?(tommy)
+    assert_not tommy.following?(charlotte)
+    tommy.follow(charlotte)
+    assert tommy.following?(charlotte)
+    assert charlotte.followers.include?(tommy)
 
-    tommy.unfollow(tommy)
-    assert_not tommy.following?(tommy)
+    tommy.unfollow(charlotte)
+    assert_not tommy.following?(charlotte)
   end
 
   # Status feed #

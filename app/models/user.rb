@@ -27,6 +27,7 @@ class User < ActiveRecord::Base
 
   has_secure_password
   validates :password, presence: true, length: { minimum: 6 }, allow_blank: true
+  validates_length_of :summary, maximum: 500
 
   # Returns the hash digest of the given string.
   def User.digest(string)
