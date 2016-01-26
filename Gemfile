@@ -31,6 +31,8 @@ gem 'sdoc',                    '0.4.0', group: :doc
 gem 'net-ssh'
 gem 'figaro'
 gem 'ckeditor'
+gem 'pry-rails'
+gem 'hirb'
 
 #Calendar
 gem 'simple_calendar', '~> 2.0'
@@ -44,8 +46,6 @@ group :development, :test do
   gem 'byebug',      '3.4.0'
   gem 'web-console', '2.0.0.beta3'
   gem 'spring',      '1.1.3'
-  gem 'pry-rails'
-  gem 'hirb'
 end
 
 group :test do
