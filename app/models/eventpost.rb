@@ -1,6 +1,7 @@
 class Eventpost < ActiveRecord::Base
   belongs_to :user
 
+  searchkick
 
   # Creates a scope to organize eventposts in descending order in the database.
   default_scope -> { order(created_at: :desc) }

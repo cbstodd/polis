@@ -34,6 +34,9 @@ gem 'ckeditor'
 gem 'pry-rails'
 gem 'hirb'
 
+# Works with ElasticSearch
+gem 'searchkick'
+
 #Calendar
 gem 'simple_calendar', '~> 2.0'
 

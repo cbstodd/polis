@@ -5,7 +5,6 @@ class EventpostsController < ApplicationController
   def index
     @eventposts = current_user.feed.paginate(page: params[:page])
     @user = User.find_by(params[:id])
-
     # @feed_items = current_user.feed.paginate(page: params[:page])
   end
 

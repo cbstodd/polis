@@ -1,0 +1,31 @@
+language: ruby
+rvm: 2.2
+services:
+  - elasticsearch
+  - mongodb
+before_install:
+  - ./test/ci/before_install.sh
+script: bundle exec rake test
+before_script:
+  - psql -c 'create database searchkick_test;' -U postgres
+notifications:
+  email:
+    on_success: never
+    on_failure: change
+gemfile:
+  - Gemfile
+  - test/gemfiles/activerecord41.gemfile
+  - test/gemfiles/activerecord40.gemfile
+  - test/gemfiles/activerecord32.gemfile
+  - test/gemfiles/activerecord31.gemfile
+  - test/gemfiles/mongoid2.gemfile
+  - test/gemfiles/mongoid3.gemfile
+  - test/gemfiles/mongoid4.gemfile
+  - test/gemfiles/mongoid5.gemfile
+matrix:
+  include:
+    - gemfile: test/gemfiles/nobrainer.gemfile
+      env: NOBRAINER=true
+  allow_failures:
+    - gemfile: test/gemfiles/nobrainer.gemfile
+      env: NOBRAINER=true

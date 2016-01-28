@@ -480,6 +480,38 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="elasticsearch (vbundled(1.0.15), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/elasticsearch-1.0.15) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/elasticsearch-1.0.15/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/elasticsearch-1.0.15/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="elasticsearch-api (vbundled(1.0.15), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/elasticsearch-api-1.0.15) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/elasticsearch-api-1.0.15/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/elasticsearch-api-1.0.15/utils" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/elasticsearch-api-1.0.15/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/elasticsearch-api-1.0.15/utils" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="elasticsearch-transport (vbundled(1.0.15), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/elasticsearch-transport-1.0.15) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/elasticsearch-transport-1.0.15/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/elasticsearch-transport-1.0.15/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="erubis (vbundled(2.7.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/erubis-2.7.0) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/erubis-2.7.0/bin" />
@@ -530,6 +562,16 @@
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/faker-1.4.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="faraday (vbundled(0.9.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/faraday-0.9.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/faraday-0.9.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/faraday-0.9.2/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -822,6 +864,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="hashie (vbundled(3.4.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/hashie-3.4.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/hashie-3.4.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/hashie-3.4.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="hirb (vbundled(0.7.3), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/hirb-0.7.3) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/hirb-0.7.3/lib" />
@@ -1072,6 +1124,16 @@
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/multi_json-1.11.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="multipart-post (vbundled(2.0.0), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/multipart-post-2.0.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/multipart-post-2.0.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/multipart-post-2.0.0/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -1466,6 +1528,16 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sdoc-0.4.0/bin" />
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sdoc-0.4.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="searchkick (vbundled(1.1.2), /Users/colin/Rails/polis/vendor/cache/ruby/2.1.0/gems/searchkick-1.1.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/searchkick-1.1.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/searchkick-1.1.2/lib" />
         </SOURCES>
       </library>
     </orderEntry>
