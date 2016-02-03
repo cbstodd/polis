@@ -35,6 +35,7 @@ gem 'pry-rails'
 gem 'hirb'
 
 # Works with ElasticSearch
+# run elasticsearch to start server.
 gem 'searchkick'
 
 #Calendar
