@@ -37,6 +37,10 @@
       <!-- *-====/debug====-* -->
 
     </div>
+    <% if logged_in? %>
+    <% else %>
+      <%= render 'shared/home_page' %>
+    <% end %>
 
 </body>
 </html>

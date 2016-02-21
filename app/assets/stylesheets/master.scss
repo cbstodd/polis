@@ -1,11 +1,45 @@
 
-.body {
-  background-color: $almost-white;
+body {
+  &.homepage {
+    background: url('sativa.png') repeat;
+    //background-color: $brand-primary;
+  }
+}
+
+.jumbotron {
+  //background: url('sativa.png') repeat;
+  background-color: $brand-primary;
+  //color: $white!important;
 }
 
 p {
   //line-height: 23px;
   //font-size: .75em;
+}
+
+h1.home-logo {
+  font-weight: bold;
+}
+
+.top-line {
+  padding: 20px;
+  width: 100%;
+  background-color: $brand-success;
+  margin: 2px 0;
+}
+
+.middle-line {
+  padding: 20px;
+  width: 100%;
+  background-color: $brand-primary;
+  margin: 2px 0;
+}
+
+.bottom-line {
+  padding: 20px;
+  width: 100%;
+  background-color: $brand-success;
+  margin: 2px 0;
 }
 
 p.static-content {

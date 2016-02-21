@@ -1,32 +1,38 @@
 <% provide(:title, '') %>
 
+<body class="homepage">
 <% if logged_in? %>
 
-  <div class="row">
-    <div class="col-lg-4">
-      <p><%= render 'shared/user_info' %></p>
-      <p><%= render 'shared/stats' %></p>
-      <hr>
-      <p><%= render 'shared/eventpost_form' %></p>
-    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <p><%= render 'shared/user_info' %></p>
+        <p><%= render 'shared/stats' %></p>
+        <hr>
+        <p><%= render 'shared/eventpost_form' %></p>
+      </div>
 
-    <div class="col-lg-8">
-      <h3>Event feed</h3>
-      <%= render 'shared/feed' %>
+      <div class="col-lg-8">
+        <h3>Event feed</h3>
+        <%= render 'shared/feed' %>
+      </div>
     </div>
-  </div>
 <% else %>
 
-<div class="jumbotron">
-	<div class="container">
-      <h1>Welcome to Polis</h1>
-      <!--<h3>Welcome to <span class="text-muted"></span>Politain!</h3>-->
-		<p>Your one stop place to see, share, and connect with the awesome events in Annapolis, MD.</p>
-    <p>If you are having a party, concert, yard sale, special night at your restaurant, a street musican wanting to let people know you're performing, an art show or whatever. POST IT, it's free! And I hope to see you at the next Polis posted event.</p>
-		<p>
-			<%= link_to 'Sign up!', signup_path, class:'btn btn-primary' %>
-		</p>
-	</div>
-</div>
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="home-logo">Lowdown</h1>
+        <!--<h3>Welcome to <span class="text-muted"></span>Politain!</h3>-->
+        <p>Your one stop place to see, share, and connect with the awesome events in Washington D.C.</p>
+        <p>If you are having a party, concert, yard sale, special night at your restaurant, a street musician wanting to
+          let people know you're performing, an art show or whatever. POST IT, it's free! And I hope to see you at the
+          next Crunchy event.</p>
+        <p>
+          <%= link_to 'Sign up!', signup_path, class: 'btn btn-primary' %>
+        </p>
+      </div>
+    </div>
+
+
 
 <% end %>
+</body>
