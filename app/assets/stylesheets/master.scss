@@ -29,10 +29,14 @@ h1.home-logo {
 }
 
 .middle-line {
-  padding: 20px;
+  padding: 10px;
   width: 100%;
   background-color: $brand-primary;
   margin: 2px 0;
+  text-align: center;
+  > p {
+    padding-top: 10px;
+  }
 }
 
 .bottom-line {
@@ -144,7 +148,13 @@ div.alert-msg {
   box-shadow: 0 0 0.75em $gray;
 }
 
+p.static-content > .colper-contact-logo {
+  max-width: 100px;
+}
 
+.colper-footer-logo {
+  max-width: 50px;
+}
 /* ## Mobile view ## */
 @media screen and (max-width: 768px) {
   #ship {
