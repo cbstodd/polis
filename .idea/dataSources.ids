@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source name="Rails polis: production" uuid="91158c00-6f21-4b8a-b64a-68ae52feeb95">
+  <data-source name="Rails lowdown: production" uuid="91158c00-6f21-4b8a-b64a-68ae52feeb95">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
-  <data-source name="Rails polis: development" uuid="d92c81f3-7aed-4b92-b9bc-d10787052aa9">
+  <data-source name="Rails lowdown: development" uuid="d92c81f3-7aed-4b92-b9bc-d10787052aa9">
     <database-info product="PostgreSQL" version="9.3.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.3 JDBC4 (build 1100)">
       <identifier-quote-string>&quot;</identifier-quote-string>
     </database-info>
     <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact"/>
     <database-model serializer="dbm" rdbms="POSTGRES" format-version="2.4">
-      <database id="1" name="polis_development"/>
+      <database id="1" name="lowdown_development"/>
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
@@ -773,13 +773,13 @@ followed_id</columns>
       </key>
     </database-model>
   </data-source>
-  <data-source name="Rails polis: test" uuid="15f67a2d-5a37-4846-936c-24a1a33538d1">
+  <data-source name="Rails lowdown: test" uuid="15f67a2d-5a37-4846-936c-24a1a33538d1">
     <database-info product="PostgreSQL" version="9.3.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.3 JDBC4 (build 1100)">
       <identifier-quote-string>&quot;</identifier-quote-string>
     </database-info>
     <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact"/>
     <database-model serializer="dbm" rdbms="POSTGRES" format-version="2.4">
-      <database id="1" name="polis_test"/>
+      <database id="1" name="lowdown_test"/>
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>

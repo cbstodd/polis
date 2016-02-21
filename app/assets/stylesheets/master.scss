@@ -89,7 +89,7 @@ p.note {
 
 /* found in users_helper.rb */
 .img-thumbnail:hover {
-  box-shadow: 0 0 0.25em $gray;
+  box-shadow: 0 0.10em 0.25em $brand-success;
 }
 
 .img-thumbnail:focus {

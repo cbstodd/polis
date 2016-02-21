@@ -1,6 +1,6 @@
 <% provide(:title, '') %>
 
-<body class="homepage">
+
 <% if logged_in? %>
 
     <div class="row">
@@ -18,21 +18,20 @@
     </div>
 <% else %>
 
-    <div class="jumbotron">
-      <div class="container">
-        <h1 class="home-logo">Lowdown</h1>
-        <!--<h3>Welcome to <span class="text-muted"></span>Politain!</h3>-->
-        <p>Your one stop place to see, share, and connect with the awesome events in Washington D.C.</p>
-        <p>If you are having a party, concert, yard sale, special night at your restaurant, a street musician wanting to
-          let people know you're performing, an art show or whatever. POST IT, it's free! And I hope to see you at the
-          next Crunchy event.</p>
-        <p>
-          <%= link_to 'Sign up!', signup_path, class: 'btn btn-primary' %>
-        </p>
-      </div>
+<body class="homepage">
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="home-logo">Lowdown</h1>
+      <!--<h3>Welcome to <span class="text-muted"></span>Politain!</h3>-->
+      <p>Your one stop place to see, share, and connect with the awesome events in Washington D.C.</p>
+      <p>If you are having a party, concert, yard sale, special night at your restaurant, a street musician wanting to
+        let people know you're performing, an art show or whatever. POST IT, it's free! And I hope to see you at the
+        next Lowdown event.</p>
+      <p>
+        <%= link_to 'Sign up!', signup_path, class: 'btn btn-success' %>
+      </p>
     </div>
-
-
+  </div>
+</body>
 
 <% end %>
-</body>
