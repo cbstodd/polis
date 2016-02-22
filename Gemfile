@@ -21,7 +21,7 @@ gem 'jquery-ui-sass-rails'
 # gem 'font-awesome-sass'
 # gem 'jquery-ui-rails'
 # gem 'bootstrap-datepicker-rails'
-gem 'rename'
+# gem 'rename'
 
 gem 'uglifier',                '2.5.3'
 gem 'coffee-rails',            '4.1.0'

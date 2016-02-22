@@ -1,8 +1,20 @@
 <component name="ProjectDictionaryState">
   <dictionary name="colin">
     <words>
+      <w>bcrypt</w>
+      <w>byebug</w>
+      <w>carrierwave</w>
       <w>ckeditor</w>
       <w>datepicker</w>
+      <w>elasticsearch</w>
+      <w>github</w>
+      <w>hirb</w>
+      <w>jbuilder</w>
+      <w>minitest</w>
+      <w>sdoc</w>
+      <w>searchkick</w>
+      <w>turbolinks</w>
+      <w>uglifier</w>
     </words>
   </dictionary>
 </component>

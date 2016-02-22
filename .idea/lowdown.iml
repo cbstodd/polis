@@ -1442,18 +1442,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rename (vbundled(1.0.2), /Users/colin/Rails/lowdown/vendor/cache/ruby/2.1.0/gems/rename-1.0.2) [path][gem]">
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rename-1.0.2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rename-1.0.2/tests" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rename-1.0.2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rename-1.0.2/tests" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="rest-client (vbundled(1.8.0), /Users/colin/Rails/lowdown/vendor/cache/ruby/2.1.0/gems/rest-client-1.8.0) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/rest-client-1.8.0/bin" />

@@ -68,7 +68,7 @@
     }
     a:link {
       text-decoration: none!important;
-      color: #18BC9C!important;
+      color: #18BC9C !important;
     }
 
     h1 a,
@@ -222,12 +222,12 @@
 <!-- *%%%%%%%=== Preheader ===%%%%%%%* -->
 <div id="preheader">
   <singleline label="PreHeader">
-    <span style="display: none !important; font-size: 0px; color: #EAEEEF;">Lowdown account activation</span>
+    <span style="display: none !important; font-size: 0px; color: #FFFFFF;">Lowdown account activation</span>
   </singleline>
 </div>
 <!-- *%%%%%%%=== /Preheader ===%%%%%%%* -->
 <!-- *-===== View Online =====-* -->
-<table class="wrapper" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:5px; background-color: #EAEEEF;">
+<table class="wrapper" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:5px; background-color: #FFFFFF;">
 
   <!-- *-------===== mso spacer =====-------* -->
   <tr>
@@ -240,7 +240,7 @@
 </table>
 <!-- *-===== /View Online =====-* -->
 
-<table class="wrapper" width="700" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:5px; background-color: #EAEEEF;">
+<table class="wrapper" width="700" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:5px; background-color: #FFFFFF;">
 
 
   <!-- *-------===== mso spacer =====-------* -->
@@ -264,7 +264,7 @@
       <table width="698" border="0" align="left" cellpadding="0" cellspacing="0" class="item">
         <!-- *-------===== mso spacer =====-------* -->
         <tr>
-          <!--[if mso]><td style="background-color: #EAEEEF;"><p>&nbsp;</p></td><![endif]-->
+          <!--[if mso]><td style="background-color: #FFFFFF;"><p>&nbsp;</p></td><![endif]-->
         </tr>
         <!-- *-------=====/mso spacer =====-------* -->
         <tr>
@@ -274,17 +274,18 @@
 
           <td class="item" align="center" width="100" style="color: #2C3E50; font-size: 16px; font-weight: normal; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 23px; vertical-align: top; padding: 20px 0 !important;">
                   <span style="font-size: 30px; line-height: 1.3em; color: #2C3E50;">
-                    Welcome to Lowdown
+                    Lowdown activation
                   </span>
-
+            <br>
                   <span style="text-align: left;">
                     <span style="color:#2C3E50; font-weight:bold; font-size:18px;">
                       Hello <%= @user.username %>,
                     </span>
 
-                    <p style="text-align: left;">To activate your account, click on the ACTIVATE button below or copy this link below into your browswer.</p>
+                    <p style="text-align: left;">To activate your account, click on the activate button or copy this link below into your browser. </p>
+                    <p><%= edit_account_activation_url(@user.activation_token, email: @user.email) %></p>
 
-                    <p style="text-align: left;"><%= edit_account_activation_url(@user.activation_token, email: @user.email) %></p>
+                    <p style="text-align: left;"></p>
 
                     <p style="text-align: left;">Once you have activated your account, make sure you start following users to see their events.  You can find users by clicking on the "Users" tab.</p>
 
@@ -296,7 +297,7 @@
               <table style="background-color: #2C3E50; padding: 5px 10px; border-radius: 30px; width: 130px; text-align: center;">
                 <tr>
                   <td>
-                    <a href="<%= link_to 'this link', edit_account_activation_url(@user.activation_token, email: @user.email) %>" style="color:#ffffff!important;font-family:Arial, sans-serif;font-size:16px;font-weight:normal; text-decoration: none; text-transform: uppercase;">
+                    <a href="<%= edit_account_activation_url(@user.activation_token, email: @user.email) %>" style="color:#ffffff!important;font-family:Arial, sans-serif;font-size:16px;font-weight:normal; text-decoration: none; text-transform: uppercase;">
                       <span style="color:#ffffff;">Activate</span>
                     </a>
                   </td>
@@ -317,7 +318,7 @@
   </tr>
   <!-- *-------===== mso spacer =====-------* -->
   <tr>
-    <!--[if mso]><td style="background-color: #EAEEEF;"><p>&nbsp;</p></td><![endif]-->
+    <!--[if mso]><td style="background-color: #FFFFFF;"><p>&nbsp;</p></td><![endif]-->
   </tr>
   <!-- *-------=====/mso spacer =====-------* -->
 

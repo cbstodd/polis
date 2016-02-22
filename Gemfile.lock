@@ -281,8 +281,6 @@ GEM
       ffi (>= 0.5.0)
     rdoc (4.2.1)
       json (~> 1.4)
-    rename (1.0.2)
-      rails (>= 3.0.0)
     rest-client (1.8.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 3.0)
@@ -368,7 +366,6 @@ DEPENDENCIES
   rails (= 4.2.5)
   rails_12factor (= 0.0.2)
   rails_real_favicon
-  rename
   rmagick
   sass-rails (= 5.0.2)
   sdoc (= 0.4.0)
