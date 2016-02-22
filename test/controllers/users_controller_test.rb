@@ -16,7 +16,7 @@ class UsersControllerTest < ActionController::TestCase
   test 'should get new and title' do
     get :new
     assert_response :success
-    assert_select 'title', 'Sign up ~ Polis'
+    assert_select 'title', 'Sign up ~ Lowdown'
   end
 
   test 'should redirect edit to login_path when not logged in' do

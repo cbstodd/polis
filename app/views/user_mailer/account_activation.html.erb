@@ -1,10 +1,369 @@
-<h1>Welcome to Polis <%= @user.username %>,</h1>
+<!doctype html>
+<html>
 
-<p>To activate your account, click on <%= link_to 'this link', edit_account_activation_url(@user.activation_token, email: @user.email) %> or copy think link below into your browswer's URL bar.</p>
+<head>
+  <title>Lowdown Greeting Email</title>
 
-<p><%= edit_account_activation_url(@user.activation_token, email: @user.email) %></p>
+  <style type="text/css">
+    table.wrapper {}
 
-<p>Once you have activated your account, make sure you start following users to see their events.  You can find users by clicking on the "Users" tab.</p>
+    body {
+      background: url('https://s3.amazonaws.com/polis-events/images/sativa.png') repeat;
+    }
+
+    img.resize {}
+
+    .item {}
+
+    .item img {}
+
+    .item img.disappear {}
+
+    .item img.noresize {}
+
+    .item1 {}
+
+    .item1 {
+      width: 310px !important;
+    }
+
+    .item1 {
+      width: 480px !important;
+    }
+    /* Reset Styles */
+    /* Add 100px so mobile switch bar doesn't cover street address. */
+
+    body {
+      background-color: #ffffff;
+      color: #000000;
+      margin: 0;
+      padding: 0;
+    }
+
+    img {
+      outline: none;
+      text-decoration: none;
+    }
+
+    br,
+    strong br,
+    b br,
+    em br,
+    i br {
+      line-height: 100%;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      line-height: 100% !important;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    ul {
+      text-align: left;
+    }
+    a:link {
+      text-decoration: none!important;
+      color: #18BC9C!important;
+    }
+
+    h1 a,
+    h2 a,
+    h3 a,
+    h4 a,
+    h5 a,
+    h6 a {
+      color: #2C3E50!important;
+    }
+    h1 a:active,
+    h2 a:active,
+    h3 a:active,
+    h4 a:active,
+    h5 a:active,
+    h6 a:active {
+      color: #2C3E50!important;
+      text-decoration: underline;
+    }
+    /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+    h1 a:visited,
+    h2 a:visited,
+    h3 a:visited,
+    h4 a:visited,
+    h5 a:visited,
+    h6 a:visited {
+      color: #18BC9C !important;
+    }
+    /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+
+    table td,
+    table tr {
+      border-collapse: collapse;
+    }
+    .yshortcuts,
+    .yshortcuts a,
+    .yshortcuts a:link,
+    .yshortcuts a:visited,
+    .yshortcuts a:hover,
+    .yshortcuts a span {
+      color: black;
+      text-decoration: none !important;
+      border-bottom: none !important;
+      background: none !important;
+    }
+    /* Body text color for the New Yahoo.  This example sets the font of Yahoo's Shortcuts to black. */
+    /* Preheader */
+
+    span.preheader {
+      display: none !important;
+    }
+
+    #preheader {
+      display: none !important;
+    }
+
+    @media screen and (max-width: 480px) {
+      table.wrapper {
+        width: 310px !important;
+      }
+      img.resize {
+        width: 310px !important;
+        height: auto !important;
+      }
+      .item {
+        width: 310px !important;
+      }
+      td#content.item {
+        padding: 10px 0 10px 20px !important;
+      }
+      tr td#header.item {
+        padding: 10px 10px 0 !important;
+      }
+      /*.item img {width: 310px !important;  height: auto !important;}*/
+      /*.item img.noresize {width: inherit !important;}*/
+      .item img.disappear {
+        display: none !important;
+      }
+      .logotext {
+        display: none;
+      }
+      td#seal {
+        padding: 0 !important;
+      }
+      #forward-btn {
+        max-width: 100px;
+      }
+      /* footer */
+      td.block {
+        display: block !important;
+        padding: 10px !important;
+      }
+      #account {
+        padding: 0 !important;
+      }
+      td.social-footer {
+        padding: 0 0.5em !important;
+      }
+      td.logo-footer {
+        padding: 0 0 0 10px !important;
+      }
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 699px) {
+      table.wrapper {
+        width: 480px !important;
+      }
+      img.resize {
+        width: 480px !important;
+        height: auto !important;
+      }
+      .item {
+        width: 480px !important;
+      }
+      /*.item img {width: 480px !important;  height: auto !important;}
+                .item img.noresize {width: inherit !important;}*/
+      .item img.disappear {
+        display: none !important;
+      }
+      .logotext {
+        display: none;
+      }
+      td#seal {
+        padding: 0 !important;
+      }
+      #forward-btn {
+        max-width: 100px;
+      }
+      /* footer */
+      td.block {
+        display: block !important;
+        padding: 10px !important;
+      }
+      #account {
+        padding: 0 !important;
+      }
+      td.social-footer {
+        padding: 0 0.5em !important;
+      }
+      td.logo-footer {
+        padding: 0 0 0 10px !important;
+      }
+    }
+
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+</head>
+
+<body>
+<!-- *%%%%%%%=== Preheader ===%%%%%%%* -->
+<div id="preheader">
+  <singleline label="PreHeader">
+    <span style="display: none !important; font-size: 0px; color: #EAEEEF;">Lowdown account activation</span>
+  </singleline>
+</div>
+<!-- *%%%%%%%=== /Preheader ===%%%%%%%* -->
+<!-- *-===== View Online =====-* -->
+<table class="wrapper" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:5px; background-color: #EAEEEF;">
+
+  <!-- *-------===== mso spacer =====-------* -->
+  <tr>
+    <!--[if mso]><td style="background-color: #ffffff;"><p>&nbsp;</p></td><![endif]-->
+  </tr>
+  <tr>
+    <!--[if mso]><td style="background-color: #ffffff;"><p>&nbsp;</p></td><![endif]-->
+  </tr>
+  <!-- *-------=====/mso spacer =====-------* -->
+</table>
+<!-- *-===== /View Online =====-* -->
+
+<table class="wrapper" width="700" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:5px; background-color: #EAEEEF;">
 
 
-<p><small>If you think this message was sent by mistake, please disregard this message.</small></p>
+  <!-- *-------===== mso spacer =====-------* -->
+  <tr>
+    <!--[if mso]><td style="background-color: #ffffff;"><p>&nbsp;</p></td><![endif]-->
+  </tr>
+  <tr>
+    <!--[if mso]><td style="background-color: #ffffff;"><p>&nbsp;</p></td><![endif]-->
+  </tr>
+  <!-- *-------=====/mso spacer =====-------* -->
+
+  <tr>
+    <td class="item" align="left" style="padding: 0!important; text-align: center;">
+      <a href="http://www.lowdown.site">
+        <img src="https://s3.amazonaws.com/polis-events/images/ship72px.png" alt="Image" width="70" height="" class="resize" style="display: inline; padding-top:20px;" border="0" align="top">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width="698" border="0" align="left" cellpadding="0" cellspacing="0" class="item">
+        <!-- *-------===== mso spacer =====-------* -->
+        <tr>
+          <!--[if mso]><td style="background-color: #EAEEEF;"><p>&nbsp;</p></td><![endif]-->
+        </tr>
+        <!-- *-------=====/mso spacer =====-------* -->
+        <tr>
+          <td align="left" width="15">
+            <img src="https://s3.amazonaws.com/agaemails/stylesheets/spacer.gif" width="15" height="15" alt=""/>
+          </td>
+
+          <td class="item" align="center" width="100" style="color: #2C3E50; font-size: 16px; font-weight: normal; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 23px; vertical-align: top; padding: 20px 0 !important;">
+                  <span style="font-size: 30px; line-height: 1.3em; color: #2C3E50;">
+                    Welcome to Lowdown
+                  </span>
+
+                  <span style="text-align: left;">
+                    <span style="color:#2C3E50; font-weight:bold; font-size:18px;">
+                      Hello <%= @user.username %>,
+                    </span>
+
+                    <p style="text-align: left;">To activate your account, click on the ACTIVATE button below or copy this link below into your browswer.</p>
+
+                    <p style="text-align: left;"><%= edit_account_activation_url(@user.activation_token, email: @user.email) %></p>
+
+                    <p style="text-align: left;">Once you have activated your account, make sure you start following users to see their events.  You can find users by clicking on the "Users" tab.</p>
+
+                  </span>
+
+
+            <!-- *%%%%%%%--=== button ===--%%%%%%%* -->
+            <div style="margin: 0 auto;">
+              <table style="background-color: #2C3E50; padding: 5px 10px; border-radius: 30px; width: 130px; text-align: center;">
+                <tr>
+                  <td>
+                    <a href="<%= link_to 'this link', edit_account_activation_url(@user.activation_token, email: @user.email) %>" style="color:#ffffff!important;font-family:Arial, sans-serif;font-size:16px;font-weight:normal; text-decoration: none; text-transform: uppercase;">
+                      <span style="color:#ffffff;">Activate</span>
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <br/>
+            <!-- *%%%%%%%--===/button ===--%%%%%%%* -->
+            <p><small>If you think this message was sent by mistake, please disregard this message.</small></p>
+
+          </td>
+          <td align="left" width="15">
+            <img src="https://s3.amazonaws.com/agaemails/stylesheets/spacer.gif" width="15" height="15" alt=""/>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <!-- *-------===== mso spacer =====-------* -->
+  <tr>
+    <!--[if mso]><td style="background-color: #EAEEEF;"><p>&nbsp;</p></td><![endif]-->
+  </tr>
+  <!-- *-------=====/mso spacer =====-------* -->
+
+  <!-- ******** FOOTER **********-->
+  <table width="700" border="0" align="center" cellpadding="0" cellspacing="0" class="item">
+    <tr>
+      <td align="left" valign="top" bgcolor="#18BC9C" class="cell">
+        <table border="0" cellpadding="0" cellspacing="0" class="item">
+          <tr>
+            <td align="left" valign="top" class="block" style="padding:0 0 0 30px;">
+              <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="left" valign="top" class="logo-footer" style="">
+                    <a href="#">
+                      <img src="https://s3.amazonaws.com/polis-events/images/ship72px.png" alt="Lowdown"logo style="padding: 13px 0 0 0;" width="50" height="50" border="0"/>
+                      <!-- <span style="color: #ffffff; font-size: 3em; text-align:right; padding: 0 0 0 50px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+                        Lowdown
+                      </span> -->
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" bgcolor="#2C3E50" id="account" class="cell" style="padding:15px 0 25px 0;">
+        <table border="0" cellpadding="5" cellspacing="0" class="item">
+          <tr>
+            <td align="left" valign="top" class="opt-out" style="color:#ffffff;font-family: Helvetica, Arial, sans-serif;font-size:10px;line-height:20px;">
+              Copyright &copy; Lowdown
+
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <!-- ******** END FOOTER **********-->
+</table>
+
+<!-- *-------===== external css =====-------* -->
+<link rel="stylesheet" href="https://s3.amazonaws.com/agaemails/stylesheets/main.css"/>
+</body>
+
+</html>
