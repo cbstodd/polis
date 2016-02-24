@@ -4,11 +4,12 @@
 <div class="row">
   <div class="col-lg-4">
     <%= gravatar_for(@user) %>
-    <h1><%= @user.username %></h1>
-    <!--<p><%# @user.email %></p>-->
-    <span class="user-summary"><%= @user.summary %></span>
-    <p><%= render 'follow_form' if logged_in? %></p>
-    <p><%= render 'shared/stats' %></p>
+    <div class="user-profile">
+      <h1><%= @user.username %></h1>
+      <span class="user-summary"><%= @user.summary %></span>
+      <p><%= render 'follow_form' if logged_in? %></p>
+      <p><%= render 'shared/stats' %></p>
+    </div>
   </div>
 
   <div class="col-lg-8">

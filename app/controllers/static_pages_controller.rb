@@ -5,8 +5,10 @@ class StaticPagesController < ApplicationController
       @eventpost = current_user.eventposts.build
 
       #Allows for similar search.
-      query = params[:q].presence || '*'
-      @feed_items = current_user.feed.paginate(page: params[:page]).search(query)
+      # query = params[:q].presence || '*'
+      #Only shows future eventposts.
+      @feed_items =  current_user.feed.where('event_date >= ?', Date.today - 1).order(:event_date).paginate(page: params[:page])
+
     end
   end
 

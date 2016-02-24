@@ -47,12 +47,14 @@ $link-hover-decoration: underline !default;
 //Google fonts.
 @import url(https://fonts.googleapis.com/css?family=Courgette|Ubuntu:400,500italic,700,700italic,500,400italic,300,300italic|Merriweather:400,400italic,300,300italic,700,700italic,900,900italic|Varela+Round);
 
+$font-family-sans-serif-default:  "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family-sans-serif:  "Varela Round", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family-serif:       Merriweather, Charter, Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
-$font-family-ubuntu:      Ubuntu !default;
+$font-family-courgette:   Courgette !default;
+$font-family-ubuntu:      ubuntu !default;
 $font-size-base:          15px !default;
 $font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
@@ -70,7 +72,7 @@ $line-height-base:        1.428571429 !default; // 20/14
 $line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
 
 //** By default, this inherits from the `<body>`.
-$headings-font-family:    $font-family-ubuntu !default;
+$headings-font-family:    $font-family-sans-serif-default !default;
 $headings-font-weight:    400 !default;
 $headings-line-height:    1.1 !default;
 $headings-color:          inherit !default;

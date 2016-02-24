@@ -3,9 +3,10 @@ class EventpostsController < ApplicationController
   before_action :correct_user, only: :destroy
 
   def index
-    @eventposts = current_user.feed.paginate(page: params[:page])
+    query = params[:q].presence || '*'
+    @eventposts = current_user.feed.paginate(page: params[:page]).search(query)
     @user = User.find_by(params[:id])
-    # @feed_items = current_user.feed.paginate(page: params[:page])
+    # @feed_items = current_user.feed.paginate(page: params[:page]).search(query)
   end
 
   def create

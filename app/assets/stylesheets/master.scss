@@ -7,8 +7,14 @@ body.homepage {
 
 .jumbotron {
   //background: url('sativa.png') repeat;
-  background-color: $brand-primary;
+  background-color: $brand-primary!important;
+  color: $brand-success!important;
   //color: $white!important;
+  h1 {
+    font-family: $font-family-courgette;
+
+    color: $white!important;
+  }
 }
 
 p {
@@ -74,9 +80,23 @@ p.note {
   color: #E74C3C;
 }
 
+.panel-heading {
+
+}
+
+.panel-title {
+  font-weight: bold;
+  background: inherit;
+}
 .panel {
   margin: 3px 5px;
 }
+
+.panel-footer {
+
+  background-color: $white!important;
+}
+
 .users-link {
   color: $white;
   &:hover {
@@ -84,6 +104,7 @@ p.note {
     text-decoration: none;
   }
 }
+
 
 .follow-avatars > img {
   max-width: 30px;
@@ -123,8 +144,9 @@ div#ui-datepicker-div {
   display: none;
 }
 
-span.user-summary {
+.user-summary {
   line-height: 20px;
+
   //text-align: justify;
 }
 /* ### footer ### */

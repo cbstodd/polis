@@ -3,7 +3,7 @@
   <%= I18n.t("date.month_names")[start_date.month] %> <%= start_date.year %>
   <%= link_to "Next", start_date: date_range.last + 1.day  %>
 
-  <table class="table table-default">
+  <table class="table table-condensed">
     <thead>
       <tr>
         <% date_range.slice(0, 7).each do |day| %>

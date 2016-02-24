@@ -40,7 +40,7 @@ class EventpostTest < ActiveSupport::TestCase
   end
 
   test "order should be more recent first" do
-    assert_equal eventposts(:most_recent_post), Eventpost.first
+    assert_equal eventposts(:most_recent_post), Eventpost.last
   end
 
 

@@ -4,7 +4,9 @@ class Eventpost < ActiveRecord::Base
   searchkick
 
   # Creates a scope to organize eventposts in descending order in the database.
-  default_scope -> { order(created_at: :desc) }
+  # scope :order, lambda {|*args| {:order => (args.first || 'created_at DESC')} }
+  default_scope -> { order(event_date: :desc) }
+
   # scope :desc, order("eventposts.created_at DESC")
 
   mount_uploader :event_image, EventImageUploader

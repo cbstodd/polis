@@ -21,7 +21,7 @@ class UsersEventpostsTest < ActionDispatch::IntegrationTest
     end
 
     get events_user_path(@user)
-    assert_select 'title', "#{@user.username}s events ~ Polis"
+    assert_select 'title', "#{@user.username}s events ~ Lowdown"
     assert_select 'h3', "#{@user.username}'s events"
     assert_select '.panel-title'
     assert_match @user.eventposts.count.to_s, response.body
