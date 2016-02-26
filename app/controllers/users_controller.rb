@@ -13,6 +13,7 @@ class UsersController < ApplicationController
   # Calls users eventposts page.
   def eventposts
     @user = User.find(params[:id])
+    # query = params[:q].presence || '*'
     @eventposts = @user.eventposts
   end
 

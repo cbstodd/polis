@@ -5,7 +5,7 @@ class Eventpost < ActiveRecord::Base
 
   # Creates a scope to organize eventposts in descending order in the database.
   # scope :order, lambda {|*args| {:order => (args.first || 'created_at DESC')} }
-  default_scope -> { order(event_date: :desc) }
+  default_scope -> { order(event_date: :asc) }
 
   # scope :desc, order("eventposts.created_at DESC")
 
