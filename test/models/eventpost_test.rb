@@ -7,6 +7,7 @@ class EventpostTest < ActiveSupport::TestCase
     @eventpost = @user.eventposts.build(title: 'Event title',
                                         content: 'Content text here',
                                         event_date: '2016-10-15')
+
   end
 
   # Asserts all database values are present with example above.
@@ -40,7 +41,7 @@ class EventpostTest < ActiveSupport::TestCase
   end
 
   test "order should be more recent first" do
-    assert_equal eventposts(:most_recent_post), Eventpost.last
+    assert_equal eventposts(:concert), Eventpost.first
   end
 
 
