@@ -93,8 +93,7 @@ p.note {
 }
 
 .panel-footer {
-
-  background-color: $white!important;
+  background-color: $almost-white!important;
 }
 
 .users-link {
@@ -149,12 +148,20 @@ div#ui-datepicker-div {
 
   //text-align: justify;
 }
+
+.calendar-title {
+  font-family: $font-family-sans-serif-default;
+  font-size: 12px;
+  padding-left: 0;
+}
+
+
 /* ### footer ### */
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  left: 0%;
+  left: 0;
   /* Set the fixed height of the footer here */
   height: 60px;
   background-color: $almost-white;

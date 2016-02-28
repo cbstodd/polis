@@ -20,7 +20,7 @@
 
     <% eventposts.each do |eventpost| %>
         <div>
-          <span class="calendar-title" colspan="2"><%= link_to "*#{eventpost.title.first(20)}...", eventpost %></span>
+          <span class="calendar-title" colspan="2"><%= link_to "&bull; #{eventpost.title.first(20)}...".html_safe, eventpost %></span>
         </div>
     <% end %>
 

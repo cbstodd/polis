@@ -5,7 +5,7 @@
       <% if eventpost.event_date.empty? %>
         <!-- *= empty =* -->
       <% else %>
-          on:  <i><%= Date.parse(eventpost.event_date).strftime('%Y-%m-%d') %></i>
+          ~  <i><%= link_to Date.parse(eventpost.event_date).strftime('%Y-%m-%d'), events_path %></i>
       <% end %>
     </h3>
   </div>
@@ -15,7 +15,7 @@
         <%= link_to gravatar_for(eventpost.user), user_path(eventpost.user) %>
         <br>
         <div class="event-post-username">
-          <%= eventpost.user.username %>
+          <%= link_to eventpost.user.username, user_path(@user) %>
           <br>
           <% if current_user?(eventpost.user) %>
           <%= link_to 'Delete post', eventpost, class:'btn btn-sm btn-default',
@@ -31,7 +31,7 @@
     </div>
   </div>
   <div class="panel-footer">
-    <small>Posted
+    <small class="text-muted">Posted
       <%= time_ago_in_words(eventpost.created_at) %>
       ago.</small>
   </div>

@@ -1,11 +1,14 @@
 <%= provide(:title, @user.username) %>
 
-
+<div class="row">
+  <center><h1><%= @user.username %>'s profile</h1></center>
+</div>
+<hr>
 <div class="row">
   <div class="col-lg-4">
     <%= gravatar_for(@user) %>
     <div class="user-profile">
-      <h1><%= @user.username %></h1>
+      <h3><%= @user.username %></h3>
       <span class="user-summary"><%= @user.summary %></span>
       <p><%= render 'follow_form' if logged_in? %></p>
       <p><%= render 'shared/stats' %></p>

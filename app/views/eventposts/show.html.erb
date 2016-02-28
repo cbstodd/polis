@@ -1,12 +1,12 @@
 <%= provide(:title, 'Event') %>
 
-<h1>Event</h1>
+<!--<h1>Event: <%# @eventpost.title %></h1>-->
 
-<div class="panel panel-success">
+<div class="panel panel-default">
   <div class="panel-heading">
     <h3 class="panel-title">
-      <%= @eventpost.event_date %>
-      <%= @eventpost.title %>
+      <%= @eventpost.title %><br>
+      On ~ <%= link_to @eventpost.event_date, events_path  %>
     </h3>
   </div>
   <div class="panel-body">
@@ -15,7 +15,7 @@
         <%= link_to gravatar_for(@eventpost.user), user_path(@eventpost.user) %>
         <br>
         <div class="event-post-username">
-          <%= @eventpost.user.username %>
+          <%= link_to @eventpost.user.username %>
           <br>
           <% if current_user?(@eventpost.user) %>
               <%= link_to 'Delete post', eventpost_url, class:'btn btn-sm btn-default',
