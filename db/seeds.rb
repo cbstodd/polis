@@ -9,34 +9,34 @@ User.create!(username:              ENV['ADMIN_USERNAME'],
              activated_at: Time.zone.now
 )
 
-50.times do |num|
-  username =    Faker::Name.name
-  random_date = Faker::Time.between(30.days.ago - 1, DateTime.now)
-  email =       Faker::Internet.email
-  password =    ENV['EXAMPLE_USER_PASSWORD']
-  summary =     Faker::Lorem.paragraph
-  User.create!(username: username,
-               email:    email,
-               password:              password,
-               password_confirmation: password,
-               summary: summary,
-               admin: false,
-               activated: true,
-               activated_at: random_date
-  )
-end
+# 50.times do |num|
+#   username =    Faker::Name.name
+#   random_date = Faker::Time.between(30.days.ago - 1, DateTime.now)
+#   email =       Faker::Internet.email
+#   password =    ENV['EXAMPLE_USER_PASSWORD']
+#   summary =     Faker::Lorem.paragraph
+#   User.create!(username: username,
+#                email:    email,
+#                password:              password,
+#                password_confirmation: password,
+#                summary: summary,
+#                admin: false,
+#                activated: true,
+#                activated_at: random_date
+#   )
+# end
 
 
 # EVENTS
-users = User.order(:created_at).take(5)
-1.times do
-  title =      Faker::Lorem.sentence(1)
-  content =    Faker::Lorem.paragraphs.join('<br><br>')
-  event_date = Faker::Date.forward(3)
-  users.each { |user| user.eventposts.create!(title: title,
-                                              content: content,
-                                              event_date: event_date) }
-end
+# users = User.order(:created_at).take(5)
+# 1.times do
+#   title =      Faker::Lorem.sentence(1)
+#   content =    Faker::Lorem.paragraphs.join('<br><br>')
+#   event_date = Faker::Date.forward(3)
+#   users.each { |user| user.eventposts.create!(title: title,
+#                                               content: content,
+#                                               event_date: event_date) }
+# end
 
 
 
