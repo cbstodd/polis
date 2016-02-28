@@ -41,9 +41,9 @@ User.create!(username:              ENV['ADMIN_USERNAME'],
 
 
 # FOLLOWING RELATIONSHIPS
-users =     User.all
-user =      users.first
-following = users[2..50]
-followers = users[5..40]
-following.each { |followed| user.follow(followed) }
-followers.each { |follower| follower.follow(user) }
+# users =     User.all
+# user =      users.first
+# following = users[2..50]
+# followers = users[5..40]
+# following.each { |followed| user.follow(followed) }
+# followers.each { |follower| follower.follow(user) }
