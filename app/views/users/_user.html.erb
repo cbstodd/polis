@@ -1,12 +1,12 @@
-<div class="col-lg-5">
+<div class="col-lg-6">
   <ul class="list-group">
     <li class="list-group-item well">
       <span class="badge"><%= user.eventposts.count %> events</span>
       <div class="row">
-        <div class="col-lg-2">
+        <div class="col-lg-3">
           <%= link_to gravatar_for(user), user_path(user) %>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-5">
           <p><%= link_to user.username, user_path(user) %></p>
           <% if current_user.admin? && !current_user?(user) %>
               <%= link_to "delete", user, class: 'btn btn-danger', method: :delete,

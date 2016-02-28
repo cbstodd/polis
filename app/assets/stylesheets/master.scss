@@ -1,7 +1,7 @@
 
 body.homepage {
     background: url('https://s3.amazonaws.com/polis-events/images/sativa.png') repeat;
-    //background-color: $brand-primary;
+    background-color: $brand-primary;
 }
 
 
@@ -104,10 +104,15 @@ p.note {
   }
 }
 
+a > strong.stat {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
 
 .follow-avatars > img {
   max-width: 30px;
-
 }
 
 /* found in users_helper.rb */
@@ -155,6 +160,9 @@ div#ui-datepicker-div {
   padding-left: 0;
 }
 
+.all-events-txt {
+  font-size: 25px;
+}
 
 /* ### footer ### */
 .footer {

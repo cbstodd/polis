@@ -12,7 +12,8 @@
       </div>
 
       <div class="col-lg-8">
-        <h3>All events</h3>
+        <span class="all-events-txt">All events</span> <a tabindex="0" id="event-info" class="glyphicon glyphicon-info-sign" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="" data-content="Events are ordered by the most recent event date. With the nearest event on top."></a>
+
         <%= render 'shared/feed' %>
       </div>
     </div>
@@ -22,7 +23,6 @@
   <div class="jumbotron">
     <div class="container">
       <h1 class="home-logo">lowdown</h1>
-      <!--<h3>Welcome to <span class="text-muted"></span>Politain!</h3>-->
       <p>Your one stop place to see, share, and connect with the awesome events in Washington D.C.</p>
       <p>If you are having a party, concert, yard sale, special night at your restaurant, a street musician wanting to
         let people know you're performing, an art show or whatever. POST IT, it's free! And I hope to see you at the
@@ -35,3 +35,10 @@
 </body>
 
 <% end %>
+
+<script type="text/javascript" charset="utf-8">
+  $('#event-info').popover(function(){
+    $(this).mouseover('show');
+
+  });
+</script>
