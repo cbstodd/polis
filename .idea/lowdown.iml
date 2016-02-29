@@ -1564,6 +1564,20 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="sitemap_generator (vbundled(5.1.0), /Users/colin/Rails/lowdown/vendor/cache/ruby/2.1.0/gems/sitemap_generator-5.1.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sitemap_generator-5.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sitemap_generator-5.1.0/rails" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sitemap_generator-5.1.0/templates" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sitemap_generator-5.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sitemap_generator-5.1.0/rails" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/sitemap_generator-5.1.0/templates" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="slop (vbundled(3.6.0), /Users/colin/Rails/lowdown/vendor/cache/ruby/2.1.0/gems/slop-3.6.0) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/cache/ruby/2.1.0/gems/slop-3.6.0/lib" />
