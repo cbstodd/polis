@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="24e6c9f3-54c1-480f-a29e-b5ac1b1d9c33" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cache/ruby/2.1.0/bundler/gems/carrierwave-43179f94d6a4" afterPath="$PROJECT_DIR$/vendor/cache/ruby/2.1.0/bundler/gems/carrierwave-43179f94d6a4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user_mailer/account_activation.html.erb" afterPath="$PROJECT_DIR$/app/views/user_mailer/account_activation.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user_mailer/account_activation.text.erb" afterPath="$PROJECT_DIR$/app/views/user_mailer/account_activation.text.erb" />
     </list>
     <ignored path="lowdown.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,10 +106,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="account_activation.html.erb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="account_activation.html.erb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/user_mailer/account_activation.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.35800603">
+                <state vertical-scroll-proportion="1.3461539">
                   <caret line="284" column="122" selection-start-line="284" selection-start-column="122" selection-end-line="284" selection-end-column="122" />
                   <folding>
                     <element signature="n#style#0;n#span#0;n#singleline#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -142,11 +143,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="account_activation.text.erb" pinned="false" current-in-tab="false">
+          <file leaf-file-name="account_activation.text.erb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/user_mailer/account_activation.text.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-5.230769">
-                  <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.25679758">
+                  <caret line="8" column="158" selection-start-line="8" selection-start-column="158" selection-end-line="8" selection-end-column="158" />
                   <folding />
                 </state>
               </provider>
@@ -259,10 +260,10 @@
         <option value="$PROJECT_DIR$/app/views/shared/_eventpost_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/about.html.erb" />
         <option value="$PROJECT_DIR$/app/mailers/application_mailer.rb" />
-        <option value="$PROJECT_DIR$/app/views/user_mailer/account_activation.text.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/help.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/contact.html.erb" />
         <option value="$PROJECT_DIR$/app/views/user_mailer/account_activation.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/user_mailer/account_activation.text.erb" />
       </list>
     </option>
   </component>
@@ -1383,14 +1384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/account_activation.text.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20543806">
@@ -1425,7 +1418,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/user_mailer/account_activation.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35800603">
+        <state vertical-scroll-proportion="1.3461539">
           <caret line="284" column="122" selection-start-line="284" selection-start-column="122" selection-end-line="284" selection-end-column="122" />
           <folding>
             <element signature="n#style#0;n#span#0;n#singleline#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1455,6 +1448,14 @@
             <marker date="1456720836000" expanded="true" signature="6427:6453" placeholder="..." />
             <marker date="1456720836000" expanded="true" signature="9285:9311" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/account_activation.text.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25679758">
+          <caret line="8" column="158" selection-start-line="8" selection-start-column="158" selection-end-line="8" selection-end-column="158" />
+          <folding />
         </state>
       </provider>
     </entry>
