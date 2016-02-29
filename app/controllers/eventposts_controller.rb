@@ -35,7 +35,8 @@ class EventpostsController < ApplicationController
   private
 
     def eventpost_params
-      params.require(:eventpost).permit(:title, :content, :event_image, :event_date)
+      params.require(:eventpost).permit(:title, :content, :event_image,
+                                        :remote_event_image_url, :event_date)
     end
 
     def correct_user
