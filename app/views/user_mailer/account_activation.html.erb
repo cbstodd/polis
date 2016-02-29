@@ -282,7 +282,7 @@
                       Hello <%= @user.username %>,
                     </span>
 
-                    <p style="text-align: left;">To activate your account, click on the activate button or copy this link below into your browser. </p>
+                    <p style="text-align: left;">To activate your account, click on the activate button or copy and paste this link into your browser. </p>
                     <p><%= edit_account_activation_url(@user.activation_token, email: @user.email) %></p>
 
                     <p style="text-align: left;"></p>
