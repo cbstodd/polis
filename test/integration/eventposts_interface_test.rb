@@ -17,10 +17,10 @@ class EventpostsInterfaceTest < ActionDispatch::IntegrationTest
     log_in_as(@user)
     get root_path
     assert_template root_path
-    assert_select 'h3', 'Event feed'
+    assert_select 'body span.all-events-txt'
     # Invalid submission
     assert_no_difference 'Eventpost.count' do
-      post eventposts_path, eventpost: { title: "", event_date: "", content: "" }
+      post eventposts_path, eventpost: { title: "", content: "", event_date: "" }
     end
 
     assert_select 'div#error_explanation'
