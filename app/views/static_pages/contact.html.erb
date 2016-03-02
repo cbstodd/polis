@@ -2,11 +2,13 @@
 
 <div class="col-lg-11 col-lg-offset-0">
   <h1>Contact</h1>
-  <p class="static-content">Lowdown was built and is maintained by a fellow washingtonian.  It's a open source project and the code is viewable
-    <%= link_to 'here', 'https://github.com/cbstodd/polis', target: '_blank' %>.   The money it takes to
-    create and maintain this application comes out of my pocket, so donations are welcome.  All donations will
-    go to the domain and hosting expenses.  I'm going to do my best to make sure this app stays
-    free, as I dislike the notion of having to pay to use an application, I think ads would ruin our experience, and we dont want that.  So if you find this application helpful I appreciate any donation.  </p>
+  <p class="static-content">Lowdown was built and is maintained by a fellow washingtonian. It's a open source project
+    and the code is viewable
+    <%= link_to 'here', 'https://github.com/cbstodd/polis', target: '_blank' %>. The money it takes to
+    create and maintain this application comes out of my pocket, so donations are welcome. All donations will
+    go to the domain and hosting expenses. I'm going to do my best to make sure this app stays
+    free, as I dislike the notion of having to pay to use an application, and I think advertising would ruin our
+    experience. So if you find this application helpful I appreciate any donation. </p>
   <p class="static-content">
   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
     <input type="hidden" name="cmd" value="_s-xclick">
@@ -19,19 +21,23 @@
 
   <p class="static-content">Special thanks
     to <%= link_to 'Michael Hartl', 'https://www.railstutorial.org/', alt: 'Rails tutorial', target: '_blank' %> for his
-    work on the Ruby on Rails Tutorial.  Lowdown's core was built using much of the
+    work on the Ruby on Rails Tutorial. Lowdown's core was built using much of the
     Sample App's code.</p>
 
   <p class="static-content">If you have any questions or concerns please contact me using
     this <%= mail_to 'contact.lowdown@gmail.com', 'email address', subject: 'Contact ~ Lowdown' %>.</p>
-<p class="static-content">If you have a feature request please contact me <%= mail_to 'contact.lowdown@gmail.com', 'here', subject:'Feature Request ~ Lowdown' %>.</p>
+  <p class="static-content">If you have a feature request please contact
+    me <%= mail_to 'contact.lowdown@gmail.com', 'here', subject: 'Feature Request ~ Lowdown' %>.</p>
   <p class="static-content">
-    This is a hobby project, so I might not be able to respond to your inquiry right away.   But I will do my best to respond in a timely manner.   Thank you so much!
+    This is a hobby project, so I might not be able to respond to your inquiry right away. But I will do my best to
+    respond in a timely manner. Thank you so much!
   </p>
 
 
   <p class="static-content">
-    <%= image_tag('colper_designs_teal_blue_cropped.png', alt:'Colin Stodd', class:'colper-contact-logo')  %>
+    <%= link_to href: 'http://www.colinstodd.com' do %>
+        <%= image_tag('colper_designs_teal_blue_cropped.png', alt: 'Colin Stodd', class: 'colper-contact-logo') %>
+    <% end %>
   </p>
 </div>
 
